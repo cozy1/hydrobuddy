@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 542
+  Left = 308
   Height = 675
-  Top = 173
+  Top = 73
   Width = 834
   HorzScrollBar.Page = 841
   HorzScrollBar.Range = 824
@@ -347,8 +347,8 @@ object Form1: TForm1
   OnCreate = FormCreate
   OnWindowStateChange = FormWindowStateChange
   ParentBiDiMode = False
-  Position = poDesktopCenter
-  LCLVersion = '2.0.13.0'
+  Position = poDefault
+  LCLVersion = '2.0.12.0'
   Visible = True
   object PageControl1: TPageControl
     Left = 0
@@ -369,8 +369,8 @@ object Form1: TForm1
         Height = 648
         Top = 0
         Width = 828
-        ActivePage = TabSheet5
-        TabIndex = 0
+        ActivePage = TabSheet8
+        TabIndex = 3
         TabOrder = 0
         object TabSheet5: TTabSheet
           Caption = 'Introduction'
@@ -1492,8 +1492,8 @@ object Form1: TForm1
         end
         object TabSheet6: TTabSheet
           Caption = 'Types of Calculations'
-          ClientHeight = 613
-          ClientWidth = 822
+          ClientHeight = 620
+          ClientWidth = 820
           object Image2: TImage
             Left = 3
             Height = 606
@@ -5597,8 +5597,8 @@ object Form1: TForm1
         end
         object TabSheet8: TTabSheet
           Caption = 'Substance Properties'
-          ClientHeight = 613
-          ClientWidth = 822
+          ClientHeight = 620
+          ClientWidth = 820
           object Image4: TImage
             Left = -20
             Height = 610
@@ -8171,8 +8171,8 @@ object Form1: TForm1
         end
         object TabSheet9: TTabSheet
           Caption = 'Configuration Parameters'
-          ClientHeight = 613
-          ClientWidth = 822
+          ClientHeight = 620
+          ClientWidth = 820
           object Image5: TImage
             Left = 4
             Height = 618
@@ -22528,7 +22528,7 @@ object Form1: TForm1
         Left = 140
         Height = 15
         Top = 40
-        Width = 35
+        Width = 37
         Caption = 'Target '
         ParentColor = False
         ParentFont = False
@@ -22861,7 +22861,7 @@ object Form1: TForm1
           Left = 23
           Height = 15
           Top = 8
-          Width = 87
+          Width = 89
           Caption = 'Calculation Type'
           ParentColor = False
         end
@@ -23108,7 +23108,7 @@ object Form1: TForm1
           Left = 33
           Height = 15
           Top = 8
-          Width = 40
+          Width = 41
           Caption = 'Volume'
           ParentColor = False
         end
@@ -23155,7 +23155,7 @@ object Form1: TForm1
         end
       end
       object Button5: TButton
-        Left = 462
+        Left = 480
         Height = 25
         Top = 7
         Width = 88
@@ -23188,9 +23188,9 @@ object Form1: TForm1
         Visible = False
       end
       object CheckBox1: TCheckBox
-        Left = 92
+        Left = 192
         Height = 19
-        Top = 7
+        Top = 8
         Width = 73
         Caption = 'Enable DB'
         OnChange = CheckBox1Change
@@ -23428,9 +23428,9 @@ object Form1: TForm1
         end
       end
       object Button23: TButton
-        Left = 548
+        Left = 584
         Height = 25
-        Top = 7
+        Top = 8
         Width = 75
         Caption = 'Add field S'
         OnClick = Button23Click
@@ -23438,7 +23438,7 @@ object Form1: TForm1
         Visible = False
       end
       object Button24: TButton
-        Left = 312
+        Left = 288
         Height = 25
         Top = 7
         Width = 75
@@ -23791,7 +23791,7 @@ object Form1: TForm1
         Left = 469
         Height = 13
         Top = 448
-        Width = 98
+        Width = 99
         Caption = 'Predicted EC Value '
         ParentColor = False
       end
@@ -26946,15 +26946,15 @@ object Form1: TForm1
     Top = 65496
   end
   object PopupMenu1: TPopupMenu
-    Left = 56
-    Top = 40
+    Left = 24
+    Top = 112
     object MenuItem2: TMenuItem
       Caption = 'Copy'
       OnClick = MenuItem2Click
     end
   end
   object SelectDirectoryDialog1: TSelectDirectoryDialog
-    Left = 16
-    Top = 40
+    Left = 24
+    Top = 56
   end
 end

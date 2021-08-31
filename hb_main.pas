@@ -2949,7 +2949,21 @@ if RadioButton13.Checked then
    begin
       test := StrtoFloat(StringGrid2.Cells[COST_IDX,i]) + test;
       totalWeight := totalWeight + StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i]);
-      for j:= 0 to 15 do mixContribution[j] := mixContribution[j] + StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
+   // ORG CODE
+   // TODO: Fix Null Error
+   // for j:= 0 to 15 do mixContribution[j] := mixContribution[j] +
+   // StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
+
+   // DONE: Null Error Fixed
+      for j:= 0 to 15 do
+      begin
+      if (all_element_contributions <> nil) and (all_element_contributions[j][i-1] > 0) then
+         begin
+           test := all_element_contributions[j][i-1];
+           mixContribution[j] := mixContribution[j] +
+                   StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
+         end;
+      end;
    end;
 
    for j := 1 to 16 do
@@ -3544,6 +3558,7 @@ procedure TForm1.LoadValues;
 var
     Sett : TIniFile;
     j: integer;
+
 begin
     //load program variables
     Sett := TIniFile.Create(IniFile);
@@ -3569,13 +3584,37 @@ begin
     if FileExists('hb_ppm_results.csv') then StringGrid1.LoadFromCSVFile('hb_ppm_results.csv');
     if FileExists('hb_results.csv') then StringGrid2.LoadFromCSVFile('hb_results.csv');
     Sett.Free;
+
+    // DONE: LoadValues add custom code here
+    // Set Form1 Caption
+    Form1.Caption := 'HydroBuddy v1.9.5.1 - Custom Build by CozyUno';
+    // Set active tab to Main
+    Form1.PageControl1.ActivePageIndex := 1;
+    // Set form visibility
+    Form1.Show;
+
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
+    // DONE: FormCreate add custom code here
+    // Set form buffering to reduce screen flicker
+    Form1.DoubleBuffered := true;
+    Form1.Hide;
+
+    // Set Form1 Location to Top, Center of Screen
+    Self.Position := poDefaultSizeOnly; // this is key to changing form location
+    Self.Top := 0; // (Screen.WorkAreaHeight - Self.Height) div 2;
+    Self.Left := (Screen.WorkAreaWidth - Self.Width) div 2; // center
+
+    //MessageDlg(
+    //'Screen.Width = ' + IntToStr(Screen.Width) +
+    //' Screen.Height = ' + IntToStr(Screen.Height) +
+    //' Self.Left = ' + IntToStr(Self.Left)  +
+    //' Self.Top = ' + IntToStr(Self.Top)
+    //, mtInformation,[mbOK],0);
 
 end;
-
 
 procedure TForm1.FormWindowStateChange(Sender: TObject);
 begin

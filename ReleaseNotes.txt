@@ -1,0 +1,9 @@
+HydroBuddy
+
+v1.9.5.1
+- Fixed "Access violation." null error for "Carry Out Calculations" 
+- Optimized binary executable for 32 bit Windows PC (smaller and faster) 
+- Customized program startup to autoselect Main tab menu 
+- Customized startup screen position to top, center of screen 
+- fixed/added version info
+- Released customized build of HydroBuddy maintained by CozyUno

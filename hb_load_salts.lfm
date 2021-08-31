@@ -1,20 +1,21 @@
 object Form2: TForm2
-  Left = 640
+  Left = 526
   Height = 449
-  Top = 313
+  Top = 188
   Width = 689
   HorzScrollBar.Page = 618
   HorzScrollBar.Range = 592
   VertScrollBar.Page = 465
   VertScrollBar.Range = 440
-  BorderStyle = bsToolWindow
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'Substance Selection'
   ClientHeight = 449
   ClientWidth = 689
   FormStyle = fsStayOnTop
   OnCreate = FormCreate
   Position = poMainFormCenter
-  LCLVersion = '2.0.13.0'
+  LCLVersion = '2.0.12.0'
   object Label1: TLabel
     Left = 66
     Height = 21

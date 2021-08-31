@@ -1,12 +1,12 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TForm5','FORMDATA',[
-  'TPF0'#6'TForm5'#5'Form5'#4'Left'#3'c'#2#6'Height'#3'P'#1#3'Top'#3'N'#1#5'Wid'
-  +'th'#3#12#3#18'HorzScrollBar.Page'#3#232#2#19'HorzScrollBar.Range'#3#203#2#18
-  +'VertScrollBar.Page'#3'P'#1#19'VertScrollBar.Range'#3'0'#1#11'BorderStyle'#7
-  +#12'bsToolWindow'#7'Caption'#6'$Copy Commercial Nutrient Formulation'#12'Cli'
-  +'entHeight'#3'P'#1#11'ClientWidth'#3#12#3#9'FormStyle'#7#11'fsStayOnTop'#10
-  +'LCLVersion'#6#8'2.0.13.0'#0#6'TLabel'#6'Label1'#4'Left'#2#22#6'Height'#2#15
+  'TPF0'#6'TForm5'#5'Form5'#4'Left'#3#153#1#6'Height'#3'P'#1#3'Top'#3#240#0#5'W'
+  +'idth'#3#12#3#18'HorzScrollBar.Page'#3#232#2#19'HorzScrollBar.Range'#3#203#2
+  +#18'VertScrollBar.Page'#3'P'#1#19'VertScrollBar.Range'#3'0'#1#11'BorderStyle'
+  +#7#12'bsToolWindow'#7'Caption'#6'$Copy Commercial Nutrient Formulation'#12'C'
+  +'lientHeight'#3'P'#1#11'ClientWidth'#3#12#3#9'FormStyle'#7#11'fsStayOnTop'#10
+  +'LCLVersion'#6#8'2.0.12.0'#0#6'TLabel'#6'Label1'#4'Left'#2#22#6'Height'#2#15
   +#3'Top'#2'J'#5'Width'#2'1'#7'Caption'#6#8'N (NO3-)'#11'ParentColor'#8#0#0#6
   +'TLabel'#6'Label2'#4'Left'#2'@'#6'Height'#2#15#3'Top'#3#135#0#5'Width'#2#7#7
   +'Caption'#6#1'P'#11'ParentColor'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2'@'#6'He'
@@ -60,7 +60,7 @@ LazarusResources.Add('TForm5','FORMDATA',[
   +'Order'#2#15#4'Text'#6#1'0'#0#0#6'TPanel'#6'Panel1'#4'Left'#3#219#1#6'Height'
   +#3#160#0#3'Top'#2'G'#5'Width'#3#8#1#12'ClientHeight'#3#160#0#11'ClientWidth'
   +#3#8#1#8'TabOrder'#2#16#0#6'TLabel'#7'Label20'#4'Left'#2#16#6'Height'#2#15#3
-  +'Top'#2' '#5'Width'#3#132#0#7'Caption'#6#24'Volume of addition (mL) '#11'Par'
+  +'Top'#2' '#5'Width'#3#133#0#7'Caption'#6#24'Volume of addition (mL) '#11'Par'
   +'entColor'#8#0#0#5'TEdit'#6'Edit17'#4'Left'#3#176#0#6'Height'#2#23#3'Top'#2
   +' '#5'Width'#2'P'#8'TabOrder'#2#0#4'Text'#6#1'0'#0#0#12'TRadioButton'#12'Rad'
   +'ioButton3'#4'Left'#2#16#6'Height'#2#19#3'Top'#2'Y'#5'Width'#2'<'#7'Caption'

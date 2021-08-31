@@ -1,9 +1,9 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TForm1','FORMDATA',[
-  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#30#2#6'Height'#3#163#2#3'Top'#3#173#0#5'W'
-  +'idth'#3'B'#3#18'HorzScrollBar.Page'#3'I'#3#19'HorzScrollBar.Range'#3'8'#3#18
-  +'VertScrollBar.Page'#3#179#2#19'VertScrollBar.Range'#3#161#2#11'BorderIcons'
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'4'#1#6'Height'#3#163#2#3'Top'#2'I'#5'Widt'
+  +'h'#3'B'#3#18'HorzScrollBar.Page'#3'I'#3#19'HorzScrollBar.Range'#3'8'#3#18'V'
+  +'ertScrollBar.Page'#3#179#2#19'VertScrollBar.Range'#3#161#2#11'BorderIcons'
   +#11#12'biSystemMenu'#10'biMinimize'#0#11'BorderStyle'#7#8'bsSingle'#7'Captio'
   +'n'#6'jHydroBuddy v1.95 - Programmed and Designed by Dr. Daniel Fernandez Ph'
   +'.D at http://scienceinhydroponics.com'#12'ClientHeight'#3#163#2#11'ClientWi'
@@ -354,20 +354,20 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#192#0#255#255#255#255#255#255#192#0#255#255#255#255#255#255#192#0#255#255
   +#255#255#255#255#192#0#255#255#255#255#255#255#192#0#255#255#255#255#255#255
   +#192#0#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'#19'OnWindowSta'
-  +'teChange'#7#21'FormWindowStateChange'#14'ParentBiDiMode'#8#8'Position'#7#15
-  +'poDesktopCenter'#10'LCLVersion'#6#8'2.0.13.0'#7'Visible'#9#0#12'TPageContro'
-  +'l'#12'PageControl1'#4'Left'#2#0#6'Height'#3#161#2#3'Top'#2#0#5'Width'#3'B'#3
-  +#10'ActivePage'#7#9'TabSheet1'#10'ParentFont'#8#8'TabIndex'#2#1#8'TabOrder'#2
-  +#0#6'OnExit'#7#16'PageControl1Exit'#0#9'TTabSheet'#9'TabSheet4'#7'Caption'#6
-  +#7'Welcome'#12'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#0#12'TPageContro'
-  +'l'#12'PageControl2'#4'Left'#2#0#6'Height'#3#136#2#3'Top'#2#0#5'Width'#3'<'#3
-  +#10'ActivePage'#7#9'TabSheet5'#8'TabIndex'#2#0#8'TabOrder'#2#0#0#9'TTabSheet'
-  +#9'TabSheet5'#7'Caption'#6#12'Introduction'#12'ClientHeight'#3'l'#2#11'Clien'
-  +'tWidth'#3'4'#3#0#6'TImage'#6'Image1'#4'Left'#2#0#6'Height'#3's'#2#3'Top'#2
-  +#247#5'Width'#3'j'#3#8'AutoSize'#9#12'Picture.Data'#10#211#137#0#0#23'TPorta'
-  +'bleNetworkGraphic'#183#137#0#0#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'j'
-  +#0#0#2's'#8#2#0#0#0#241#231'w'#187#0#0#0#9'pHYs'#0#0#14#196#0#0#14#196#1#149
-  +'+'#14#27#0#0#0#7'tIME'#7#221#2#20#1#5#24#168#22'0'#221#0#0#0#7'tEXtAuthor'#0
+  +'teChange'#7#21'FormWindowStateChange'#14'ParentBiDiMode'#8#8'Position'#7#9
+  +'poDefault'#10'LCLVersion'#6#8'2.0.12.0'#7'Visible'#9#0#12'TPageControl'#12
+  +'PageControl1'#4'Left'#2#0#6'Height'#3#161#2#3'Top'#2#0#5'Width'#3'B'#3#10'A'
+  +'ctivePage'#7#9'TabSheet1'#10'ParentFont'#8#8'TabIndex'#2#1#8'TabOrder'#2#0#6
+  +'OnExit'#7#16'PageControl1Exit'#0#9'TTabSheet'#9'TabSheet4'#7'Caption'#6#7'W'
+  +'elcome'#12'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#0#12'TPageControl'
+  +#12'PageControl2'#4'Left'#2#0#6'Height'#3#136#2#3'Top'#2#0#5'Width'#3'<'#3#10
+  +'ActivePage'#7#9'TabSheet8'#8'TabIndex'#2#3#8'TabOrder'#2#0#0#9'TTabSheet'#9
+  +'TabSheet5'#7'Caption'#6#12'Introduction'#12'ClientHeight'#3'l'#2#11'ClientW'
+  +'idth'#3'4'#3#0#6'TImage'#6'Image1'#4'Left'#2#0#6'Height'#3's'#2#3'Top'#2#247
+  +#5'Width'#3'j'#3#8'AutoSize'#9#12'Picture.Data'#10#211#137#0#0#23'TPortableN'
+  +'etworkGraphic'#183#137#0#0#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'j'#0#0
+  +#2's'#8#2#0#0#0#241#231'w'#187#0#0#0#9'pHYs'#0#0#14#196#0#0#14#196#1#149'+'
+  +#14#27#0#0#0#7'tIME'#7#221#2#20#1#5#24#168#22'0'#221#0#0#0#7'tEXtAuthor'#0
   +#169#174#204'H'#0#0#0#12'tEXtDescription'#0#19#9'!#'#0#0#0#10'tEXtCopyright'
   +#0#172#15#204':'#0#0#0#14'tEXtCreation time'#0'5'#247#15#9#0#0#0#9'tEXtSoftw'
   +'are'#0']p'#255':'#0#0#0#11'tEXtDisclaimer'#0#183#192#180#143#0#0#0#8'tEXtWa'
@@ -1840,8 +1840,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'z`'#251#8#0#0#128#30#216'>'#2#0#0#160#7#182#143#0#0#0#232#129#237'#'#0#0#0
   +'z`'#251#8#0#0#128#30#216'>'#2#0#0#160#7#182#143#0#0#0#232#225#255'-'#216#177
   +'"'#225#139#172#127#0#0#0#0'IEND'#174'B`'#130#7'Stretch'#9#0#0#0#9'TTabSheet'
-  +#9'TabSheet6'#7'Caption'#6#21'Types of Calculations'#12'ClientHeight'#3'e'#2
-  +#11'ClientWidth'#3'6'#3#0#6'TImage'#6'Image2'#4'Left'#2#3#6'Height'#3'^'#2#3
+  +#9'TabSheet6'#7'Caption'#6#21'Types of Calculations'#12'ClientHeight'#3'l'#2
+  +#11'ClientWidth'#3'4'#3#0#6'TImage'#6'Image2'#4'Left'#2#3#6'Height'#3'^'#2#3
   +'Top'#2#7#5'Width'#3#22#3#12'Picture.Data'#10#183#245#0#0#23'TPortableNetwor'
   +'kGraphic'#155#245#0#0#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'2'#0#0#2'K'
   +#8#2#0#0#0#179#13'4'#199#0#0#0#9'pHYs'#0#0#14#196#0#0#14#196#1#149'+'#14#27#0
@@ -7303,7 +7303,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'Hi'#0#0#0'6"'#165#1#0#0#216#136#148#6#0#0'`#R'#26#0#0#128#141'Hi'#0#0#0'6"'
   +#165#1#0#0#216#232#255#196#18#245#139'R'#11'R\'#0#0#0#0'IEND'#174'B`'#130#0#0
   +#0#9'TTabSheet'#9'TabSheet8'#7'Caption'#6#20'Substance Properties'#12'Client'
-  +'Height'#3'e'#2#11'ClientWidth'#3'6'#3#0#6'TImage'#6'Image4'#4'Left'#2#236#6
+  +'Height'#3'l'#2#11'ClientWidth'#3'4'#3#0#6'TImage'#6'Image4'#4'Left'#2#236#6
   +'Height'#3'b'#2#3'Top'#2#0#5'Width'#3'2'#3#12'Picture.Data'#10#11'@'#1#0#23
   +'TPortableNetworkGraphic'#239'?'#1#0#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0
   +#3'2'#0#0#2'K'#8#2#0#0#0#179#13'4'#199#0#0#0#9'pHYs'#0#0#14#196#0#0#14#196#1
@@ -10741,8 +10741,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#136#156#128'd'#25'A'#16#4'A'#16'DN@'#178#140' '#8#130' '#8'"'' YF'#16#4'A'
   +#16#4#145#19#144',#'#8#130' '#8#130#200#9'H'#150#17#4'A'#16#4'A'#228#4#255#31
   +'K'#178'`'#143'sQq'#4#0#0#0#0'IEND'#174'B`'#130#0#0#0#9'TTabSheet'#9'TabShee'
-  +'t9'#7'Caption'#6#24'Configuration Parameters'#12'ClientHeight'#3'e'#2#11'Cl'
-  +'ientWidth'#3'6'#3#0#6'TImage'#6'Image5'#4'Left'#2#4#6'Height'#3'j'#2#3'Top'
+  +'t9'#7'Caption'#6#24'Configuration Parameters'#12'ClientHeight'#3'l'#2#11'Cl'
+  +'ientWidth'#3'4'#3#0#6'TImage'#6'Image5'#4'Left'#2#4#6'Height'#3'j'#2#3'Top'
   +#2#0#5'Width'#3#26#3#12'Picture.Data'#10']'#221#0#0#23'TPortableNetworkGraph'
   +'icA'#221#0#0#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'2'#0#0#2'K'#8#2#0#0#0
   +#179#13'4'#199#0#0#0#9'pHYs'#0#0#14#196#0#0#14#196#1#149'+'#14#27#0#0#0#7'tI'
@@ -29802,7 +29802,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#5'Width'#2#11#7'Caption'#6#2'Cl'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'T'
   +'Label'#7'Label33'#4'Left'#2'6'#6'Height'#2#15#3'Top'#2'('#5'Width'#2'+'#7'C'
   +'aption'#6#7'Element'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Lab'
-  +'el26'#4'Left'#3#140#0#6'Height'#2#15#3'Top'#2'('#5'Width'#2'#'#7'Caption'#6
+  +'el26'#4'Left'#3#140#0#6'Height'#2#15#3'Top'#2'('#5'Width'#2'%'#7'Caption'#6
   +#7'Target '#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel1'#4'Le'
   +'ft'#3#254#0#6'Height'#2#15#3'Top'#2'd'#5'Width'#2#6#7'Caption'#6#1'0'#11'Pa'
   +'rentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel3'#4'Left'#3#254#0#6'He'
@@ -29869,7 +29869,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'0'#0#0#6'TPanel'#6'Panel1'#4'Left'#3'8'#1#6'Height'#2'f'#3'Top'#3#4#2#5'Wid'
   +'th'#3#225#1#12'ClientHeight'#2'f'#11'ClientWidth'#3#225#1#10'ParentFont'#8#8
   +'TabOrder'#2#16#0#6'TLabel'#7'Label31'#4'Left'#2#23#6'Height'#2#15#3'Top'#2#8
-  +#5'Width'#2'W'#7'Caption'#6#16'Calculation Type'#11'ParentColor'#8#0#0#12'TR'
+  +#5'Width'#2'Y'#7'Caption'#6#16'Calculation Type'#11'ParentColor'#8#0#0#12'TR'
   +'adioButton'#12'RadioButton4'#4'Left'#2#24#6'Height'#2#19#3'Top'#2'('#5'Widt'
   +'h'#3#174#0#7'Caption'#6#28'Input Desired Concentrations'#7'Checked'#9#8'OnC'
   +'hange'#7#18'RadioButton4Change'#8'TabOrder'#2#1#7'TabStop'#9#0#0#12'TRadioB'
@@ -30013,7 +30013,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'ration Factor'#11'ParentColor'#8#0#0#0#6'TPanel'#6'Panel3'#4'Left'#3'8'#1#6
   +'Height'#2'p'#3'Top'#3#24#1#5'Width'#3#187#0#12'ClientHeight'#2'p'#11'Client'
   +'Width'#3#187#0#10'ParentFont'#8#8'TabOrder'#2#18#0#6'TLabel'#7'Label17'#4'L'
-  +'eft'#2'!'#6'Height'#2#15#3'Top'#2#8#5'Width'#2'('#7'Caption'#6#6'Volume'#11
+  +'eft'#2'!'#6'Height'#2#15#3'Top'#2#8#5'Width'#2')'#7'Caption'#6#6'Volume'#11
   +'ParentColor'#8#0#0#5'TEdit'#6'Edit18'#4'Left'#2'!'#6'Height'#2#23#4'Hint'#6
   +'uVolume used within the calculation (this can be reservoir or stock solutio'
   +'n volume depending on the calculation type)'#3'Top'#2#28#5'Width'#3#131#0#8
@@ -30027,18 +30027,18 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#2#31#6'Height'#2#19#4'Hint'#6'FChanges volume input to cubic meters ( one c'
   +'ubic meter is 1000 Liters)'#3'Top'#2'P'#5'Width'#2'Z'#7'Caption'#6#12'Cubic'
   +' Meters'#8'OnChange'#7#18'RadioButton3Change'#8'TabOrder'#2#3#0#0#0#7'TButt'
-  +'on'#7'Button5'#4'Left'#3#206#1#6'Height'#2#25#3'Top'#2#7#5'Width'#2'X'#7'Ca'
+  +'on'#7'Button5'#4'Left'#3#224#1#6'Height'#2#25#3'Top'#2#7#5'Width'#2'X'#7'Ca'
   +'ption'#6#9'Create DB'#7'Enabled'#8#7'OnClick'#7#12'Button5Click'#10'ParentF'
   +'ont'#8#8'TabOrder'#2#19#7'Visible'#8#0#0#5'TEdit'#6'Edit15'#4'Left'#3#132#0
   +#6'Height'#2#23#3'Top'#3#160#1#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2
   +#10#4'Text'#6#3'0.5'#0#0#7'TButton'#7'Button3'#4'Left'#3'x'#1#6'Height'#2#25
   +#3'Top'#2#7#5'Width'#2'['#7'Caption'#6#12'Add Field DB'#7'Enabled'#8#7'OnCli'
   +'ck'#7#12'Button3Click'#10'ParentFont'#8#8'TabOrder'#2#20#7'Visible'#8#0#0#9
-  +'TCheckBox'#9'CheckBox1'#4'Left'#2'\'#6'Height'#2#19#3'Top'#2#7#5'Width'#2'I'
-  +#7'Caption'#6#9'Enable DB'#8'OnChange'#7#15'CheckBox1Change'#10'ParentFont'#8
-  +#8'TabOrder'#2#21#7'Visible'#8#0#0#5'TEdit'#6'Edit16'#4'Left'#3#132#0#6'Heig'
-  +'ht'#2#23#3'Top'#3#128#0#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#1#4'Te'
-  +'xt'#6#1'0'#0#0#6'TPanel'#6'Panel4'#4'Left'#3#128#2#6'Height'#2'H'#3'Top'#3
+  +'TCheckBox'#9'CheckBox1'#4'Left'#3#192#0#6'Height'#2#19#3'Top'#2#8#5'Width'#2
+  +'I'#7'Caption'#6#9'Enable DB'#8'OnChange'#7#15'CheckBox1Change'#10'ParentFon'
+  +'t'#8#8'TabOrder'#2#21#7'Visible'#8#0#0#5'TEdit'#6'Edit16'#4'Left'#3#132#0#6
+  +'Height'#2#23#3'Top'#3#128#0#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#1#4
+  +'Text'#6#1'0'#0#0#6'TPanel'#6'Panel4'#4'Left'#3#128#2#6'Height'#2'H'#3'Top'#3
   +#24#1#5'Width'#3#153#0#12'ClientHeight'#2'H'#11'ClientWidth'#3#153#0#10'Pare'
   +'ntFont'#8#8'TabOrder'#2#22#0#6'TLabel'#7'Label19'#4'Left'#2')'#6'Height'#2
   +#15#3'Top'#2#8#5'Width'#2'9'#7'Caption'#6#10'Mass Units'#11'ParentColor'#8#0
@@ -30099,10 +30099,10 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'idth'#2'*'#7'Caption'#6#2'mM'#8'OnChange'#7#19'RadioButton12Change'#8'TabOr'
   +'der'#2#1#0#0#12'TRadioButton'#13'RadioButton13'#4'Left'#2'@'#6'Height'#2#19
   +#3'Top'#2'H'#5'Width'#2'('#7'Caption'#6#2'mN'#8'OnChange'#7#19'RadioButton13'
-  +'Change'#8'TabOrder'#2#2#0#0#0#7'TButton'#8'Button23'#4'Left'#3'$'#2#6'Heigh'
-  +'t'#2#25#3'Top'#2#7#5'Width'#2'K'#7'Caption'#6#11'Add field S'#7'OnClick'#7
+  +'Change'#8'TabOrder'#2#2#0#0#0#7'TButton'#8'Button23'#4'Left'#3'H'#2#6'Heigh'
+  +'t'#2#25#3'Top'#2#8#5'Width'#2'K'#7'Caption'#6#11'Add field S'#7'OnClick'#7
   +#13'Button23Click'#8'TabOrder'#2#27#7'Visible'#8#0#0#7'TButton'#8'Button24'#4
-  +'Left'#3'8'#1#6'Height'#2#25#3'Top'#2#7#5'Width'#2'K'#7'Caption'#6#9'SetValu'
+  +'Left'#3' '#1#6'Height'#2#25#3'Top'#2#7#5'Width'#2'K'#7'Caption'#6#9'SetValu'
   +'es'#7'OnClick'#7#13'Button24Click'#8'TabOrder'#2#28#7'Visible'#8#0#0#9'TCom'
   +'boBox'#9'ComboBox3'#4'Left'#2'0'#6'Height'#2#23#3'Top'#3' '#2#5'Width'#2'5'
   +#10'ItemHeight'#2#15#9'ItemIndex'#2#0#13'Items.Strings'#1#6#2'Si'#6#4'SiO2'#0
@@ -30513,7 +30513,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +' here'#12'Font.CharSet'#7#12'ANSI_CHARSET'#11'Font.Height'#2#240#9'Font.Nam'
   +'e'#6#15'Times New Roman'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7
   +#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#8'WordWrap'#9#0#0#6'TLabel'#7
-  +'Label21'#4'Left'#3#213#1#6'Height'#2#13#3'Top'#3#192#1#5'Width'#2'b'#7'Capt'
+  +'Label21'#4'Left'#3#213#1#6'Height'#2#13#3'Top'#3#192#1#5'Width'#2'c'#7'Capt'
   +'ion'#6#19'Predicted EC Value '#11'ParentColor'#8#0#0#6'TPanel'#6'Panel6'#4
   +'Left'#3#200#1#6'Height'#2'8'#3'Top'#3#216#1#5'Width'#3#132#0#7'Caption'#6#6
   +'EC = 0'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
@@ -34402,8 +34402,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'bel'#12'LabelVersion'#4'Left'#3#152#1#6'Height'#2#15#3'Top'#3#128#1#5'Width'
   +#2#15#7'Caption'#6#3'1.5'#11'ParentColor'#8#7'Visible'#8#0#0#11'TSaveDialog'
   +#11'SaveDialog1'#10'DefaultExt'#6#4'.csv'#6'Filter'#6#5'*.csv'#4'Left'#3#152
-  +#2#3'Top'#4#216#255#0#0#0#0#10'TPopupMenu'#10'PopupMenu1'#4'Left'#2'8'#3'Top'
-  +#2'('#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#4'Copy'#7'OnClick'#7#14'MenuI'
+  +#2#3'Top'#4#216#255#0#0#0#0#10'TPopupMenu'#10'PopupMenu1'#4'Left'#2#24#3'Top'
+  +#2'p'#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#4'Copy'#7'OnClick'#7#14'MenuI'
   +'tem2Click'#0#0#0#22'TSelectDirectoryDialog'#22'SelectDirectoryDialog1'#4'Le'
-  +'ft'#2#16#3'Top'#2'('#0#0#0
+  +'ft'#2#24#3'Top'#2'8'#0#0#0
 ]);
