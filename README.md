@@ -1,11 +1,12 @@
 # HydroBuddy
 
-## This customized version is maintained by CozyUno
+## This custom build is maintained by CozyUno
 
 * Fixed "Access violation." null error for "Carry Out Calculations"
-* [Optimized binary executable for 32 bit Windows PC](https://github.com/cozy1/hydrobuddy/tree/master/bin) (smaller and faster)
+* [Optimized binary executable for 32 bit Windows PC](https://github.com/cozy1/hydrobuddy/releases) (smaller and faster)
 * Customized program startup to autoselect Main tab menu
 * Customized startup screen position to top, center of screen
+* Added version information
 
 ## Thanks to Daniel Fernandez the author of HydroBuddy
  

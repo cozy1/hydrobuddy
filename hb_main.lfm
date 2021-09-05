@@ -348,7 +348,7 @@ object Form1: TForm1
   OnWindowStateChange = FormWindowStateChange
   ParentBiDiMode = False
   Position = poDefault
-  LCLVersion = '2.0.12.0'
+  LCLVersion = '2.2.0.2'
   Visible = True
   object PageControl1: TPageControl
     Left = 0
@@ -22394,7 +22394,6 @@ object Form1: TForm1
         Top = 100
         Width = 49
         Caption = 'N (NO3-)'
-        ParentColor = False
         ParentFont = False
       end
       object Label2: TLabel
@@ -22403,7 +22402,6 @@ object Form1: TForm1
         Top = 196
         Width = 7
         Caption = 'K'
-        ParentColor = False
         ParentFont = False
       end
       object Label3: TLabel
@@ -22412,7 +22410,6 @@ object Form1: TForm1
         Top = 164
         Width = 7
         Caption = 'P'
-        ParentColor = False
         ParentFont = False
       end
       object Label4: TLabel
@@ -22421,7 +22418,6 @@ object Form1: TForm1
         Top = 228
         Width = 18
         Caption = 'Mg'
-        ParentColor = False
         ParentFont = False
       end
       object Label5: TLabel
@@ -22430,7 +22426,6 @@ object Form1: TForm1
         Top = 260
         Width = 14
         Caption = 'Ca'
-        ParentColor = False
         ParentFont = False
       end
       object Label6: TLabel
@@ -22439,7 +22434,6 @@ object Form1: TForm1
         Top = 292
         Width = 6
         Caption = 'S'
-        ParentColor = False
         ParentFont = False
       end
       object Label7: TLabel
@@ -22448,7 +22442,6 @@ object Form1: TForm1
         Top = 324
         Width = 12
         Caption = 'Fe'
-        ParentColor = False
         ParentFont = False
       end
       object Label8: TLabel
@@ -22457,7 +22450,6 @@ object Form1: TForm1
         Top = 356
         Width = 14
         Caption = 'Zn'
-        ParentColor = False
         ParentFont = False
       end
       object Label9: TLabel
@@ -22466,7 +22458,6 @@ object Form1: TForm1
         Top = 388
         Width = 7
         Caption = 'B'
-        ParentColor = False
         ParentFont = False
       end
       object Label10: TLabel
@@ -22475,7 +22466,6 @@ object Form1: TForm1
         Top = 452
         Width = 15
         Caption = 'Cu'
-        ParentColor = False
         ParentFont = False
       end
       object Label11: TLabel
@@ -22484,7 +22474,6 @@ object Form1: TForm1
         Top = 484
         Width = 18
         Caption = 'Mo'
-        ParentColor = False
         ParentFont = False
       end
       object Label12: TLabel
@@ -22493,7 +22482,6 @@ object Form1: TForm1
         Top = 516
         Width = 15
         Caption = 'Na'
-        ParentColor = False
         ParentFont = False
       end
       object Label13: TLabel
@@ -22502,7 +22490,6 @@ object Form1: TForm1
         Top = 548
         Width = 9
         Caption = 'Si'
-        ParentColor = False
         ParentFont = False
         Visible = False
       end
@@ -22512,7 +22499,6 @@ object Form1: TForm1
         Top = 580
         Width = 11
         Caption = 'Cl'
-        ParentColor = False
         ParentFont = False
       end
       object Label33: TLabel
@@ -22521,7 +22507,6 @@ object Form1: TForm1
         Top = 40
         Width = 43
         Caption = 'Element'
-        ParentColor = False
         ParentFont = False
       end
       object Label26: TLabel
@@ -22530,7 +22515,6 @@ object Form1: TForm1
         Top = 40
         Width = 37
         Caption = 'Target '
-        ParentColor = False
         ParentFont = False
       end
       object RLabel1: TLabel
@@ -22539,7 +22523,6 @@ object Form1: TForm1
         Top = 100
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel3: TLabel
@@ -22548,7 +22531,6 @@ object Form1: TForm1
         Top = 164
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel2: TLabel
@@ -22557,7 +22539,6 @@ object Form1: TForm1
         Top = 196
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel4: TLabel
@@ -22566,7 +22547,6 @@ object Form1: TForm1
         Top = 228
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel5: TLabel
@@ -22575,7 +22555,6 @@ object Form1: TForm1
         Top = 260
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel6: TLabel
@@ -22584,7 +22563,6 @@ object Form1: TForm1
         Top = 292
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel7: TLabel
@@ -22593,7 +22571,6 @@ object Form1: TForm1
         Top = 324
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel8: TLabel
@@ -22602,7 +22579,6 @@ object Form1: TForm1
         Top = 356
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel9: TLabel
@@ -22611,7 +22587,6 @@ object Form1: TForm1
         Top = 388
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel10: TLabel
@@ -22620,7 +22595,6 @@ object Form1: TForm1
         Top = 452
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel11: TLabel
@@ -22629,7 +22603,6 @@ object Form1: TForm1
         Top = 484
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel12: TLabel
@@ -22638,7 +22611,6 @@ object Form1: TForm1
         Top = 516
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel13: TLabel
@@ -22647,7 +22619,6 @@ object Form1: TForm1
         Top = 548
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel14: TLabel
@@ -22656,7 +22627,6 @@ object Form1: TForm1
         Top = 580
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object Label27: TLabel
@@ -22665,7 +22635,6 @@ object Form1: TForm1
         Top = 40
         Width = 32
         Caption = 'Result'
-        ParentColor = False
         ParentFont = False
       end
       object Label29: TLabel
@@ -22674,7 +22643,6 @@ object Form1: TForm1
         Top = 60
         Width = 67
         Caption = 'Conc. (ppm)'
-        ParentColor = False
         ParentFont = False
       end
       object Label32: TLabel
@@ -22683,7 +22651,6 @@ object Form1: TForm1
         Top = 60
         Width = 33
         Caption = '(ppm)'
-        ParentColor = False
         ParentFont = False
       end
       object Label15: TLabel
@@ -22692,7 +22659,6 @@ object Form1: TForm1
         Top = 420
         Width = 18
         Caption = 'Mn'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel15: TLabel
@@ -22701,7 +22667,6 @@ object Form1: TForm1
         Top = 420
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object Label16: TLabel
@@ -22710,7 +22675,6 @@ object Form1: TForm1
         Top = 132
         Width = 52
         Caption = 'N (NH4+)'
-        ParentColor = False
         ParentFont = False
       end
       object RLabel16: TLabel
@@ -22719,7 +22683,6 @@ object Form1: TForm1
         Top = 132
         Width = 6
         Caption = '0'
-        ParentColor = False
         ParentFont = False
       end
       object Edit1: TEdit
@@ -22863,7 +22826,6 @@ object Form1: TForm1
           Top = 8
           Width = 89
           Caption = 'Calculation Type'
-          ParentColor = False
         end
         object RadioButton4: TRadioButton
           Left = 24
@@ -23041,7 +23003,6 @@ object Form1: TForm1
           Top = 8
           Width = 134
           Caption = 'Solution Preparation type'
-          ParentColor = False
         end
         object RadioButton6: TRadioButton
           Left = 23
@@ -23092,7 +23053,6 @@ object Form1: TForm1
           Top = 68
           Width = 112
           Caption = 'Concentration Factor'
-          ParentColor = False
         end
       end
       object Panel3: TPanel
@@ -23110,7 +23070,6 @@ object Form1: TForm1
           Top = 8
           Width = 41
           Caption = 'Volume'
-          ParentColor = False
         end
         object Edit18: TEdit
           Left = 33
@@ -23222,7 +23181,6 @@ object Form1: TForm1
           Top = 8
           Width = 57
           Caption = 'Mass Units'
-          ParentColor = False
         end
         object RadioButton8: TRadioButton
           Left = 8
@@ -23386,7 +23344,6 @@ object Form1: TForm1
           Top = 8
           Width = 106
           Caption = 'Concentration Units'
-          ParentColor = False
         end
         object RadioButton10: TRadioButton
           Left = 8
@@ -23739,7 +23696,6 @@ object Form1: TForm1
           Top = 8
           Width = 51
           Caption = 'EC Model'
-          ParentColor = False
         end
         object RadioButton14: TRadioButton
           Left = 8
@@ -23783,7 +23739,6 @@ object Form1: TForm1
         Font.Name = 'Times New Roman'
         Font.Pitch = fpVariable
         Font.Quality = fqDraft
-        ParentColor = False
         ParentFont = False
         WordWrap = True
       end
@@ -23793,7 +23748,6 @@ object Form1: TForm1
         Top = 448
         Width = 99
         Caption = 'Predicted EC Value '
-        ParentColor = False
       end
       object Panel6: TPanel
         Left = 456
@@ -24064,7 +24018,6 @@ object Form1: TForm1
         Font.Height = -15
         Font.Name = 'Sans'
         Font.Style = [fsBold]
-        ParentColor = False
         ParentFont = False
       end
       object Button16: TButton
@@ -26895,7 +26848,6 @@ object Form1: TForm1
           Width = 210
           AutoSize = False
           Caption = 'HydroBuddy, a FREE program for the calculation of hydroponic nutrient solutions'
-          ParentColor = False
           WordWrap = True
         end
         object Label23: TLabel
@@ -26905,7 +26857,6 @@ object Form1: TForm1
           Width = 230
           AutoSize = False
           Caption = 'Made by Dr. Daniel Fernandez Ph.D. at http://scienceinhydroponics.com'
-          ParentColor = False
           WordWrap = True
         end
         object Label24: TLabel
@@ -26915,7 +26866,6 @@ object Form1: TForm1
           Width = 345
           AutoSize = False
           Caption = 'HydroBuddy was built using Lazarus v1.0.6, the code uses the limiting molar conductivity values found at http://www.currentseparations.com/issues/18-3/cs18-3c.pdf and the powerful linear equation system solving libraries of ALGLIB which can be obtained for free at http://www.alglib.net.'
-          ParentColor = False
           WordWrap = True
         end
         object Button11: TButton
@@ -26936,7 +26886,6 @@ object Form1: TForm1
     Top = 384
     Width = 15
     Caption = '1.5'
-    ParentColor = False
     Visible = False
   end
   object SaveDialog1: TSaveDialog

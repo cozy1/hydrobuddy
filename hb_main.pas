@@ -7,13 +7,17 @@ interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
   ComCtrls, StdCtrls, Menus, ExtCtrls, Buttons, Grids, TAGraph, TASeries,
-  hb_load_salts, Dbf, DB, Math, densesolver, hb_commercialnutrient, hb_comparison,
+  hb_load_salts, Dbf, DB, Math, hb_commercialnutrient, hb_comparison,
   hb_waterquality, hb_addweight, hb_insprecision, hb_stockanalysis,
   hb_persubstance, hb_datasetname, hb_analysis,
-  hb_freedom, dbf_fields, hb_ratios,LCLIntf, Types,IniFiles;
+  hb_freedom, dbf_fields, hb_ratios, densesolver, versionsupport,
+  LCLIntf, Types,IniFiles;
 
+// define global constants
 const
   IniFile = 'settings.ini';
+  NewLine = chr(13) + chr(10);
+
 
 type
 
@@ -2925,61 +2929,65 @@ if RadioButton13.Checked then
 
 
 
-  //check and assign any empty elements in StringGrid
-
-  for i := 0 to StringGrid2.RowCount - 2 do
-
-  begin
-
-    if (StringGrid2.Cells[NAME_IDX,i+1]) = '' then
+    //check and assign any empty elements in StringGrid
+    for i := 0 to StringGrid2.RowCount - 2 do
     begin
-    StringGrid2.Cells[NAME_IDX,i+1] := name_array[i][0] ;
-    StringGrid2.Cells[FORMULA_IDX,i+1] := name_array[i][1] ;
-    StringGrid2.Cells[AMOUNT_IDX,i+1] := '0' ;
-    StringGrid2.Cells[COST_IDX,i+1] := '0' ;
+        if (StringGrid2.Cells[NAME_IDX,i+1]) = '' then
+        begin
+            StringGrid2.Cells[NAME_IDX,i+1] := name_array[i][0] ;
+            StringGrid2.Cells[FORMULA_IDX,i+1] := name_array[i][1] ;
+            StringGrid2.Cells[AMOUNT_IDX,i+1] := '0' ;
+            StringGrid2.Cells[COST_IDX,i+1] := '0' ;
+        end;
     end;
 
-  end;
+    // total cost and mix calculation
+    test := 0;
 
-  // total cost and mix calculation
-
-   test := 0;
-
-   for i := 1 to StringGrid2.RowCount - 1 do
-   begin
-      test := StrtoFloat(StringGrid2.Cells[COST_IDX,i]) + test;
-      totalWeight := totalWeight + StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i]);
-   // ORG CODE
-   // TODO: Fix Null Error
-   // for j:= 0 to 15 do mixContribution[j] := mixContribution[j] +
-   // StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
-
-   // DONE: Null Error Fixed
-      for j:= 0 to 15 do
-      begin
-      if (all_element_contributions <> nil) and (all_element_contributions[j][i-1] > 0) then
-         begin
-           test := all_element_contributions[j][i-1];
-           mixContribution[j] := mixContribution[j] +
-                   StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
-         end;
-      end;
-   end;
-
-   for j := 1 to 16 do
+    for i := 1 to StringGrid2.RowCount - 1 do
     begin
-        hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(100*mixContribution[j-1]/totalWeight,3));
-        if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'K2O' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(1.2047*100*mixContribution[j-1]/totalWeight,3));
-        if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'P2O5' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(2.290*100*mixContribution[j-1]/totalWeight,3));
+        test := StrtoFloat(StringGrid2.Cells[COST_IDX,i]) + test;
+        totalWeight := totalWeight + StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i]);
+
+        // ORG CODE
+        // TODO: Fix Null Error
+        // for j:= 0 to 15 do mixContribution[j] := mixContribution[j] +
+        // StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
+
+        // DONE: Null Error Fixed
+        for j:= 0 to 15 do
+        begin
+            if (all_element_contributions <> nil) and (all_element_contributions[j][i-1] > 0) then // catch null occurence
+            begin
+                test := all_element_contributions[j][i-1];
+                mixContribution[j] := mixContribution[j] +
+                StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
+            end;
+        end;
     end;
 
-   if all_solids then Button19.Enabled := True;
+    for j := 1 to 16 do
+    begin
+        if (totalWeight > 0) then // catch div by zero (all targets are zero)
+        begin
+            hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(100*mixContribution[j-1]/totalWeight,3));
+            if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'K2O' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(1.2047*100*mixContribution[j-1]/totalWeight,3));
+            if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'P2O5' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(2.290*100*mixContribution[j-1]/totalWeight,3));
+        end
+        else
+        begin
+            MessageDlg('Division by zero error (totalWeight) ...' + NewLine +
+                'Enter desired target concentration (ppm) values.'
+                , mtError,[mbOK],0);
+            break;
+        end;
+    end;
 
-  Label18.Caption := ('Total Cost is ' + FloattoStr(round2(test, 1)));
+    if all_solids then Button19.Enabled := True;
 
+    Label18.Caption := ('Total Cost is ' + FloattoStr(round2(test, 1)));
 
-   // post ratios based on results posted on listboxes above
-
+    // post ratios based on results posted on listboxes above
     hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: P: K') ;
     hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N', 'P', 'K', 3)) ;
     hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: P2O5: K2O') ;
@@ -2995,7 +3003,6 @@ if RadioButton13.Checked then
 
    // enable or disable stock solution analysis button
   if RadioButton6.Checked then Button12.Enabled := True else  Button12.Enabled := False;
-
 
   if CheckBox3.Checked = false then
   ShowMessage('Calculation carried out successfully :o)');
@@ -3558,6 +3565,7 @@ procedure TForm1.LoadValues;
 var
     Sett : TIniFile;
     j: integer;
+    versInfo: string;
 
 begin
     //load program variables
@@ -3586,8 +3594,9 @@ begin
     Sett.Free;
 
     // DONE: LoadValues add custom code here
-    // Set Form1 Caption
-    Form1.Caption := 'HydroBuddy v1.9.5.1 - Custom Build by CozyUno';
+    // Set Form1 Caption with version information
+    versInfo := versionSupport.GetFileVersion;
+    Form1.Caption := 'HydroBuddy v' + versInfo + ' - Custom Build by CozyUno';
     // Set active tab to Main
     Form1.PageControl1.ActivePageIndex := 1;
     // Set form visibility
@@ -3604,7 +3613,7 @@ begin
 
     // Set Form1 Location to Top, Center of Screen
     Self.Position := poDefaultSizeOnly; // this is key to changing form location
-    Self.Top := 0; // (Screen.WorkAreaHeight - Self.Height) div 2;
+    Self.Top := 15; // (Screen.WorkAreaHeight - Self.Height) div 2;
     Self.Left := (Screen.WorkAreaWidth - Self.Width) div 2; // center
 
     //MessageDlg(

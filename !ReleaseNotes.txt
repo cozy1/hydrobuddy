@@ -1,0 +1,14 @@
+HydroBuddy
+
+v1.9.5.2
+- Programmatically set main form caption with version information
+- Fixed divide by zero error when "Zero all targets" is followed by "Carry Out Calculations" 
+- Restructured project folders and file storage
+
+v1.9.5.1
+- Fixed "Access violation." null error for "Carry Out Calculations" 
+- Optimized binary executable for 32 bit Windows PC (smaller and faster) 
+- Customized program startup to autoselect Main tab menu 
+- Customized startup screen position to top, center of screen 
+- Added version information
+- Released custom build of HydroBuddy

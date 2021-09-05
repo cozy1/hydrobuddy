@@ -7,30 +7,29 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs,
-  ComCtrls, StdCtrls, Menus, ExtCtrls, tachartlazaruspkg, HB_Main,
-  hb_load_salts, hb_newcustomsalt, densesolver, hb_addweight,
-  hb_commercialnutrient, hb_waterquality, hb_insprecision, hb_stockanalysis,
-  Dbf, db, hb_persubstance, hb_datasetname, hb_analysis,
-  hb_freedom, dbf_fields, hb_ph, hb_ratios, hb_comparison;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ComCtrls,
+  StdCtrls, Menus, ExtCtrls, tachartlazaruspkg, HB_Main, hb_load_salts,
+  hb_newcustomsalt, hb_addweight, hb_commercialnutrient, hb_waterquality,
+  hb_insprecision, hb_stockanalysis, Dbf, db, hb_persubstance, hb_datasetname,
+  hb_analysis, hb_freedom, dbf_fields, hb_ph, hb_ratios, hb_comparison,
+  densesolver, versionsupport;
 
 procedure AssignValues ;
 
 var
-MyDbf: TDbf;
-Units: String;
+   MyDbf: TDbf;
+   Units: string;
+
 begin
-
-DefaultFormatSettings.DecimalSeparator := '.'    ;
-
+   DefaultFormatSettings.DecimalSeparator := '.';
    MyDbf := TDbf.Create(nil) ;
    MyDbf.FilePathFull := '';
    MyDbf.TableName := Form1.water_quality_db;
    MyDbf.Open             ;
    MyDbf.Active := true ;
 
-          while not MyDbf.EOF do
-    begin
+   while not MyDbf.EOF do
+      begin
 
         if MyDbf.FieldByName('Default').AsInteger = 1 then
 
@@ -120,7 +119,7 @@ end;
 {$R *.res}
 
 begin
-  Application.Title:='HydroBuddy - an Open source nutrient calculator';
+    Application.Title:='HydroBuddy - an Open source nutrient calculator';
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
 

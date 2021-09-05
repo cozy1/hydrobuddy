@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <PathDelim Value="\"/>
     <General>
-      <MainUnit Value="0"/>
+      <Flags>
+        <AlwaysBuild Value="True"/>
+        <CompatibilityMode Value="True"/>
+      </Flags>
       <Title Value="HydroBuddy - an Open source nutrient calculator"/>
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
@@ -14,10 +17,10 @@
       <MajorVersionNr Value="1"/>
       <MinorVersionNr Value="9"/>
       <RevisionNr Value="5"/>
-      <BuildNr Value="1"/>
+      <BuildNr Value="2"/>
       <StringTable FileDescription="HydroBuddy - Custom Build by CozyUno" LegalCopyright="Daniel Fernandez" ProductName="HydroBuddy" ProductVersion="1.0.0.0"/>
     </VersionInfo>
-    <BuildModes Count="4">
+    <BuildModes Count="4" Active="Win32">
       <Item1 Name="default" Default="True"/>
       <Item2 Name="Debug">
         <CompilerOptions>
@@ -28,7 +31,8 @@
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
-            <UnitOutputDirectory Value="unit\$(Target-CPU)$(Target-OS)"/>
+            <OtherUnitFiles Value="extensions\ALGLIB;extensions\general"/>
+            <UnitOutputDirectory Value="units\$(Target-CPU)$(Target-OS)"/>
           </SearchPaths>
           <Parsing>
             <SyntaxOptions>
@@ -44,6 +48,8 @@
               <StackChecks Value="True"/>
             </Checks>
             <VerifyObjMethodCallValidity Value="True"/>
+            <TargetCPU Value="i386"/>
+            <TargetOS Value="win32"/>
           </CodeGeneration>
           <Linking>
             <Debugging>
@@ -69,7 +75,8 @@
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
-            <UnitOutputDirectory Value="unit\$(Target-CPU)$(Target-OS)"/>
+            <OtherUnitFiles Value="extensions\ALGLIB;extensions\general"/>
+            <UnitOutputDirectory Value="units\$(Target-CPU)$(Target-OS)"/>
           </SearchPaths>
           <Parsing>
             <SyntaxOptions>
@@ -106,7 +113,8 @@
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
-            <UnitOutputDirectory Value="unit\$(Target-CPU)$(Target-OS)"/>
+            <OtherUnitFiles Value="extensions\ALGLIB;extensions\general"/>
+            <UnitOutputDirectory Value="units\$(Target-CPU)$(Target-OS)"/>
           </SearchPaths>
           <Parsing>
             <SyntaxOptions>
@@ -137,16 +145,19 @@
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
+      <DestinationDirectory Value="\published"/>
+      <CompressFinally Value="False"/>
+      <UseFileFilters Value="True"/>
     </PublishOptions>
     <RunParams>
       <local>
-        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
       </local>
       <FormatVersion Value="2"/>
       <Modes Count="1">
         <Mode0 Name="default">
           <local>
-            <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+            <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
           </local>
         </Mode0>
       </Modes>
@@ -164,17 +175,15 @@
         <PackageName Value="LCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="39">
+    <Units Count="44">
       <Unit0>
         <Filename Value="hydrobuddy.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="6"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="146"/>
-        <CursorPos Y="163"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="5"/>
+        <CursorPos X="28" Y="14"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="hb_main.pas"/>
@@ -183,15 +192,13 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="HB_Main"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="7"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="3582"/>
-        <CursorPos X="45" Y="3590"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2967"/>
+        <CursorPos X="65" Y="2980"/>
         <UsageCount Value="200"/>
         <Bookmarks Count="2">
-          <Item0 X="45" Y="3588" ID="1"/>
-          <Item1 X="2" Y="2960" ID="2"/>
+          <Item0 X="45" Y="3596" ID="1"/>
+          <Item1 X="14" Y="2959" ID="2"/>
         </Bookmarks>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -202,10 +209,9 @@
         <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="1"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="856"/>
-        <CursorPos X="49" Y="821"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="33"/>
+        <CursorPos X="28" Y="41"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -216,7 +222,7 @@
         <ComponentName Value="Form3"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="2"/>
         <CursorPos X="31" Y="9"/>
         <UsageCount Value="200"/>
@@ -227,23 +233,23 @@
         <Filename Value="C:\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
         <TopLine Value="158"/>
         <CursorPos Y="172"/>
-        <UsageCount Value="76"/>
+        <UsageCount Value="73"/>
       </Unit4>
       <Unit5>
-        <Filename Value="densesolver.pas"/>
+        <Filename Value="extensions\ALGLIB\densesolver.pas"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="3144"/>
-        <CursorPos X="8" Y="3181"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="6" Y="22"/>
         <UsageCount Value="200"/>
       </Unit5>
       <Unit6>
         <Filename Value="C:\lazarus\lcl\include\control.inc"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="3560"/>
         <CursorPos Y="3566"/>
-        <UsageCount Value="66"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="69"/>
       </Unit6>
       <Unit7>
         <Filename Value="hb_addweight.pas"/>
@@ -251,8 +257,7 @@
         <ComponentName Value="Form4"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="29"/>
         <CursorPos X="20" Y="44"/>
         <UsageCount Value="230"/>
@@ -265,8 +270,7 @@
         <ComponentName Value="Form5"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="22"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="18"/>
         <CursorPos X="50" Y="37"/>
         <UsageCount Value="224"/>
@@ -279,8 +283,7 @@
         <ComponentName Value="Form6"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="23"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="249"/>
         <CursorPos X="60" Y="254"/>
         <UsageCount Value="204"/>
@@ -293,12 +296,12 @@
         <ComponentName Value="Form7"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="25"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="21"/>
         <CursorPos X="3" Y="45"/>
         <UsageCount Value="202"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="hb_stockanalysis.pas"/>
@@ -306,8 +309,7 @@
         <ComponentName Value="Form8"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="21"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="8"/>
         <TopLine Value="17"/>
         <CursorPos X="45" Y="28"/>
         <UsageCount Value="200"/>
@@ -320,12 +322,12 @@
         <ComponentName Value="Form9"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="20"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="9"/>
         <TopLine Value="8"/>
         <CursorPos X="32" Y="23"/>
         <UsageCount Value="216"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="hb_datasetname.pas"/>
@@ -333,10 +335,9 @@
         <ComponentName Value="Form10"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="3"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="18"/>
-        <CursorPos X="22" Y="24"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="31"/>
+        <CursorPos Y="41"/>
         <UsageCount Value="209"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -347,40 +348,36 @@
         <ComponentName Value="Form11"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="19"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="11"/>
         <TopLine Value="14"/>
         <CursorPos X="71" Y="40"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit14>
       <Unit15>
         <Filename Value="C:\lazarus\components\codetools\definetemplates.pas"/>
         <UnitName Value="DefineTemplates"/>
         <TopLine Value="1054"/>
         <CursorPos X="9" Y="1071"/>
-        <UsageCount Value="73"/>
+        <UsageCount Value="70"/>
       </Unit15>
       <Unit16>
-        <Filename Value="descriptivestatistics.pas"/>
-        <EditorIndex Value="18"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="132"/>
-        <CursorPos X="24" Y="160"/>
-        <UsageCount Value="100"/>
-        <Loaded Value="True"/>
+        <Filename Value=""/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
       </Unit16>
       <Unit17>
         <Filename Value="C:\lazarus\lcl\include\customcombobox.inc"/>
         <TopLine Value="181"/>
         <CursorPos Y="214"/>
-        <UsageCount Value="70"/>
+        <UsageCount Value="67"/>
       </Unit17>
       <Unit18>
         <Filename Value="C:\lazarus\lcl\include\buttoncontrol.inc"/>
         <TopLine Value="44"/>
         <CursorPos X="11" Y="51"/>
-        <UsageCount Value="61"/>
+        <UsageCount Value="58"/>
       </Unit18>
       <Unit19>
         <Filename Value="hb_freedom.pas"/>
@@ -388,313 +385,344 @@
         <ComponentName Value="Form12"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="17"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="12"/>
         <TopLine Value="14"/>
         <CursorPos X="15" Y="30"/>
         <UsageCount Value="204"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit19>
       <Unit20>
-        <Filename Value="ping.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="Ping"/>
-        <TopLine Value="53"/>
-        <CursorPos X="26" Y="72"/>
-        <UsageCount Value="202"/>
-      </Unit20>
-      <Unit21>
-        <Filename Value="pingsend.pas"/>
-        <CursorPos X="3" Y="76"/>
-        <UsageCount Value="77"/>
-      </Unit21>
-      <Unit22>
         <Filename Value="C:\lazarus\fpc\2.4.3\source\packages\fcl-db\src\base\db.pas"/>
         <TopLine Value="370"/>
         <CursorPos X="14" Y="389"/>
-        <UsageCount Value="54"/>
-      </Unit22>
-      <Unit23>
+        <UsageCount Value="51"/>
+      </Unit20>
+      <Unit21>
         <Filename Value="hb_ph.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form13"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="24"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="55"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="52"/>
         <CursorPos X="54" Y="52"/>
         <UsageCount Value="248"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit23>
-      <Unit24>
+      </Unit21>
+      <Unit22>
         <Filename Value="hb_ratios.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form14"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="4"/>
-        <WindowIndex Value="1"/>
+        <EditorIndex Value="14"/>
         <TopLine Value="38"/>
         <CursorPos X="20" Y="44"/>
         <UsageCount Value="246"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit24>
-      <Unit25>
+      </Unit22>
+      <Unit23>
         <Filename Value="C:\lazarus\lcl\grids.pas"/>
         <UnitName Value="Grids"/>
-        <EditorIndex Value="9"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="10014"/>
-        <CursorPos Y="10021"/>
-        <UsageCount Value="14"/>
-        <Loaded Value="True"/>
-      </Unit25>
-      <Unit26>
+        <TopLine Value="323"/>
+        <CursorPos X="22" Y="330"/>
+        <UsageCount Value="17"/>
+      </Unit23>
+      <Unit24>
         <Filename Value="C:\lazarus\components\tachart\tatypes.pas"/>
         <UnitName Value="TATypes"/>
         <TopLine Value="536"/>
         <CursorPos Y="553"/>
-        <UsageCount Value="2"/>
-      </Unit26>
-      <Unit27>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
         <Filename Value="hb_comparison.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form15"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="5"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="29"/>
-        <CursorPos X="5" Y="34"/>
+        <EditorIndex Value="15"/>
+        <TopLine Value="7"/>
         <UsageCount Value="229"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit27>
-      <Unit28>
+      </Unit25>
+      <Unit26>
         <Filename Value="C:\lazarus\lazarus\lcl\include\customform.inc"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="1999"/>
         <CursorPos Y="2014"/>
-        <UsageCount Value="110"/>
-      </Unit28>
-      <Unit29>
+        <UsageCount Value="107"/>
+      </Unit26>
+      <Unit27>
         <Filename Value="C:\lazarus\lazarus\lcl\grids.pas"/>
         <UnitName Value="Grids"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="9931"/>
         <CursorPos Y="9946"/>
-        <UsageCount Value="77"/>
-      </Unit29>
-      <Unit30>
+        <UsageCount Value="74"/>
+      </Unit27>
+      <Unit28>
         <Filename Value="C:\lazarus\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="138"/>
         <CursorPos X="54" Y="166"/>
-        <UsageCount Value="77"/>
-      </Unit30>
-      <Unit31>
-        <Filename Value="C:\lazarus\lazarus\lcl\include\control.inc"/>
+        <UsageCount Value="74"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\Lazarus\lazarus\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="3538"/>
-        <CursorPos Y="3548"/>
+        <TopLine Value="3583"/>
+        <CursorPos Y="3596"/>
         <UsageCount Value="58"/>
-      </Unit31>
-      <Unit32>
+      </Unit29>
+      <Unit30>
         <Filename Value="C:\lazarus\lcl\include\customedit.inc"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="586"/>
         <CursorPos Y="597"/>
-        <UsageCount Value="15"/>
-        <Loaded Value="True"/>
-      </Unit32>
-      <Unit33>
+        <UsageCount Value="18"/>
+      </Unit30>
+      <Unit31>
         <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
-        <EditorIndex Value="13"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="8297"/>
         <CursorPos Y="8303"/>
-        <UsageCount Value="15"/>
-        <Loaded Value="True"/>
-      </Unit33>
-      <Unit34>
+        <UsageCount Value="18"/>
+      </Unit31>
+      <Unit32>
         <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wsstdctrls.pp"/>
         <UnitName Value="Win32WSStdCtrls"/>
-        <EditorIndex Value="16"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="1575"/>
         <CursorPos Y="1582"/>
-        <UsageCount Value="15"/>
-        <Loaded Value="True"/>
-      </Unit34>
-      <Unit35>
+        <UsageCount Value="18"/>
+      </Unit32>
+      <Unit33>
         <Filename Value="C:\lazarus\lcl\interfaces\win32\win32proc.pp"/>
         <UnitName Value="Win32Proc"/>
-        <EditorIndex Value="14"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="1066"/>
         <CursorPos Y="1078"/>
-        <UsageCount Value="15"/>
-        <Loaded Value="True"/>
-      </Unit35>
-      <Unit36>
+        <UsageCount Value="18"/>
+      </Unit33>
+      <Unit34>
         <Filename Value="C:\lazarus\components\lazutils\lazutf8.pas"/>
         <UnitName Value="LazUTF8"/>
-        <EditorIndex Value="15"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="3800"/>
         <CursorPos Y="3808"/>
-        <UsageCount Value="15"/>
-        <Loaded Value="True"/>
-      </Unit36>
-      <Unit37>
+        <UsageCount Value="18"/>
+      </Unit34>
+      <Unit35>
         <Filename Value="C:\lazarus\components\lazutils\dynamicarray.pas"/>
         <UnitName Value="DynamicArray"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="56"/>
         <CursorPos Y="63"/>
-        <UsageCount Value="14"/>
-        <Loaded Value="True"/>
-      </Unit37>
-      <Unit38>
+        <UsageCount Value="17"/>
+      </Unit35>
+      <Unit36>
         <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\objpas\types.pp"/>
         <UnitName Value="Types"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="536"/>
         <CursorPos X="10" Y="544"/>
-        <UsageCount Value="11"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="14"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="4611"/>
+        <CursorPos X="23" Y="4623"/>
+        <UsageCount Value="8"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="C:\lazarus\fpc\3.2.0\source\packages\fcl-db\src\dbase\dbf_fields.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="57"/>
+        <CursorPos X="23" Y="63"/>
+        <UsageCount Value="8"/>
       </Unit38>
+      <Unit39>
+        <Filename Value="C:\lazarus\fpc\3.2.0\source\packages\fcl-base\src\inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="293"/>
+        <CursorPos X="31" Y="300"/>
+        <UsageCount Value="8"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="extensions\general\versionsupport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VersionSupport"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="179"/>
+        <UsageCount Value="29"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="C:\Lazarus\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos Y="8314"/>
+        <UsageCount Value="11"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="C:\Lazarus\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="794"/>
+        <CursorPos X="14" Y="801"/>
+        <UsageCount Value="9"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="C:\Lazarus\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="715"/>
+        <CursorPos X="14" Y="724"/>
+        <UsageCount Value="10"/>
+      </Unit43>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3614" Column="5" TopLine="3579"/>
+        <Caret Line="2978" Column="71" TopLine="2968"/>
       </Position1>
       <Position2>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3612" Column="51" TopLine="3604"/>
+        <Caret Line="4129" Column="47"/>
       </Position2>
       <Position3>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3616" Column="19" TopLine="3609"/>
+        <Caret Line="3592" TopLine="3584"/>
       </Position3>
       <Position4>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3611" Column="73" TopLine="3599"/>
+        <Caret Line="2978" Column="11" TopLine="2967"/>
       </Position4>
       <Position5>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2448" Column="70" TopLine="2442"/>
+        <Caret Line="2982" Column="58" TopLine="2970"/>
       </Position5>
       <Position6>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2451" Column="39" TopLine="2442"/>
+        <Caret Line="2979" Column="56" TopLine="2970"/>
       </Position6>
       <Position7>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2452" Column="52" TopLine="2442"/>
+        <Caret Line="16" Column="46"/>
       </Position7>
       <Position8>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="859" Column="25" TopLine="853"/>
+        <Caret Line="18" Column="39" TopLine="9"/>
       </Position8>
       <Position9>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="1218" Column="67" TopLine="1206"/>
+        <Caret Line="3605" TopLine="3597"/>
       </Position9>
       <Position10>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="1915" Column="25" TopLine="1903"/>
+        <Caret Line="3592" TopLine="3583"/>
       </Position10>
       <Position11>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2080" Column="53" TopLine="2068"/>
+        <Caret Line="2969" Column="17" TopLine="2964"/>
       </Position11>
       <Position12>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2729" Column="62" TopLine="2717"/>
+        <Caret Line="1621" Column="3" TopLine="1612"/>
       </Position12>
       <Position13>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2761" Column="25" TopLine="2749"/>
+        <Caret Line="1644" Column="3" TopLine="1635"/>
       </Position13>
       <Position14>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3210" Column="84" TopLine="3198"/>
+        <Caret Line="2969" Column="13" TopLine="2960"/>
       </Position14>
       <Position15>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="859" Column="25" TopLine="853"/>
+        <Caret Line="2949" Column="56" TopLine="2940"/>
       </Position15>
       <Position16>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="1218" Column="67" TopLine="1206"/>
+        <Caret Line="198" Column="15" TopLine="189"/>
       </Position16>
       <Position17>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="1915" Column="25" TopLine="1903"/>
+        <Caret Line="2949" Column="60" TopLine="2940"/>
       </Position17>
       <Position18>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2080" Column="53" TopLine="2068"/>
+        <Caret Line="167" Column="5" TopLine="158"/>
       </Position18>
       <Position19>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2729" Column="62" TopLine="2717"/>
+        <Caret Line="771" Column="3" TopLine="762"/>
       </Position19>
       <Position20>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="2761" Column="25" TopLine="2749"/>
+        <Caret Line="2967" Column="61" TopLine="2958"/>
       </Position20>
       <Position21>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3210" Column="84" TopLine="3198"/>
+        <Caret Line="3007" Column="5" TopLine="2998"/>
       </Position21>
       <Position22>
-        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wsstdctrls.pp"/>
-        <Caret Line="1594" TopLine="1587"/>
+        <Filename Value="hb_main.pas"/>
+        <Caret Line="2446" Column="9" TopLine="2437"/>
       </Position22>
       <Position23>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="859" Column="25" TopLine="853"/>
+        <Caret Line="2450" Column="9" TopLine="2437"/>
       </Position23>
       <Position24>
-        <Filename Value="hb_main.pas"/>
-        <Caret Line="3581" TopLine="3574"/>
+        <Filename Value="hydrobuddy.lpr"/>
+        <Caret Line="11" Column="41"/>
       </Position24>
       <Position25>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="1940" TopLine="1933"/>
+        <Caret Line="10" Column="33"/>
       </Position25>
       <Position26>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3588" Column="45" TopLine="3582"/>
+        <Caret Line="13" Column="60" TopLine="4"/>
       </Position26>
       <Position27>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3601" TopLine="3593"/>
+        <Caret Line="12" Column="48"/>
       </Position27>
       <Position28>
-        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wsstdctrls.pp"/>
-        <Caret Line="1594" TopLine="1587"/>
+        <Filename Value="hb_main.pas"/>
+        <Caret Line="16" Column="73"/>
       </Position28>
       <Position29>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3588" TopLine="2290"/>
+        <Caret Line="3609" TopLine="3600"/>
       </Position29>
       <Position30>
         <Filename Value="hb_main.pas"/>
-        <Caret Line="3590" Column="40" TopLine="3582"/>
+        <Caret Line="2980" Column="65" TopLine="2967"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
@@ -706,7 +734,8 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <UnitOutputDirectory Value="unit\$(Target-CPU)$(Target-OS)"/>
+      <OtherUnitFiles Value="extensions\ALGLIB;extensions\general"/>
+      <UnitOutputDirectory Value="units\$(Target-CPU)$(Target-OS)"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>
@@ -722,25 +751,19 @@
     </Linking>
   </CompilerOptions>
   <Debugging>
-    <Watches Count="6">
+    <Watches Count="4">
       <Item1>
-        <Expression Value="mixContribution"/>
+        <Expression Value="versInfo"/>
       </Item1>
       <Item2>
-        <Expression Value="all_element_contributions"/>
+        <Expression Value="Result"/>
       </Item2>
       <Item3>
-        <Expression Value="Volume"/>
+        <Expression Value="totalWeight"/>
       </Item3>
       <Item4>
-        <Expression Value="test"/>
+        <Expression Value="all_element_contributions"/>
       </Item4>
-      <Item5>
-        <Expression Value="i"/>
-      </Item5>
-      <Item6>
-        <Expression Value="j"/>
-      </Item6>
     </Watches>
     <Exceptions Count="3">
       <Item1>
