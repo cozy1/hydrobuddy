@@ -16,8 +16,6 @@ uses
 // define global constants
 const
   IniFile = 'settings.ini';
-  NewLine = chr(13) + chr(10);
-
 
 type
 
@@ -55,24 +53,24 @@ type
     ComboBox1:  TComboBox;
     ComboBox3: TComboBox;
     Edit1:      TEdit;
-    Edit10:     TEdit;
-    Edit11:     TEdit;
     Edit12:     TEdit;
     Edit13:     TEdit;
     Edit14:     TEdit;
+    Edit15:     TEdit;
     Edit16:     TEdit;
+    Edit2:     TEdit;
     Edit19:     TEdit;
     Edit18:     TEdit;
-    Edit15:     TEdit;
+    Edit11:     TEdit;
     Edit17:     TEdit;
-    Edit2:      TEdit;
-    Edit3:      TEdit;
     Edit4:      TEdit;
+    Edit3:      TEdit;
     Edit5:      TEdit;
     Edit6:      TEdit;
     Edit7:      TEdit;
     Edit8:      TEdit;
     Edit9:      TEdit;
+    Edit10:      TEdit;
     Image1:     TImage;
     Image10:    TImage;
     Image2:     TImage;
@@ -84,21 +82,21 @@ type
     Image8:     TImage;
     Image9:     TImage;
     Label1:     TLabel;
-    Label2:     TLabel;
-    Label3:     TLabel;
     Label4:     TLabel;
+    Label3:     TLabel;
     Label5:     TLabel;
     Label6:     TLabel;
     Label7:     TLabel;
     Label8:     TLabel;
-    Label9:     TLabel;
-    Label10:    TLabel;
-    Label11:    TLabel;
+    Label10:     TLabel;
+    Label11:     TLabel;
     Label12:    TLabel;
-    Label13:    TLabel;
     Label14:    TLabel;
     Label15:    TLabel;
+    Label13:    TLabel;
     Label16:    TLabel;
+    Label9:    TLabel;
+    Label2:    TLabel;
     Label17:    TLabel;
     Label18:    TLabel;
     Label19:    TLabel;
@@ -136,21 +134,21 @@ type
     RadioButton8: TRadioButton;
     RadioButton9: TRadioButton;
     RLabel1:    TLabel;
-    RLabel16:   TLabel;
+    RLabel2:   TLabel;
     RLabel3:    TLabel;
-    RLabel2:    TLabel;
     RLabel4:    TLabel;
     RLabel5:    TLabel;
     RLabel6:    TLabel;
     RLabel7:    TLabel;
     RLabel8:    TLabel;
     RLabel9:    TLabel;
-    RLabel10:   TLabel;
-    RLabel11:   TLabel;
+    RLabel10:    TLabel;
     RLabel12:   TLabel;
     RLabel13:   TLabel;
     RLabel14:   TLabel;
     RLabel15:   TLabel;
+    RLabel16:   TLabel;
+    RLabel11:   TLabel;
     PageControl1: TPageControl;
     Panel1:     TPanel;
     Panel2:     TPanel;
@@ -209,7 +207,9 @@ type
     procedure CheckBox3Change(Sender: TObject);
     procedure CheckBox4Change(Sender: TObject);
     procedure CheckBox5Change(Sender: TObject);
+    procedure ComboBox1Change(Sender: TObject);
     procedure ComboBox1Select(Sender: TObject);
+    procedure ComboBox3Change(Sender: TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure FormWindowStateChange(Sender: TObject);
@@ -238,6 +238,7 @@ type
     procedure ToggleBox1Change(Sender: TObject);
   private
     { private declarations }
+    procedure GridShowHint(Sender: TObject; HintInfo: PHintInfo);
   public
     { public declarations }
     const
@@ -654,43 +655,43 @@ begin
   if RadioButton15.Checked = True then
   begin
     ec_contribution[0]  := 0.403791;
-    ec_contribution[1]  := -0.110791;
+    ec_contribution[1] := -0.308967;
     ec_contribution[2]  := 0.142525;
-    ec_contribution[3]  := -0.358782;
-    ec_contribution[4]  := -0.283549;
-    ec_contribution[5]  := 0.276118;
-    ec_contribution[6]  := 0;
+    ec_contribution[3]  := -0.110791;
+    ec_contribution[4]  := -0.358782;
+    ec_contribution[5]  := -0.283549;
+    ec_contribution[6]  := 0.276118;
     ec_contribution[7]  := 0;
     ec_contribution[8]  := 0;
     ec_contribution[9]  := 0;
-    ec_contribution[10] := 0;
+    ec_contribution[10]  := 0;
     ec_contribution[11] := 0;
     ec_contribution[12] := 0;
     ec_contribution[13] := 0;
     ec_contribution[14] := 0;
-    ec_contribution[15] := -0.308967;
+    ec_contribution[15] := 0;
+
   end;
 
   if RadioButton14.Checked = True then
   begin
     ec_contribution[0]  := 71.46 ;
-    ec_contribution[1]  := 73 ;
+    ec_contribution[1] := 73.5;
     ec_contribution[2]  := 57 ;
-    ec_contribution[3]  := 106 ;
-    ec_contribution[4]  := 119 ;
-    ec_contribution[5]  := 160;
-    ec_contribution[6]  := 108.0;
-    ec_contribution[7]  := 0;
+    ec_contribution[3]  := 73 ;
+    ec_contribution[4]  := 106 ;
+    ec_contribution[5]  := 119 ;
+    ec_contribution[6]  := 160 ;
+    ec_contribution[7]  := 108.0;
     ec_contribution[8]  := 0;
     ec_contribution[9]  := 0;
-    ec_contribution[10] := 0;
-    ec_contribution[11] := 50.01;
-    ec_contribution[12] := 100 ;
+    ec_contribution[10]  := 0;
+    ec_contribution[11] := 0;
+    ec_contribution[12] := 0; // at the pH used in hydroponics, silicon does not conduct
     ec_contribution[13] := 76.35 ;
-    ec_contribution[14] := 0;
-    ec_contribution[15] := 73.5;
+    ec_contribution[14] := 50.01 ;
+    ec_contribution[15] := 0;
   end;
-
   // define water quality parameters
 
   SetLength(waterquality, 16);
@@ -1265,29 +1266,37 @@ begin
 
       Add(Label20.Caption);
 
-      Add(' , , , ');
+      Add(' , , , , ');
+      Add('Name, Formula, Amount, Units, Cost');
 
       for i := 0 to StringGrid2.RowCount - 1 do
 
       begin
 
-        Add(StringGrid2.Cells[NAME_IDX,i] + ',' + StringGrid2.Cells[FORMULA_IDX,i] + ',' + StringGrid2.Cells[AMOUNT_IDX,i] +
-          ',' + StringGrid2.Cells[COST_IDX,i]);
+        Add(StringGrid2.Cells[NAME_IDX,i]    + ',' +
+            StringGrid2.Cells[FORMULA_IDX,i] + ',' +
+            StringGrid2.Cells[AMOUNT_IDX,i]  + ',' +
+            StringGrid2.Cells[UNIT_IDX,i]    + ',' +
+            StringGrid2.Cells[COST_IDX,i]);
 
       end;
 
-      Add(' , , , ');
+      Add(' , , , , ');
+      Add('Element, Results(ppm), GE, IE, Water (ppm)');
 
       for i := 0 to StringGrid1.RowCount - 1 do
 
       begin
 
-        Add(StringGrid1.Cells[0,i] + ',' + StringGrid1.Cells[1,i] + ',' + StringGrid1.Cells[2,i] +
-          ',' + StringGrid1.Cells[3,i]);
+        Add(StringGrid1.Cells[0,i] + ',' +
+            StringGrid1.Cells[1,i] + ',' +
+            StringGrid1.Cells[2,i] + ',' +
+            StringGrid1.Cells[3,i] + ',' +
+            StringGrid1.Cells[4,i]);
 
       end;
 
-      Add(' , , , ');
+      Add(' , , , ,');
       Add(Panel6.Caption);
 
       if SaveDialog1.Execute then
@@ -1312,20 +1321,20 @@ procedure TForm1.Button15Click(Sender: TObject);
 begin
   Edit1.Text  := '0';
   Edit3.Text  := '0';
-  Edit2.Text  := '0';
   Edit4.Text  := '0';
   Edit5.Text  := '0';
   Edit6.Text  := '0';
   Edit7.Text  := '0';
-  Edit9.Text  := '0';
   Edit8.Text  := '0';
-  Edit10.Text := '0';
-  Edit11.Text := '0';
+  Edit10.Text  := '0';
+  Edit9.Text  := '0';
   Edit12.Text := '0';
-  Edit15.Text := '0';
   Edit13.Text := '0';
   Edit14.Text := '0';
+  Edit11.Text := '0';
+  Edit15.Text := '0';
   Edit16.Text := '0';
+  Edit2.Text := '0';
 end;
 
 procedure TForm1.Button16Click(Sender: TObject);
@@ -1653,41 +1662,42 @@ begin
   if RadioButton15.Checked = True then
   begin
     ec_contribution[0]  := 0.403791;
-    ec_contribution[1]  := -0.110791;
+    ec_contribution[1] := -0.308967;
     ec_contribution[2]  := 0.142525;
-    ec_contribution[3]  := -0.358782;
-    ec_contribution[4]  := -0.283549;
-    ec_contribution[5]  := 0.276118;
-    ec_contribution[6]  := 0;
+    ec_contribution[3]  := -0.110791;
+    ec_contribution[4]  := -0.358782;
+    ec_contribution[5]  := -0.283549;
+    ec_contribution[6]  := 0.276118;
     ec_contribution[7]  := 0;
     ec_contribution[8]  := 0;
     ec_contribution[9]  := 0;
-    ec_contribution[10] := 0;
+    ec_contribution[10]  := 0;
     ec_contribution[11] := 0;
     ec_contribution[12] := 0;
     ec_contribution[13] := 0;
     ec_contribution[14] := 0;
-    ec_contribution[15] := -0.308967;
+    ec_contribution[15] := 0;
+
   end;
 
   if RadioButton14.Checked = True then
   begin
     ec_contribution[0]  := 71.46 ;
-    ec_contribution[1]  := 73 ;
+    ec_contribution[1] := 73.5;
     ec_contribution[2]  := 57 ;
-    ec_contribution[3]  := 106 ;
-    ec_contribution[4]  := 119 ;
-    ec_contribution[5]  := 160 ;
-    ec_contribution[6]  := 108.0;
-    ec_contribution[7]  := 0;
+    ec_contribution[3]  := 73 ;
+    ec_contribution[4]  := 106 ;
+    ec_contribution[5]  := 119 ;
+    ec_contribution[6]  := 160 ;
+    ec_contribution[7]  := 108.0;
     ec_contribution[8]  := 0;
     ec_contribution[9]  := 0;
-    ec_contribution[10] := 0;
-    ec_contribution[11] := 50.01 ;
+    ec_contribution[10]  := 0;
+    ec_contribution[11] := 0;
     ec_contribution[12] := 0; // at the pH used in hydroponics, silicon does not conduct
     ec_contribution[13] := 76.35 ;
-    ec_contribution[14] := 0;
-    ec_contribution[15] := 73.5;
+    ec_contribution[14] := 50.01 ;
+    ec_contribution[15] := 0;
   end;
 
 
@@ -1943,6 +1953,9 @@ if RadioButton13.Checked then
 
         all_element_contributions[j][i] :=
         0.01 * MyDbf.FieldByName(all_element_names[j]).AsFloat * MyDbf.FieldByName('Purity').AsFloat / Volume;
+
+       // if all_element_contributions[j][i] <> 0 then
+       // ShowMessage(all_element_names[j] + ' ' +FloatToStr(all_element_contributions[j][i]));
 
       end;
 
@@ -2233,7 +2246,7 @@ if RadioButton13.Checked then
           (2 * StrtoFloat(Edit17.Text));
 
       if all_element_targets[i] <> 0 then
-      gross_error[i] := (test * 100 / all_element_targets[i]) - 100;
+      gross_error[i] := ((test+waterquality[i]) * 100 / (all_element_targets[i])) - 100;
 
 
       if   all_element_targets[i] = 0 then
@@ -2749,6 +2762,8 @@ if RadioButton13.Checked then
     SetLength(varnames, 16);
     SetLength(Result, 16);
     SetLength(name_array, arraysize, 2);
+    SetLength(IsLiquid, 2, arraysize) ;
+    SetLength(all_element_contributions, 16, arraysize);
 
     for j := 1 to 16 do
     begin
@@ -2776,6 +2791,19 @@ if RadioButton13.Checked then
     begin
       name_array[i][0] := MyDbf.FieldByName('Name').AsString;
       name_array[i][1] := MyDbf.FieldByName('Formula').AsString;
+
+      IsLiquid[0][i] := MyDbf.FieldByName('IsLiquid').AsFloat ;
+      IsLiquid[1][i] := MyDbf.FieldByName('Density').AsFloat ;
+
+      for j := 0 to 15 do
+      begin
+        if IsLiquid[0][i] = 1 then all_solids := False;
+        all_element_contributions[j][i] :=
+        0.01 * MyDbf.FieldByName((FindComponent('Label' + IntToStr(j+1)) as TLabel).Caption).AsFloat * MyDbf.FieldByName('Purity').AsFloat / Volume;
+      end;
+
+      if IsLiquid[0][i] = 0 then StringGrid2.Cells[UNIT_IDX,i+1] := mass_unit;
+      if IsLiquid[0][i] = 1 then StringGrid2.Cells[UNIT_IDX,i+1] := 'mL';
 
       for j := 0 to 15 do
 
@@ -2881,27 +2909,38 @@ if RadioButton13.Checked then
 
 
 
-    // CALCULATION OF EC
-
-
-    predicted_ec := 0;
-
-    for i := 1 to 16 do
-
+    // calculation of EC by empirical model
+    if RadioButton15.Checked = True then
     begin
-
-      begin
-
-        predicted_ec := (conc_factor[i-1])*StrtoFloat(
-          (FindComponent('RLabel' + IntToStr(i)) as TLabel).Caption) *
-          ec_contribution[i - 1] + predicted_ec;
-
-      end;
-
+        predicted_ec := 0;
+        for i := 1 to 16 do
+        begin
+            predicted_ec := conc_factor[i-1]*StrtoFloat(
+              (FindComponent('RLabel' + IntToStr(i)) as TLabel).Caption) *
+              ec_contribution[i - 1] + predicted_ec;
+        end;
+        predicted_ec := round2(predicted_ec+0.39661671, 3);
     end;
 
-    if RadioButton14.Checked = True then predicted_ec := round2((predicted_ec - 0.35 * predicted_ec) / 1000, 3);
-    if RadioButton15.Checked = True then predicted_ec := round2(predicted_ec+0.39661671, 3);
+    // Calculation of EC by LMCv2 model
+    if RadioButton14.Checked = True then
+    begin
+
+        // calculate ionic strength used for conductivity model
+        ionic_strength := 0;
+        for i := 1 to 16 do ionic_strength := zi[i-1]*zi[i-1]*(StrtoFloat((FindComponent('RLabel' + IntToStr(i)) as TLabel).Caption) /(1000*molar_mass[i-1])) + ionic_strength;
+
+        predicted_ec := 0;
+        for i := 1 to 16 do
+        begin
+            predicted_ec := conc_factor[i-1]
+                            * (StrtoFloat((FindComponent('RLabel' + IntToStr(i)) as TLabel).Caption)/(1000*molar_mass[i-1]))
+                            * ec_contribution[i - 1]
+                            * exp(-0.7025187*sqrt(ionic_strength)*power(zi[i-1],1.5))
+                            + predicted_ec;
+        end;
+        predicted_ec := round2(predicted_ec, 3);
+    end;
 
     Panel6.Caption := 'EC=' + FloattoStr(predicted_ec) + ' mS/cm';
 
@@ -3003,6 +3042,9 @@ if RadioButton13.Checked then
 
    // enable or disable stock solution analysis button
   if RadioButton6.Checked then Button12.Enabled := True else  Button12.Enabled := False;
+
+  // set water quality values
+  for j := 1 to 16 do StringGrid1.Cells[4,j] := FloatToStr(waterquality[j-1]);
 
   if CheckBox3.Checked = false then
   ShowMessage('Calculation carried out successfully :o)');
@@ -3178,22 +3220,23 @@ begin
   MyDbf.Insert;
 
   MyDbf.FieldByName('Name').AsString := Edit19.Text;
-  MyDbf.FieldByName('P').AsFloat     := StrtoFloat(Edit3.Text);
-  MyDbf.FieldByName('K').AsFloat     := StrtoFloat(Edit2.Text);
   MyDbf.FieldByName('N (NO3-)').AsFloat := StrtoFloat(Edit1.Text);
-  MyDbf.FieldByName('N (NH4+)').AsFloat := StrtoFloat(Edit16.Text);
-  MyDbf.FieldByName('Mg').AsFloat    := StrtoFloat(Edit4.Text);
-  MyDbf.FieldByName('Ca').AsFloat    := StrtoFloat(Edit5.Text);
-  MyDbf.FieldByName('S').AsFloat     := StrtoFloat(Edit6.Text);
-  MyDbf.FieldByName('B').AsFloat     := StrtoFloat(Edit9.Text);
-  MyDbf.FieldByName('Fe').AsFloat    := StrtoFloat(Edit7.Text);
-  MyDbf.FieldByName('Zn').AsFloat    := StrtoFloat(Edit8.Text);
-  MyDbf.FieldByName('Cu').AsFloat    := StrtoFloat(Edit10.Text);
-  MyDbf.FieldByName('Mo').AsFloat    := StrtoFloat(Edit11.Text);
-  MyDbf.FieldByName('Na').AsFloat    := StrtoFloat(Edit12.Text);
+  MyDbf.FieldByName('N (NH4+)').AsFloat := StrtoFloat(Edit2.Text);
+  MyDbf.FieldByName('P').AsFloat     := StrtoFloat(Edit3.Text);
+  MyDbf.FieldByName('K').AsFloat     := StrtoFloat(Edit4.Text);
+  MyDbf.FieldByName('Mg').AsFloat    := StrtoFloat(Edit5.Text);
+  MyDbf.FieldByName('Ca').AsFloat    := StrtoFloat(Edit6.Text);
+  MyDbf.FieldByName('S').AsFloat     := StrtoFloat(Edit7.Text);
+  MyDbf.FieldByName('Fe').AsFloat    := StrtoFloat(Edit8.Text);
+  MyDbf.FieldByName('Mn').AsFloat    := StrtoFloat(Edit9.Text);
+  MyDbf.FieldByName('Zn').AsFloat    := StrtoFloat(Edit10.Text);
+  MyDbf.FieldByName('B').AsFloat     := StrtoFloat(Edit11.Text);
+  MyDbf.FieldByName('Cu').AsFloat    := StrtoFloat(Edit12.Text);
   MyDbf.FieldByName('Si').AsFloat    := StrtoFloat(Edit13.Text);
-  MyDbf.FieldByName('Cl').AsFloat    := StrtoFloat(Edit14.Text);
-  MyDbf.FieldByName('Mn').AsFloat    := StrtoFloat(Edit15.Text);
+  MyDbf.FieldByName('Mo').AsFloat    := StrtoFloat(Edit14.Text);
+  MyDbf.FieldByName('Na').AsFloat    := StrtoFloat(Edit15.Text);
+  MyDbf.FieldByName('Cl').AsFloat    := StrtoFloat(Edit16.Text);
+
 
   if RadioButton10.Checked then
   MyDbf.FieldByName('Units').AsString := 'ppm' ;
@@ -3468,6 +3511,11 @@ begin
 
 end;
 
+procedure TForm1.ComboBox1Change(Sender: TObject);
+begin
+
+end;
+
 
 procedure TForm1.ComboBox1Select(Sender: TObject);
 var
@@ -3504,28 +3552,32 @@ begin
 
   Edit19.Text := MyDbf.FieldByName('Name').AsString;
   Edit1.Text  := MyDbf.FieldByName('N (NO3-)').AsString;
+  Edit2.Text := MyDbf.FieldByName('N (NH4+)').AsString;
   Edit3.Text  := MyDbf.FieldByName('P').AsString;
-  Edit2.Text  := MyDbf.FieldByName('K').AsString;
-  Edit4.Text  := MyDbf.FieldByName('Mg').AsString;
-  Edit5.Text  := MyDbf.FieldByName('Ca').AsString;
-  Edit6.Text  := MyDbf.FieldByName('S').AsString;
-  Edit7.Text  := MyDbf.FieldByName('Fe').AsString;
-  Edit9.Text  := MyDbf.FieldByName('B').AsString;
-  Edit8.Text  := MyDbf.FieldByName('Zn').AsString;
-  Edit10.Text := MyDbf.FieldByName('Cu').AsString;
-  Edit11.Text := MyDbf.FieldByName('Mo').AsString;
-  Edit12.Text := MyDbf.FieldByName('Na').AsString;
-  Edit15.Text := MyDbf.FieldByName('Mn').AsString;
+  Edit4.Text  := MyDbf.FieldByName('K').AsString;
+  Edit5.Text  := MyDbf.FieldByName('Mg').AsString;
+  Edit6.Text  := MyDbf.FieldByName('Ca').AsString;
+  Edit7.Text  := MyDbf.FieldByName('S').AsString;
+  Edit8.Text  := MyDbf.FieldByName('Fe').AsString;
+  Edit9.Text := MyDbf.FieldByName('Mn').AsString;
+  Edit10.Text  := MyDbf.FieldByName('Zn').AsString;
+  Edit11.Text  := MyDbf.FieldByName('B').AsString;
+  Edit12.Text := MyDbf.FieldByName('Cu').AsString;
   Edit13.Text := MyDbf.FieldByName('Si').AsString;
-  Edit14.Text := MyDbf.FieldByName('Cl').AsString;
-  Edit16.Text := MyDbf.FieldByName('N (NH4+)').AsString;
-
+  Edit14.Text := MyDbf.FieldByName('Mo').AsString;
+  Edit15.Text := MyDbf.FieldByName('Na').AsString;
+  Edit16.Text := MyDbf.FieldByName('Cl').AsString;
 
   MyDbf.Close;
 
   MyDbf.Free;
 
   Button6.Enabled := True;
+
+end;
+
+procedure TForm1.ComboBox3Change(Sender: TObject);
+begin
 
 end;
 
@@ -3610,19 +3662,22 @@ begin
     // Set form buffering to reduce screen flicker
     Form1.DoubleBuffered := true;
     Form1.Hide;
+  StringGrid1.ShowHint:=True;
+  StringGrid1.OnShowHint:=@GridShowHint;
+end;
 
-    // Set Form1 Location to Top, Center of Screen
-    Self.Position := poDefaultSizeOnly; // this is key to changing form location
-    Self.Top := 15; // (Screen.WorkAreaHeight - Self.Height) div 2;
-    Self.Left := (Screen.WorkAreaWidth - Self.Width) div 2; // center
-
-    //MessageDlg(
-    //'Screen.Width = ' + IntToStr(Screen.Width) +
-    //' Screen.Height = ' + IntToStr(Screen.Height) +
-    //' Self.Left = ' + IntToStr(Self.Left)  +
-    //' Self.Top = ' + IntToStr(Self.Top)
-    //, mtInformation,[mbOK],0);
-
+procedure TForm1.GridShowHint(Sender: TObject; HintInfo: PHintInfo);
+var
+  col: integer = -1;
+  row: integer = -1;
+  grid: TStringGrid absolute Sender;
+begin
+  grid.MouseToCell(HintInfo^.CursorPos.X, HintInfo^.CursorPos.Y, col, row);
+  if col = 1 then HintInfo^.HintStr:='Final ppm of solution';
+  if col = 2 then HintInfo^.HintStr:='Gross Error';
+  if col = 3 then HintInfo^.HintStr:='Instrumental Error';
+  if col = 4 then HintInfo^.HintStr:='Source water ppm contribution';
+  HintInfo^.HideTimeout:=5000; // long-lasting hint
 end;
 
 procedure TForm1.FormWindowStateChange(Sender: TObject);
