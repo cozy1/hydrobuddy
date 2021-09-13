@@ -34,8 +34,10 @@
     *)
      
     Uses
-      Classes, SysUtils;
-     
+      Classes, SysUtils,
+      resource, versiontypes, versionresource, LCLVersion, InterfaceBase, LCLPlatformDef;
+
+
     // Surfacing general defines and lookups
     Function GetCompiledDate: String;
     Function GetCompilerInfo: String;
@@ -49,12 +51,22 @@
     Function GetResourceStrings(oStringList : TStringList) : Boolean;
     Function GetFileVersion: String;
     Function GetProductVersion: String;
-     
+
+    Function GetFileVersion (ndx : integer) : String;
+    Function IsReleaseMode : boolean;
+
+
     Implementation
      
-    Uses
-      resource, versiontypes, versionresource, LCLVersion, InterfaceBase, LCLPlatformDef;
-     
+    Function IsReleaseMode : boolean;
+    Begin
+    {$IFDEF RELEASE}
+        Result := TRUE;
+    {$ELSE}
+        Result := FALSE;
+    {$ENDIF}
+    End;
+
     Function GetWidgetSet: String;
     Begin
       Result := LCLPlatformDisplayNames[WidgetSet.LCLPlatform];
@@ -158,7 +170,17 @@
     Begin
       Result := Format('%d.%d.%d.%d', [PV[0], PV[1], PV[2], PV[3]]);
     End;
-     
+
+function GetFileVersion (ndx: Integer): String;
+  begin
+    CreateInfo;
+
+    if FInfo.BuildInfoAvailable then
+      Result := IntToStr (FInfo.FixedInfo.FileVersion [ndx])
+    else
+      Result := 'No build information available';
+  end;
+
     Function GetProductVersion: String;
     Begin
       CreateInfo;

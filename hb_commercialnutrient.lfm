@@ -1,7 +1,7 @@
 object Form5: TForm5
-  Left = 409
+  Left = 611
   Height = 336
-  Top = 240
+  Top = 334
   Width = 780
   HorzScrollBar.Page = 744
   HorzScrollBar.Range = 715
@@ -12,7 +12,7 @@ object Form5: TForm5
   ClientHeight = 336
   ClientWidth = 780
   FormStyle = fsStayOnTop
-  LCLVersion = '2.0.12.0'
+  LCLVersion = '2.0.13.0'
   object Label1: TLabel
     Left = 22
     Height = 15
@@ -289,7 +289,7 @@ object Form5: TForm5
       Left = 16
       Height = 15
       Top = 32
-      Width = 133
+      Width = 132
       Caption = 'Volume of addition (mL) '
       ParentColor = False
     end

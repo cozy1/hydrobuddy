@@ -1,7 +1,15 @@
 HydroBuddy
 
+v1.9.6.1
+- properly handle potential division by zero and null errors
+- added version check to 'settings.ini'
+- added developer tools to VersionSupport unit
+- added a unit file for GlobalVariables
+- added version info to settings.ini file to prevent loading an old file which may corrupt the GUI
+- DEV NOTE: Lazarus IDE 'Access Violation' error may occur on close if too many project files are left open in the IDE
+
 v1.9.5.2
-- Programmatically set main form caption with version information
+- Programmaticly set main form caption with version information
 - Fixed divide by zero error when "Zero all targets" is followed by "Carry Out Calculations" 
 - Restructured project folders and file storage
 

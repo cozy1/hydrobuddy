@@ -10,10 +10,10 @@ uses
   hb_load_salts, Dbf, DB, Math, hb_commercialnutrient, hb_comparison,
   hb_waterquality, hb_addweight, hb_insprecision, hb_stockanalysis,
   hb_persubstance, hb_datasetname, hb_analysis,
-  hb_freedom, dbf_fields, hb_ratios, densesolver, versionsupport,
-  LCLIntf, Types,IniFiles;
+  hb_freedom, dbf_fields, hb_ratios, LCLIntf, Types,IniFiles,
+  densesolver, versionsupport, globalvariables;
 
-// define global constants
+// define hydrobuddy global constants
 const
   IniFile = 'settings.ini';
 
@@ -255,6 +255,8 @@ type
       1,
       1,
       1,
+      1,
+      2,
       2,
       2,
       2,
@@ -264,8 +266,6 @@ type
       2,
       2,
       2,
-      1,
-      1,
       1,
       1) ;
     var
@@ -1411,21 +1411,23 @@ procedure TForm1.getmolarmasses(var molar_mass: array of double) ;
 begin
 
   molar_mass[0] :=  14.007 ;
-  molar_mass[1] :=  39.098 ;
+  molar_mass[1] := 14.007  ;
   molar_mass[2] :=  30.974 ;
-  molar_mass[3] :=  24.305 ;
-  molar_mass[4] :=  40.078 ;
-  molar_mass[5] :=  32.066 ;
-  molar_mass[6] :=  55.845 ;
-  molar_mass[7] :=  65.409 ;
-  molar_mass[8] :=  10.811 ;
-  molar_mass[9] :=  63.546 ;
-  molar_mass[10] := 95.94  ;
-  molar_mass[11] := 22.990  ;
+  molar_mass[3] :=  39.098 ;
+  molar_mass[4] :=  24.305 ;
+  molar_mass[5] :=  40.078 ;
+  molar_mass[6] :=  32.066 ;
+  molar_mass[7] :=  55.845 ;
+  molar_mass[8] := 54.938  ;
+  molar_mass[9] :=  65.409 ;
+  molar_mass[10] :=  10.811 ;
+  molar_mass[11] :=  63.546 ;
   molar_mass[12] := 28.086  ;
-  molar_mass[13] := 35.453  ;
-  molar_mass[14] := 54.938  ;
-  molar_mass[15] := 14.007  ;
+  molar_mass[13] := 95.94  ;
+  molar_mass[14] := 22.990  ;
+  molar_mass[15] := 35.453  ;
+
+
 
 end ;
 
@@ -1435,18 +1437,18 @@ begin
   equivalents[0] := 1 ;
   equivalents[1] := 1 ;
   equivalents[2] := 3 ;
-  equivalents[3] := 2 ;
+  equivalents[3] := 1 ;
   equivalents[4] := 2 ;
   equivalents[5] := 2 ;
   equivalents[6] := 2 ;
   equivalents[7] := 2 ;
-  equivalents[8] := 1 ;
+  equivalents[8] := 2 ;
   equivalents[9] := 2 ;
-  equivalents[10] :=2  ;
-  equivalents[11] :=1  ;
+  equivalents[10] :=1  ;
+  equivalents[11] :=2  ;
   equivalents[12] := 2  ;
   equivalents[13] := 2  ;
-  equivalents[14] := 2  ;
+  equivalents[14] := 1  ;
   equivalents[15] := 1  ;
 
 end;
@@ -2968,86 +2970,131 @@ if RadioButton13.Checked then
 
 
 
-    //check and assign any empty elements in StringGrid
-    for i := 0 to StringGrid2.RowCount - 2 do
+  //check and assign any empty elements in StringGrid
+
+  for i := 0 to StringGrid2.RowCount - 2 do
+
+  begin
+
+    if (StringGrid2.Cells[NAME_IDX,i+1]) = '' then
     begin
-        if (StringGrid2.Cells[NAME_IDX,i+1]) = '' then
-        begin
-            StringGrid2.Cells[NAME_IDX,i+1] := name_array[i][0] ;
-            StringGrid2.Cells[FORMULA_IDX,i+1] := name_array[i][1] ;
-            StringGrid2.Cells[AMOUNT_IDX,i+1] := '0' ;
-            StringGrid2.Cells[COST_IDX,i+1] := '0' ;
-        end;
+    StringGrid2.Cells[NAME_IDX,i+1] := name_array[i][0] ;
+    StringGrid2.Cells[FORMULA_IDX,i+1] := name_array[i][1] ;
+    StringGrid2.Cells[AMOUNT_IDX,i+1] := '0' ;
+    StringGrid2.Cells[COST_IDX,i+1] := '0' ;
     end;
 
-    // total cost and mix calculation
-    test := 0;
+  end;
 
-    for i := 1 to StringGrid2.RowCount - 1 do
+  // total cost and mix calculation
+  test := 0;
+
+  for i := 1 to StringGrid2.RowCount - 1 do
+  begin
+    test := StrtoFloat (StringGrid2.Cells [COST_IDX, i]) + test;
+    totalWeight := totalWeight + StrtoFloat (StringGrid2.Cells [AMOUNT_IDX, i]);
+    //// TODO: HANDLE 'Access violation.' NULLS ERROR - ORIGINAL CODE
+    //for j := 0 to 15 do
+    //    mixContribution[j] :=
+    //        mixContribution [j] + StrtoFloat (StringGrid2.Cells [AMOUNT_IDX, i]) *
+    //        all_element_contributions [j] [i - 1] * Volume;
+
+    // DONE: HANDLE 'ACCESS VIOLATION' NULLS ERROR - MODIFIED CODE
+    for j := 0 to 15 do
     begin
-        test := StrtoFloat(StringGrid2.Cells[COST_IDX,i]) + test;
-        totalWeight := totalWeight + StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i]);
-
-        // ORG CODE
-        // TODO: Fix Null Error
-        // for j:= 0 to 15 do mixContribution[j] := mixContribution[j] +
-        // StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
-
-        // DONE: Null Error Fixed
-        for j:= 0 to 15 do
-        begin
-            if (all_element_contributions <> nil) and (all_element_contributions[j][i-1] > 0) then // catch null occurence
-            begin
-                test := all_element_contributions[j][i-1];
-                mixContribution[j] := mixContribution[j] +
-                StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
-            end;
-        end;
+      if (all_element_contributions <> nil) AND
+        (all_element_contributions [j] [i - 1] > 0) then  // catch null occurence
+      begin
+        test := all_element_contributions [j] [i - 1];
+        mixContribution[j] :=
+          mixContribution [j] + StrtoFloat (StringGrid2.Cells [AMOUNT_IDX, i]) *
+          all_element_contributions [j] [i - 1] * Volume;
+      end;
     end;
 
-    for j := 1 to 16 do
+  end; // DO NOT COMMENT OUT THIS END
+
+  //// TODO: HANDLE 'Zero all targets' DIVISION BY ZERO ERROR - ORIGINAL CODE
+  //for j := 1 to 16 do
+  //begin
+  //    hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+  //        FloatToStr (round2 (100 * mixContribution [j - 1] / totalWeight, 3));
+  //    if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'K2O' then
+  //        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+  //            FloatToStr (round2 (1.2047 * 100 * mixContribution [j - 1] /
+  //            totalWeight, 3));
+  //    if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'P2O5' then
+  //        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+  //            FloatToStr (round2 (2.290 * 100 * mixContribution [j - 1] /
+  //            totalWeight, 3));
+  //end;
+
+  // DONE: HANDLE DIVISION BY ZERO ERROR - MODIFIED CODE
+  for j := 1 to 16 do
+  begin
+    if (totalWeight > 0) then // catch div by zero (all targets are zero)
     begin
-        if (totalWeight > 0) then // catch div by zero (all targets are zero)
-        begin
-            hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(100*mixContribution[j-1]/totalWeight,3));
-            if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'K2O' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(1.2047*100*mixContribution[j-1]/totalWeight,3));
-            if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'P2O5' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(2.290*100*mixContribution[j-1]/totalWeight,3));
-        end
-        else
-        begin
-            MessageDlg('Division by zero error (totalWeight) ...' + NewLine +
-                'Enter desired target concentration (ppm) values.'
-                , mtError,[mbOK],0);
-            break;
-        end;
+      hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+        FloatToStr (round2 (100 * mixContribution [j - 1] /
+        totalWeight, 3));
+      if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'K2O' then
+        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+          FloatToStr (round2 (1.2047 * 100 *
+          mixContribution [j - 1] / totalWeight, 3));
+      if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'P2O5' then
+        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+          FloatToStr (round2 (2.290 * 100 *
+          mixContribution [j - 1] / totalWeight, 3));
+    end
+    else
+    begin
+      MessageDlg ('Division by zero error (totalWeight) ...' +
+        gblCRLF + 'Enter desired target concentration (ppm) values.'
+        , mtError, [mbOK], 0);
+      break;
     end;
+  end;
 
-    if all_solids then Button19.Enabled := True;
+  if all_solids then Button19.Enabled := True;
 
-    Label18.Caption := ('Total Cost is ' + FloattoStr(round2(test, 1)));
+  Label18.Caption := ('Total Cost is ' + FloattoStr (round2 (test, 1)));
 
-    // post ratios based on results posted on listboxes above
-    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: P: K') ;
-    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N', 'P', 'K', 3)) ;
-    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: P2O5: K2O') ;
-    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N', 'P2O5', 'K2O', 3)) ;
-    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: K') ;
-    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N', 'K', 'K', 2) ) ;
-    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N (NO3-): N (NH4+)') ;
-    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N (NO3-)', 'N (NH4+)', 'K', 2) ) ;
-    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('Ca: Mg') ;
-    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('Ca', 'Mg', 'K', 2) ) ;
-    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('K: Ca') ;
-    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('K', 'Ca', 'Ca', 2) ) ;
+  // post ratios based on results posted on listboxes above
+  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
+    ('N: P: K');
+  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
+    (getratio ('N', 'P', 'K', 3));
+  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
+    ('N: P2O5: K2O');
+  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
+    (getratio ('N', 'P2O5', 'K2O', 3));
+  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
+    ('N: K');
+  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
+    (getratio ('N', 'K', 'K', 2));
+  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
+    ('N (NO3-): N (NH4+)');
+  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
+    (getratio ('N (NO3-)', 'N (NH4+)', 'K', 2));
+  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
+    ('Ca: Mg');
+  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
+    (getratio ('Ca', 'Mg', 'K', 2));
+  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
+    ('K: Ca');
+  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
+    (getratio ('K', 'Ca', 'Ca', 2));
 
-   // enable or disable stock solution analysis button
-  if RadioButton6.Checked then Button12.Enabled := True else  Button12.Enabled := False;
+  // enable or disable stock solution analysis button
+  if RadioButton6.Checked then Button12.Enabled := True
+  else
+    Button12.Enabled := False;
 
   // set water quality values
-  for j := 1 to 16 do StringGrid1.Cells[4,j] := FloatToStr(waterquality[j-1]);
+  for j := 1 to 16 do StringGrid1.Cells[4, j] := FloatToStr (waterquality [j - 1]);
 
-  if CheckBox3.Checked = false then
-  ShowMessage('Calculation carried out successfully :o)');
+  if CheckBox3.Checked = False then
+    ShowMessage ('Calculation carried out successfully :o)');
 
 end;
 
@@ -3576,97 +3623,159 @@ begin
 
 end;
 
-procedure TForm1.ComboBox3Change(Sender: TObject);
-begin
+procedure TForm1.ComboBox3Change (Sender: TObject);
+  begin
 
-end;
+  end;
 
-procedure TForm1.FormClose(Sender: TObject; var CloseAction: TCloseAction);
-var
-    Sett : TIniFile;
-    j: integer;
-begin
+
+procedure TForm1.FormClose (Sender: TObject; var CloseAction: TCloseAction);
+  var
+    Sett: TIniFile;
+    j:    integer;
+
+  begin
     //save program variable states on exit
-    Sett := TIniFile.Create(IniFile);
-    for j := 1 to 19 do Sett.WriteString('Main', 'Form1.Edit' + IntToStr(j), (FindComponent('Edit' + IntToStr(j)) as TEdit).Text);
-    for j := 1 to 16 do Sett.WriteString('Main', 'Form1.RLabel' + IntToStr(j), (FindComponent('RLabel' + IntToStr(j)) as TLabel).Caption);
-    for j := 1 to 34 do Sett.WriteString('Main', 'Form1.Label' + IntToStr(j), (FindComponent('Label' + IntToStr(j)) as TLabel).Caption);
-    for j := 1 to 15 do Sett.WriteBool('Main', 'Form1.RadioButton' + IntToStr(j), (FindComponent('RadioButton' + IntToStr(j)) as TRadioButton).Checked);
+    Sett := TIniFile.Create (IniFile);
+    // DONE: Added version number to 'settings.ini' file for tracking
+    // NOTE: loading the incorrect version of 'settings.ini' may corrupt the GUI
+    Sett.WriteString ('Version', 'Number', versionSupport.GetFileVersion (2));
 
-    Sett.WriteString('Main', 'prev_conc', prev_conc);
-    Sett.WriteString('Main', 'Form1.Label20', Label20.Caption);
-    Sett.WriteString('Main', 'Form1.Label18', Label18.Caption);
-    Sett.WriteString('Main', 'Form1.Panel6', Panel6.Caption);
-    Sett.WriteBool('Main', 'Form1.Checkbox3', Checkbox3.Checked);
-    Sett.WriteBool('Main', 'Form1.Checkbox5', Checkbox5.Checked);
-    Sett.WriteInteger('Main', 'Form1.ComboBox3', ComboBox3.ItemIndex);
-    Sett.WriteBool('Main', 'Form2.CheckBox1', hb_load_salts.Form2.Checkbox1.checked);
+    for j := 1 to 19 do Sett.WriteString ('Main', 'Form1.Edit' +
+        IntToStr (j), (FindComponent ('Edit' + IntToStr (j)) as TEdit).Text);
+    for j := 1 to 16 do Sett.WriteString ('Main', 'Form1.RLabel'+
+        IntToStr (j), (FindComponent ('RLabel'+IntToStr (j)) AS  TLabel).Caption);
+    for j := 1 to 34 do Sett.WriteString ('Main', 'Form1.Label'+
+        IntToStr (j), (FindComponent ('Label'+IntToStr (j)) AS  TLabel).Caption);
+    for j := 1 to 15 do Sett.WriteBool ('Main', 'Form1.RadioButton'+
+        IntToStr (j), (FindComponent ('RadioButton'+IntToStr (j)) AS
+        TRadioButton).Checked);
 
-    hb_comparison.Form15.StringGrid1.SavetoCSVFile('hb_comparison.csv');
-    hb_stockanalysis.Form8.StringGrid1.SavetoCSVFile('hb_stockanalysis.csv');
-    hb_persubstance.Form9.StringGrid1.SavetoCSVFile('hb_persubstance.csv');
-    hb_ratios.Form14.StringGrid1.SavetoCSVFile('hb_ratios.csv');
-    StringGrid1.SavetoCSVFile('hb_ppm_results.csv');
-    StringGrid2.SavetoCSVFile('hb_results.csv');
+    Sett.WriteString ('Main', 'prev_conc', prev_conc);
+    Sett.WriteString ('Main', 'Form1.Label20', Label20.Caption);
+    Sett.WriteString ('Main', 'Form1.Label18', Label18.Caption);
+    Sett.WriteString ('Main', 'Form1.Panel6', Panel6.Caption);
+    Sett.WriteBool ('Main', 'Form1.Checkbox3', Checkbox3.Checked);
+    Sett.WriteBool ('Main', 'Form1.Checkbox5', Checkbox5.Checked);
+    Sett.WriteInteger ('Main', 'Form1.ComboBox3', ComboBox3.ItemIndex);
+    Sett.WriteBool ('Main', 'Form2.CheckBox1',
+      hb_load_salts.Form2.Checkbox1.Checked);
 
-    if hb_comparison.Form15.StringGrid1.ColCount = 1 then  DeleteFile('hb_comparison.csv');
+    hb_comparison.Form15.StringGrid1.SavetoCSVFile ('hb_comparison.csv');
+    hb_stockanalysis.Form8.StringGrid1.SavetoCSVFile ('hb_stockanalysis.csv');
+    hb_persubstance.Form9.StringGrid1.SavetoCSVFile ('hb_persubstance.csv');
+    hb_ratios.Form14.StringGrid1.SavetoCSVFile ('hb_ratios.csv');
+    StringGrid1.SavetoCSVFile ('hb_ppm_results.csv');
+    StringGrid2.SavetoCSVFile ('hb_results.csv');
+
+    if hb_comparison.Form15.StringGrid1.ColCount = 1 then DeleteFile ('hb_comparison.csv');
     Sett.Free;
-end;
+  end;
 
 procedure TForm1.LoadValues;
-var
-    Sett : TIniFile;
-    j: integer;
-    versInfo: string;
+  var
+    Sett: TIniFile;
+    j:    Integer;
+    versInfo: String;
+    buildMode: String;
 
-begin
+  begin
     //load program variables
-    Sett := TIniFile.Create(IniFile);
-    for j := 1 to 19 do (FindComponent('Edit' + IntToStr(j)) as TEdit).Text := Sett.ReadString('Main', 'Form1.Edit' + IntToStr(j), (FindComponent('Edit' + IntToStr(j)) as TEdit).Text);
-    for j := 1 to 16 do (FindComponent('RLabel' + IntToStr(j)) as TLabel).Caption := Sett.ReadString('Main', 'Form1.RLabel' + IntToStr(j), '0');
-    for j := 1 to 34 do (FindComponent('Label' + IntToStr(j)) as TLabel).Caption := Sett.ReadString('Main', 'Form1.Label' + IntToStr(j), (FindComponent('Label' + IntToStr(j)) as TLabel).Caption);
+    Sett     := TIniFile.Create (IniFile);
+    // DONE: check settings.ini version info
+    versInfo := Sett.ReadString ('Version', 'Number', versInfo);
 
-    prev_conc := Sett.ReadString('Main', 'prev_conc', prev_conc);
-    for j := 1 to 15 do (FindComponent('RadioButton' + IntToStr(j)) as TRadioButton).Checked := Sett.ReadBool('Main', 'Form1.RadioButton' + IntToStr(j), (FindComponent('RadioButton' + IntToStr(j)) as TRadioButton).Checked);
+    if versInfo = versionSupport.GetFileVersion (2) then begin
+      for j := 1 to 19 do (FindComponent ('Edit' + IntToStr (j)) AS TEdit).Text :=
+          Sett.ReadString ('Main', 'Form1.Edit' + IntToStr (j),
+          (FindComponent ('Edit' + IntToStr (j)) AS TEdit).Text);
+      for j := 1 to 16 do (FindComponent ('RLabel'+IntToStr (j)) AS TLabel).Caption :=
+          Sett.ReadString ('Main', 'Form1.RLabel'+IntToStr (j), '0');
+      for j := 1 to 34 do (FindComponent ('Label'+IntToStr (j)) AS TLabel).Caption :=
+          Sett.ReadString ('Main', 'Form1.Label'+IntToStr (j),
+          (FindComponent ('Label'+IntToStr (j)) AS TLabel).Caption);
 
-    Label20.Caption := Sett.ReadString('Main', 'Form1.Label20', Label20.Caption);
-    Label18.Caption := Sett.ReadString('Main', 'Form1.Label18', Label18.Caption);
-    Panel6.Caption := Sett.ReadString('Main', 'Form1.Panel6', Panel6.Caption);
-    Checkbox3.Checked := Sett.ReadBool('Main', 'Form1.Checkbox3', Checkbox3.Checked);
-    Checkbox5.Checked := Sett.ReadBool('Main', 'Form1.Checkbox5', Checkbox3.Checked);
-    ComboBox3.ItemIndex := Sett.ReadInteger('Main', 'Form1.ComboBox3', ComboBox3.ItemIndex);
-    hb_load_salts.Form2.Checkbox1.checked := Sett.ReadBool('Main', 'Form2.CheckBox1', hb_load_salts.Form2.Checkbox1.checked);
+      prev_conc := Sett.ReadString ('Main', 'prev_conc', prev_conc);
+      for j := 1 to 15 do (FindComponent ('RadioButton'+IntToStr (j))
+          AS TRadioButton).Checked :=
+          Sett.ReadBool ('Main', 'Form1.RadioButton'+IntToStr (j),
+          (FindComponent ('RadioButton'+IntToStr (j)) AS TRadioButton).Checked);
 
-    if FileExists('hb_comparison.csv') then hb_comparison.Form15.StringGrid1.LoadFromCSVFile('hb_comparison.csv');
-    if FileExists('hb_stockanalysis.csv') then hb_stockanalysis.Form8.StringGrid1.LoadFromCSVFile('hb_stockanalysis.csv');
-    if FileExists('hb_persubstance.csv') then hb_persubstance.Form9.StringGrid1.LoadFromCSVFile('hb_persubstance.csv');
-    if FileExists('hb_ratios.csv') then hb_ratios.Form14.StringGrid1.LoadFromCSVFile('hb_ratios.csv');
-    if FileExists('hb_ppm_results.csv') then StringGrid1.LoadFromCSVFile('hb_ppm_results.csv');
-    if FileExists('hb_results.csv') then StringGrid2.LoadFromCSVFile('hb_results.csv');
+      Label20.Caption     := Sett.ReadString ('Main', 'Form1.Label20', Label20.Caption);
+      Label18.Caption     := Sett.ReadString ('Main', 'Form1.Label18', Label18.Caption);
+      Panel6.Caption      := Sett.ReadString ('Main', 'Form1.Panel6', Panel6.Caption);
+      Checkbox3.Checked   := Sett.ReadBool ('Main', 'Form1.Checkbox3',
+        Checkbox3.Checked);
+      Checkbox5.Checked   := Sett.ReadBool ('Main', 'Form1.Checkbox5',
+        Checkbox3.Checked);
+      ComboBox3.ItemIndex := Sett.ReadInteger ('Main', 'Form1.ComboBox3',
+        ComboBox3.ItemIndex);
+      hb_load_salts.Form2.Checkbox1.Checked :=
+        Sett.ReadBool ('Main', 'Form2.CheckBox1',
+        hb_load_salts.Form2.Checkbox1.Checked);
+
+      if FileExists ('hb_comparison.csv') then
+        hb_comparison.Form15.StringGrid1.LoadFromCSVFile ('hb_comparison.csv');
+      if FileExists ('hb_stockanalysis.csv') then
+        hb_stockanalysis.Form8.StringGrid1.LoadFromCSVFile ('hb_stockanalysis.csv');
+      if FileExists ('hb_persubstance.csv') then
+        hb_persubstance.Form9.StringGrid1.LoadFromCSVFile ('hb_persubstance.csv');
+      if FileExists ('hb_ratios.csv') then
+        hb_ratios.Form14.StringGrid1.LoadFromCSVFile ('hb_ratios.csv');
+      if FileExists ('hb_ppm_results.csv') then
+        StringGrid1.LoadFromCSVFile ('hb_ppm_results.csv');
+      if FileExists ('hb_results.csv') then
+        StringGrid2.LoadFromCSVFile ('hb_results.csv');
+    end;
+
     Sett.Free;
 
     // DONE: LoadValues add custom code here
     // Set Form1 Caption with version information
     versInfo := versionSupport.GetFileVersion;
-    Form1.Caption := 'HydroBuddy v' + versInfo + ' - Custom Build by CozyUno';
+    if versionSupport.IsReleaseMode then buildMode := ''
+    else
+      buildMode := ' (DEBUG)';
+
+    Form1.Caption := 'HydroBuddy v'+versInfo+buildMode+
+      ' - Custom Build by '+gblDev;
     // Set active tab to Main
     Form1.PageControl1.ActivePageIndex := 1;
     // Set form visibility
     Form1.Show;
 
-end;
+    // set hb_load_salts Form2 boarder style so it can be kept open and minimized
+    hb_load_salts.Form2.BorderStyle := bsSingle;
+    hb_load_salts.Form2.BorderIcons := [biSystemMenu, biMinimize] ;
 
-procedure TForm1.FormCreate(Sender: TObject);
-begin
+  end;
+
+
+procedure TForm1.FormCreate (Sender: TObject);
+  begin
+    StringGrid1.ShowHint   := True;
+    StringGrid1.OnShowHint := @GridShowHint;
     // DONE: FormCreate add custom code here
     // Set form buffering to reduce screen flicker
-    Form1.DoubleBuffered := true;
+    Form1.DoubleBuffered := True;
     Form1.Hide;
-  StringGrid1.ShowHint:=True;
-  StringGrid1.OnShowHint:=@GridShowHint;
-end;
 
-procedure TForm1.GridShowHint(Sender: TObject; HintInfo: PHintInfo);
+    // Set Form1 Location to Top, Center of Screen
+    Self.Position := poDefaultSizeOnly;
+    // this is key to changing form location
+    Self.Top      := 15; // (Screen.WorkAreaHeight - Self.Height) div 2;
+    Self.Left     := (Screen.WorkAreaWidth-Self.Width) DIV 2; // center
+
+    //MessageDlg(
+    //'Screen.Width = ' + IntToStr(Screen.Width) +
+    //' Screen.Height = ' + IntToStr(Screen.Height) +
+    //' Self.Left = ' + IntToStr(Self.Left)  +
+    //' Self.Top = ' + IntToStr(Self.Top)
+    //, mtInformation,[mbOK],0);
+   end;
+
+
+procedure TForm1.GridShowHint (Sender: TObject; HintInfo: PHintInfo);
 var
   col: integer = -1;
   row: integer = -1;
@@ -3679,6 +3788,7 @@ begin
   if col = 4 then HintInfo^.HintStr:='Source water ppm contribution';
   HintInfo^.HideTimeout:=5000; // long-lasting hint
 end;
+
 
 procedure TForm1.FormWindowStateChange(Sender: TObject);
 begin
