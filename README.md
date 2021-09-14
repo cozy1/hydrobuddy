@@ -2,7 +2,8 @@
 
 ## This custom build is maintained by CozyUno
 
-* Fixed "Access violation." null error for "Carry Out Calculations"
+* Handle "Access violation." null error for "Carry Out Calculations"
+* Handle divide by zero error from "
 * [Optimized binary executable for 32 bit Windows PC](https://github.com/cozy1/hydrobuddy/releases) (smaller and faster)
 * Customized program startup to autoselect Main tab menu
 * Customized startup screen position to top, center of screen

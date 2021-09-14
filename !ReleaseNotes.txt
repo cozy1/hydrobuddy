@@ -1,5 +1,13 @@
 HydroBuddy
 
+v1.9.6.1
+- handle potential Access violaton (null) and division by zero errors
+- added version check to 'settings.ini'
+- added developer tools to unit file VersionSupport
+- added a unit file for GlobalVariables
+- added version info to settings.ini file to avoid GUI corruption
+- Dev Note: Lazarus IDE 'Access Violation' error may occur on close when too many project files are left open in the IDE
+
 v1.9.5.2
 - Programmatically set main form caption with version information
 - Fixed divide by zero error when "Zero all targets" is followed by "Carry Out Calculations" 
@@ -8,7 +16,7 @@ v1.9.5.2
 v1.9.5.1
 - Fixed "Access violation." null error for "Carry Out Calculations" 
 - Optimized binary executable for 32 bit Windows PC (smaller and faster) 
-- Customized program startup to autoselect Main tab menu 
+- Customized program startup to auto-select Main tab menu 
 - Customized startup screen position to top, center of screen 
 - Added version information
 - Released custom build of HydroBuddy

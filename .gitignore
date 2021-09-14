@@ -2,9 +2,10 @@
 
 # My project specific folders and files (** IGNORE THESE **)
 test_data/
-bin*/
-bin.zip
+!LoadTestData.bat
+bin/
 *!BinZip.bat
+bin.zip
 *.org
 
 # Lazarus backups and unit output folders and files (safe to ignore)
@@ -33,7 +34,9 @@ units/
  .lps
 # 	Lazarus project settings file. Created by Lazarus for every new project.
  .lrs
-# 	Lazarus resource file.
+# 	Lazarus resource file
+.res
+# 	Lazarus compiled resource file.
  .compiled
 # 	FPC compilation state
  .o

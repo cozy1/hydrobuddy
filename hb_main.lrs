@@ -1,15 +1,15 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TForm1','FORMDATA',[
-  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'4'#1#6'Height'#3#163#2#3'Top'#2'I'#5'Widt'
-  +'h'#3'B'#3#18'HorzScrollBar.Page'#3'I'#3#19'HorzScrollBar.Range'#3'8'#3#18'V'
-  +'ertScrollBar.Page'#3#179#2#19'VertScrollBar.Range'#3#161#2#11'BorderIcons'
-  +#11#12'biSystemMenu'#10'biMinimize'#0#11'BorderStyle'#7#8'bsSingle'#7'Captio'
-  +'n'#6'jHydroBuddy v1.95 - Programmed and Designed by Dr. Daniel Fernandez Ph'
-  +'.D at http://scienceinhydroponics.com'#12'ClientHeight'#3#163#2#11'ClientWi'
-  +'dth'#3'B'#3#8'DragKind'#7#6'dkDock'#9'Icon.Data'#10#226'('#0#0#222'('#0#0#0
-  +#0#1#0#1#0'22'#0#0#1#0' '#0#200'('#0#0#22#0#0#0'('#0#0#0'2'#0#0#0'd'#0#0#0#1
-  +#0' '#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#236#1#6'Height'#3#163#2#3'Top'#3#163#0#5
+  +'Width'#3'B'#3#18'HorzScrollBar.Page'#3'I'#3#19'HorzScrollBar.Range'#3'8'#3
+  +#18'VertScrollBar.Page'#3#179#2#19'VertScrollBar.Range'#3#161#2#11'BorderIco'
+  +'ns'#11#12'biSystemMenu'#10'biMinimize'#0#11'BorderStyle'#7#8'bsSingle'#7'Ca'
+  +'ption'#6'iHydroBuddy v1.96- Programmed and Designed by Dr. Daniel Fernandez'
+  +' Ph.D at http://scienceinhydroponics.com'#12'ClientHeight'#3#163#2#11'Clien'
+  +'tWidth'#3'B'#3#8'DragKind'#7#6'dkDock'#9'Icon.Data'#10#226'('#0#0#222'('#0#0
+  +#0#0#1#0#1#0'22'#0#0#1#0' '#0#200'('#0#0#22#0#0#0'('#0#0#0'2'#0#0#0'd'#0#0#0
+  +#1#0' '#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
@@ -34,21 +34,21 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  +#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0#0#3#0#0#0
-  +#3#0#0#0#1#1#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0
-  +#0#0#5#0#0#0#8#0#0#0#7#0#0#0#4#2#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0#0#3#0#0
+  +#0#3#0#0#0#1#1#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2
+  +#0#0#0#5#0#0#0#8#0#0#0#7#0#0#0#4#2#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#2#1#2#0
-  +#0#0#8#11#0#10#14#13#14#13#18#4#7#4#7#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  +#0#0#0#1#0#0#0#5#0#0#0#13#4#0#4#24#18#17#17'('#13#30#13','#12#10#12#14#0#0#0
-  +#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#2#1#2
+  +#0#0#0#8#11#0#10#14#13#14#13#18#4#7#4#7#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#1#0#0#0#5#0#0#0#13#4#0#4#24#18#17#17'('#13#30#13','#12#10#12#14#0#0
+  +#0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  +#0#0#0#0#0#0#0#0#0#0#0#2#2#2#2#0#0#0#9#11#0#9#25#19'/'#20'O'#25'2'#26'O'#14
+  +#0#0#0#0#0#0#0#0#0#0#0#0#2#2#2#2#0#0#0#9#11#0#9#25#19'/'#20'O'#25'2'#26'O'#14
   +#25#14#21#0#0#0#4#0#0#0#5#0#0#0#5#0#0#0#3#0#0#0#2#0#0#0#8#0#0#0#20#17#19#17
   +'3'#14'('#15'e'#18'4'#19#153#17':'#18#160'%'#22'$'#30#0#0#0#3#0#0#0#0#0#0#0#0
   +#0#0#0#1#0#0#0#3#0#0#0#5#0#0#0#7#0#0#0#7#0#0#0#4#0#0#0#1#4#4#4#0#0#0#0#0#0#0
@@ -354,14 +354,14 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#192#0#255#255#255#255#255#255#192#0#255#255#255#255#255#255#192#0#255#255
   +#255#255#255#255#192#0#255#255#255#255#255#255#192#0#255#255#255#255#255#255
   +#192#0#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'#19'OnWindowSta'
-  +'teChange'#7#21'FormWindowStateChange'#14'ParentBiDiMode'#8#8'Position'#7#9
-  +'poDefault'#10'LCLVersion'#6#7'2.2.0.2'#7'Visible'#9#0#12'TPageControl'#12'P'
-  +'ageControl1'#4'Left'#2#0#6'Height'#3#161#2#3'Top'#2#0#5'Width'#3'B'#3#10'Ac'
-  +'tivePage'#7#9'TabSheet1'#10'ParentFont'#8#8'TabIndex'#2#1#8'TabOrder'#2#0#6
-  +'OnExit'#7#16'PageControl1Exit'#0#9'TTabSheet'#9'TabSheet4'#7'Caption'#6#7'W'
-  +'elcome'#12'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#0#12'TPageControl'
+  +'teChange'#7#21'FormWindowStateChange'#14'ParentBiDiMode'#8#8'Position'#7#15
+  +'poDesktopCenter'#10'LCLVersion'#6#7'2.2.0.2'#7'Visible'#9#0#12'TPageControl'
+  +#12'PageControl1'#4'Left'#2#0#6'Height'#3#161#2#3'Top'#2#0#5'Width'#3'B'#3#10
+  +'ActivePage'#7#9'TabSheet1'#10'ParentFont'#8#8'TabIndex'#2#1#8'TabOrder'#2#0
+  +#6'OnExit'#7#16'PageControl1Exit'#0#9'TTabSheet'#9'TabSheet4'#7'Caption'#6#7
+  +'Welcome'#12'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#0#12'TPageControl'
   +#12'PageControl2'#4'Left'#2#0#6'Height'#3#136#2#3'Top'#2#0#5'Width'#3'<'#3#10
-  +'ActivePage'#7#9'TabSheet8'#8'TabIndex'#2#3#8'TabOrder'#2#0#0#9'TTabSheet'#9
+  +'ActivePage'#7#9'TabSheet5'#8'TabIndex'#2#0#8'TabOrder'#2#0#0#9'TTabSheet'#9
   +'TabSheet5'#7'Caption'#6#12'Introduction'#12'ClientHeight'#3'l'#2#11'ClientW'
   +'idth'#3'4'#3#0#6'TImage'#6'Image1'#4'Left'#2#0#6'Height'#3's'#2#3'Top'#2#247
   +#5'Width'#3'j'#3#8'AutoSize'#9#12'Picture.Data'#10#211#137#0#0#23'TPortableN'
@@ -4475,7 +4475,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#0#244#5#144'e'#0#0#0#0#0'}'#1'd'#25#0#0#0#240#255#183'['#199#2#0#0#0#0#131
   +#252#173#167#177#163'('#130#5'-'#3#0'X'#208'2'#0#128#133#0#234'e`'#183'Go'#14
   +']'#0#0#0#0'IEND'#174'B`'#130#0#0#0#9'TTabSheet'#9'TabSheet7'#7'Caption'#6#19
-  +'Selecting Chemicals'#12'ClientHeight'#3'e'#2#11'ClientWidth'#3'6'#3#0#6'TIm'
+  +'Selecting Chemicals'#12'ClientHeight'#3'l'#2#11'ClientWidth'#3'4'#3#0#6'TIm'
   +'age'#6'Image3'#4'Left'#2#236#6'Height'#3'`'#2#3'Top'#2#0#5'Width'#3'"'#3#12
   +'Picture.Data'#10#7#8#1#0#23'TPortableNetworkGraphic'#235#7#1#0#137'PNG'#13
   +#10#26#10#0#0#0#13'IHDR'#0#0#3'7'#0#0#2'K'#8#2#0#0#0'U$'#255#131#0#0#0#9'pHY'
@@ -13124,7 +13124,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   ,#0#0#168#2#194'2'#0#0#0#0'U@X'#6#0#0#0#160#10#8#203#0#0#0#0'T'#1'a'#25#0#0#0
   +#128'* ,'#3#0#0#0'P'#5#132'e'#0#0#0#0#170#128#176#12#0#0#0'@'#21#254'?Z'#14
   +#20'M'#219#187'Y"'#0#0#0#0'IEND'#174'B`'#130#0#0#0#9'TTabSheet'#10'TabSheet1'
-  +'0'#7'Caption'#6#7'Results'#12'ClientHeight'#3'e'#2#11'ClientWidth'#3'6'#3#0
+  +'0'#7'Caption'#6#7'Results'#12'ClientHeight'#3'l'#2#11'ClientWidth'#3'4'#3#0
   +#6'TImage'#6'Image6'#4'Left'#2#4#6'Height'#3'b'#2#3'Top'#2#0#5'Width'#3#24#3
   +#12'Picture.Data'#10#230#229#0#0#23'TPortableNetworkGraphic'#202#229#0#0#137
   +'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'2'#0#0#2'K'#8#2#0#0#0#179#13'4'#199#0
@@ -15590,7 +15590,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#16#4'A'#144#241#128#31#150#222'g'#196#31'x'#232#150'!'#8#130' '#8#130'x'#2
   +#223#184#13'@'#16#4'A'#16#4'A'#0#208'-C'#16#4'A'#16#4#241#8#255#31'b'#226'4'
   +#240#3'd'#138';'#0#0#0#0'IEND'#174'B`'#130#0#0#0#9'TTabSheet'#10'TabSheet11'
-  +#7'Caption'#6#12'Formulations'#12'ClientHeight'#3'e'#2#11'ClientWidth'#3'6'#3
+  +#7'Caption'#6#12'Formulations'#12'ClientHeight'#3'l'#2#11'ClientWidth'#3'4'#3
   +#0#6'TImage'#6'Image7'#4'Left'#2#252#6'Height'#3'h'#2#3'Top'#2#0#5'Width'#3
   +' '#3#12'Picture.Data'#10#195#251#0#0#23'TPortableNetworkGraphic'#167#251#0#0
   +#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'2'#0#0#2'K'#8#2#0#0#0#179#13'4'
@@ -18302,7 +18302,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#6#0'P'#4'Y'#6#0'P'#4'Y'#6#0'P'#4'Y'#6#0'P'#4'Y'#6#0'P'#4'Y'#6#0'P'#4'Y'#6#0
   +'P'#132#127#1#13'?'#215#156#188#192#135#214#0#0#0#0'IEND'#174'B`'#130#0#0#0#9
   +'TTabSheet'#10'TabSheet13'#7'Caption'#6#19'Correct Preparation'#12'ClientHei'
-  +'ght'#3'e'#2#11'ClientWidth'#3'6'#3#0#6'TImage'#6'Image9'#4'Left'#2#4#6'Heig'
+  +'ght'#3'l'#2#11'ClientWidth'#3'4'#3#0#6'TImage'#6'Image9'#4'Left'#2#4#6'Heig'
   +'ht'#3'b'#2#3'Top'#2#0#5'Width'#3#24#3#12'Picture.Data'#10#136'_'#3#0#23'TPo'
   +'rtableNetworkGraphicl_'#3#0#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'2'#0#0
   ,#2'K'#8#2#0#0#0#179#13'4'#199#0#0#0#9'pHYs'#0#0#14#196#0#0#14#196#1#149'+'#14
@@ -27619,8 +27619,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'A'#16#4'A'#144#172#0#195'2'#4'A'#16#4'A'#144#172#0#195'2'#4'A'#16#4'A'#144
   +#172#0#195'2'#4'A'#16#4'A'#144#172#0#195'2'#4'A'#16#4'A'#144#172#224#255#3
   +#139#17#186'!'#237#28#201'U'#0#0#0#0'IEND'#174'B`'#130#0#0#0#9'TTabSheet'#10
-  +'TabSheet12'#7'Caption'#6#10'Go Ahead !'#12'ClientHeight'#3'e'#2#11'ClientWi'
-  +'dth'#3'6'#3#0#6'TImage'#6'Image8'#4'Left'#2#252#6'Height'#3'h'#2#3'Top'#2#14
+  +'TabSheet12'#7'Caption'#6#10'Go Ahead !'#12'ClientHeight'#3'l'#2#11'ClientWi'
+  +'dth'#3'4'#3#0#6'TImage'#6'Image8'#4'Left'#2#252#6'Height'#3'h'#2#3'Top'#2#14
   +#5'Width'#3#24#3#12'Picture.Data'#10'!'#201#0#0#23'TPortableNetworkGraphic'#5
   +#201#0#0#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#3'2'#0#0#2'K'#8#2#0#0#0#179
   +#13'4'#199#0#0#0#9'pHYs'#0#0#14#196#0#0#14#196#1#149'+'#14#27#0#0#0#7'tIME'#7
@@ -29776,97 +29776,97 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'on'#6#9'Main Page'#12'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#14'OnCon'
   +'textPopup'#7#21'TabSheet1ContextPopup'#14'ParentShowHint'#8#8'ShowHint'#9#0
   +#6'TLabel'#6'Label1'#4'Left'#2','#6'Height'#2#15#3'Top'#2'd'#5'Width'#2'1'#7
-  +'Caption'#6#8'N (NO3-)'#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2'V'
+  +'Caption'#6#8'N (NO3-)'#10'ParentFont'#8#0#0#6'TLabel'#6'Label4'#4'Left'#2'V'
   +#6'Height'#2#15#3'Top'#3#196#0#5'Width'#2#7#7'Caption'#6#1'K'#10'ParentFont'
-  +#8#0#0#6'TLabel'#6'Label3'#4'Left'#2'V'#6'Height'#2#15#3'Top'#3#164#0#5'Widt'
-  +'h'#2#7#7'Caption'#6#1'P'#10'ParentFont'#8#0#0#6'TLabel'#6'Label4'#4'Left'#2
+  +#8#0#0#6'TLabel'#6'Label3'#4'Left'#2'W'#6'Height'#2#15#3'Top'#3#164#0#5'Widt'
+  +'h'#2#7#7'Caption'#6#1'P'#10'ParentFont'#8#0#0#6'TLabel'#6'Label5'#4'Left'#2
   +'K'#6'Height'#2#15#3'Top'#3#228#0#5'Width'#2#18#7'Caption'#6#2'Mg'#10'Parent'
-  +'Font'#8#0#0#6'TLabel'#6'Label5'#4'Left'#2'O'#6'Height'#2#15#3'Top'#3#4#1#5
-  +'Width'#2#14#7'Caption'#6#2'Ca'#10'ParentFont'#8#0#0#6'TLabel'#6'Label6'#4'L'
+  +'Font'#8#0#0#6'TLabel'#6'Label6'#4'Left'#2'O'#6'Height'#2#15#3'Top'#3#4#1#5
+  +'Width'#2#14#7'Caption'#6#2'Ca'#10'ParentFont'#8#0#0#6'TLabel'#6'Label7'#4'L'
   +'eft'#2'W'#6'Height'#2#15#3'Top'#3'$'#1#5'Width'#2#6#7'Caption'#6#1'S'#10'Pa'
-  +'rentFont'#8#0#0#6'TLabel'#6'Label7'#4'Left'#2'Q'#6'Height'#2#15#3'Top'#3'D'
-  +#1#5'Width'#2#12#7'Caption'#6#2'Fe'#10'ParentFont'#8#0#0#6'TLabel'#6'Label8'
-  +#4'Left'#2'O'#6'Height'#2#15#3'Top'#3'd'#1#5'Width'#2#14#7'Caption'#6#2'Zn'
-  +#10'ParentFont'#8#0#0#6'TLabel'#6'Label9'#4'Left'#2'V'#6'Height'#2#15#3'Top'
-  +#3#132#1#5'Width'#2#7#7'Caption'#6#1'B'#10'ParentFont'#8#0#0#6'TLabel'#7'Lab'
-  +'el10'#4'Left'#2'N'#6'Height'#2#15#3'Top'#3#196#1#5'Width'#2#15#7'Caption'#6
-  +#2'Cu'#10'ParentFont'#8#0#0#6'TLabel'#7'Label11'#4'Left'#2'K'#6'Height'#2#15
-  +#3'Top'#3#228#1#5'Width'#2#18#7'Caption'#6#2'Mo'#10'ParentFont'#8#0#0#6'TLab'
-  +'el'#7'Label12'#4'Left'#2'N'#6'Height'#2#15#3'Top'#3#4#2#5'Width'#2#15#7'Cap'
-  +'tion'#6#2'Na'#10'ParentFont'#8#0#0#6'TLabel'#7'Label13'#4'Left'#2'T'#6'Heig'
-  +'ht'#2#15#3'Top'#3'$'#2#5'Width'#2#9#7'Caption'#6#2'Si'#10'ParentFont'#8#7'V'
-  +'isible'#8#0#0#6'TLabel'#7'Label14'#4'Left'#2'R'#6'Height'#2#15#3'Top'#3'D'#2
-  +#5'Width'#2#11#7'Caption'#6#2'Cl'#10'ParentFont'#8#0#0#6'TLabel'#7'Label33'#4
+  +'rentFont'#8#0#0#6'TLabel'#6'Label8'#4'Left'#2'Q'#6'Height'#2#15#3'Top'#3'D'
+  +#1#5'Width'#2#12#7'Caption'#6#2'Fe'#10'ParentFont'#8#0#0#6'TLabel'#7'Label10'
+  +#4'Left'#2'Q'#6'Height'#2#15#3'Top'#3#132#1#5'Width'#2#14#7'Caption'#6#2'Zn'
+  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label11'#4'Left'#2'V'#6'Height'#2#15#3'Top'
+  +#3#168#1#5'Width'#2#7#7'Caption'#6#1'B'#10'ParentFont'#8#0#0#6'TLabel'#7'Lab'
+  +'el12'#4'Left'#2'N'#6'Height'#2#15#3'Top'#3#196#1#5'Width'#2#15#7'Caption'#6
+  +#2'Cu'#10'ParentFont'#8#0#0#6'TLabel'#7'Label14'#4'Left'#2'P'#6'Height'#2#15
+  +#3'Top'#3#4#2#5'Width'#2#18#7'Caption'#6#2'Mo'#10'ParentFont'#8#0#0#6'TLabel'
+  +#7'Label15'#4'Left'#2'Q'#6'Height'#2#15#3'Top'#3'$'#2#5'Width'#2#15#7'Captio'
+  +'n'#6#2'Na'#10'ParentFont'#8#0#0#6'TLabel'#7'Label13'#4'Left'#2'R'#6'Height'
+  +#2#15#3'Top'#3#228#1#5'Width'#2#9#7'Caption'#6#2'Si'#10'ParentFont'#8#7'Visi'
+  +'ble'#8#0#0#6'TLabel'#7'Label16'#4'Left'#2'R'#6'Height'#2#15#3'Top'#3'D'#2#5
+  +'Width'#2#11#7'Caption'#6#2'Cl'#10'ParentFont'#8#0#0#6'TLabel'#7'Label33'#4
   +'Left'#2'6'#6'Height'#2#15#3'Top'#2'('#5'Width'#2'+'#7'Caption'#6#7'Element'
   +#10'ParentFont'#8#0#0#6'TLabel'#7'Label26'#4'Left'#3#140#0#6'Height'#2#15#3
   +'Top'#2'('#5'Width'#2'%'#7'Caption'#6#7'Target '#10'ParentFont'#8#0#0#6'TLab'
   +'el'#7'RLabel1'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#2'd'#5'Width'#2#6#7'Ca'
   +'ption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel3'#4'Left'#3#254#0#6'H'
   +'eight'#2#15#3'Top'#3#164#0#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0
-  +#0#6'TLabel'#7'RLabel2'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#196#0#5'Widt'
-  +'h'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel4'#4'Left'#3
+  +#0#6'TLabel'#7'RLabel4'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#196#0#5'Widt'
+  +'h'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel5'#4'Left'#3
   +#254#0#6'Height'#2#15#3'Top'#3#228#0#5'Width'#2#6#7'Caption'#6#1'0'#10'Paren'
-  +'tFont'#8#0#0#6'TLabel'#7'RLabel5'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#4
-  +#1#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel6'#4
+  +'tFont'#8#0#0#6'TLabel'#7'RLabel6'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#4
+  +#1#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel7'#4
   +'Left'#3#254#0#6'Height'#2#15#3'Top'#3'$'#1#5'Width'#2#6#7'Caption'#6#1'0'#10
-  +'ParentFont'#8#0#0#6'TLabel'#7'RLabel7'#4'Left'#3#254#0#6'Height'#2#15#3'Top'
+  +'ParentFont'#8#0#0#6'TLabel'#7'RLabel8'#4'Left'#3#254#0#6'Height'#2#15#3'Top'
   +#3'D'#1#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'RLab'
-  +'el8'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3'd'#1#5'Width'#2#6#7'Caption'#6
-  +#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel9'#4'Left'#3#254#0#6'Height'#2
+  +'el9'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3'd'#1#5'Width'#2#6#7'Caption'#6
+  +#1'0'#10'ParentFont'#8#0#0#6'TLabel'#8'RLabel10'#4'Left'#3#254#0#6'Height'#2
   +#15#3'Top'#3#132#1#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLa'
-  +'bel'#8'RLabel10'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#196#1#5'Width'#2#6
-  +#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#8'RLabel11'#4'Left'#3#254#0
+  +'bel'#8'RLabel12'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#196#1#5'Width'#2#6
+  +#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#8'RLabel13'#4'Left'#3#254#0
   +#6'Height'#2#15#3'Top'#3#228#1#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'
-  +#8#0#0#6'TLabel'#8'RLabel12'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#4#2#5'W'
-  +'idth'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#8'RLabel13'#4'Le'
+  +#8#0#0#6'TLabel'#8'RLabel14'#4'Left'#3#254#0#6'Height'#2#15#3'Top'#3#4#2#5'W'
+  +'idth'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#8'RLabel15'#4'Le'
   +'ft'#3#254#0#6'Height'#2#15#3'Top'#3'$'#2#5'Width'#2#6#7'Caption'#6#1'0'#10
-  +'ParentFont'#8#0#0#6'TLabel'#8'RLabel14'#4'Left'#3#254#0#6'Height'#2#15#3'To'
+  +'ParentFont'#8#0#0#6'TLabel'#8'RLabel16'#4'Left'#3#254#0#6'Height'#2#15#3'To'
   +'p'#3'D'#2#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7'L'
   +'abel27'#4'Left'#3#244#0#6'Height'#2#15#3'Top'#2'('#5'Width'#2' '#7'Caption'
   +#6#6'Result'#10'ParentFont'#8#0#0#6'TLabel'#7'Label29'#4'Left'#3#140#0#6'Hei'
   +'ght'#2#15#3'Top'#2'<'#5'Width'#2'C'#7'Caption'#6#11'Conc. (ppm)'#10'ParentF'
   ,'ont'#8#0#0#6'TLabel'#7'Label32'#4'Left'#3#243#0#6'Height'#2#15#3'Top'#2'<'#5
-  +'Width'#2'!'#7'Caption'#6#5'(ppm)'#10'ParentFont'#8#0#0#6'TLabel'#7'Label15'
-  +#4'Left'#2'K'#6'Height'#2#15#3'Top'#3#164#1#5'Width'#2#18#7'Caption'#6#2'Mn'
-  +#10'ParentFont'#8#0#0#6'TLabel'#8'RLabel15'#4'Left'#3#254#0#6'Height'#2#15#3
-  +'Top'#3#164#1#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#7
-  +'Label16'#4'Left'#2','#6'Height'#2#15#3'Top'#3#132#0#5'Width'#2'4'#7'Caption'
-  +#6#8'N (NH4+)'#10'ParentFont'#8#0#0#6'TLabel'#8'RLabel16'#4'Left'#3#254#0#6
-  +'Height'#2#15#3'Top'#3#132#0#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8
-  +#0#0#5'TEdit'#5'Edit1'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#2'`'#5'Width'#2
-  +'X'#10'ParentFont'#8#8'TabOrder'#2#0#4'Text'#6#3'260'#0#0#5'TEdit'#5'Edit3'#4
-  +'Left'#3#132#0#6'Height'#2#23#3'Top'#3#160#0#5'Width'#2'X'#10'ParentFont'#8#8
-  +'TabOrder'#2#2#4'Text'#6#2'31'#0#0#5'TEdit'#5'Edit2'#4'Left'#3#132#0#6'Heigh'
+  +'Width'#2'!'#7'Caption'#6#5'(ppm)'#10'ParentFont'#8#0#0#6'TLabel'#6'Label9'#4
+  +'Left'#2'H'#6'Height'#2#15#3'Top'#3'd'#1#5'Width'#2#18#7'Caption'#6#2'Mn'#10
+  +'ParentFont'#8#0#0#6'TLabel'#8'RLabel11'#4'Left'#3#254#0#6'Height'#2#15#3'To'
+  +'p'#3#164#1#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0#0#6'TLabel'#6
+  +'Label2'#4'Left'#2','#6'Height'#2#15#3'Top'#3#132#0#5'Width'#2'4'#7'Caption'
+  +#6#8'N (NH4+)'#10'ParentFont'#8#0#0#6'TLabel'#7'RLabel2'#4'Left'#3#254#0#6'H'
+  +'eight'#2#15#3'Top'#3#132#0#5'Width'#2#6#7'Caption'#6#1'0'#10'ParentFont'#8#0
+  +#0#5'TEdit'#5'Edit1'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#2'`'#5'Width'#2'X'
+  +#10'ParentFont'#8#8'TabOrder'#2#0#4'Text'#6#3'210'#0#0#5'TEdit'#5'Edit3'#4'L'
+  +'eft'#3#132#0#6'Height'#2#23#3'Top'#3#160#0#5'Width'#2'X'#10'ParentFont'#8#8
+  +'TabOrder'#2#2#4'Text'#6#2'31'#0#0#5'TEdit'#5'Edit4'#4'Left'#3#132#0#6'Heigh'
   +'t'#2#23#3'Top'#3#192#0#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#3#4'Tex'
-  +'t'#6#3'235'#0#0#5'TEdit'#5'Edit4'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3
+  +'t'#6#3'235'#0#0#5'TEdit'#5'Edit5'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3
   +#224#0#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#4#4'Text'#6#2'48'#0#0#5
-  +'TEdit'#5'Edit5'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#0#1#5'Width'#2'X'#10
-  +'ParentFont'#8#8'TabOrder'#2#5#4'Text'#6#3'200'#0#0#5'TEdit'#5'Edit6'#4'Left'
+  +'TEdit'#5'Edit6'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#0#1#5'Width'#2'X'#10
+  +'ParentFont'#8#8'TabOrder'#2#5#4'Text'#6#3'200'#0#0#5'TEdit'#5'Edit7'#4'Left'
   +#3#132#0#6'Height'#2#23#3'Top'#3' '#1#5'Width'#2'X'#10'ParentFont'#8#8'TabOr'
-  +'der'#2#6#4'Text'#6#2'64'#0#0#5'TEdit'#5'Edit7'#4'Left'#3#132#0#6'Height'#2
+  +'der'#2#6#4'Text'#6#2'64'#0#0#5'TEdit'#5'Edit8'#4'Left'#3#132#0#6'Height'#2
   +#23#3'Top'#3'@'#1#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#7#4'Text'#6#3
-  +'2.5'#0#0#5'TEdit'#5'Edit8'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3'`'#1#5'W'
-  +'idth'#2'X'#10'ParentFont'#8#8'TabOrder'#2#8#4'Text'#6#4'0.05'#0#0#5'TEdit'#5
-  +'Edit9'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#128#1#5'Width'#2'X'#10'Paren'
-  +'tFont'#8#8'TabOrder'#2#9#4'Text'#6#3'0.5'#0#0#5'TEdit'#6'Edit10'#4'Left'#3
+  +'2.9'#0#0#5'TEdit'#5'Edit9'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3'`'#1#5'W'
+  +'idth'#2'X'#10'ParentFont'#8#8'TabOrder'#2#8#4'Text'#6#3'0.5'#0#0#5'TEdit'#6
+  +'Edit10'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#128#1#5'Width'#2'X'#10'Pare'
+  +'ntFont'#8#8'TabOrder'#2#9#4'Text'#6#4'0.05'#0#0#5'TEdit'#6'Edit12'#4'Left'#3
   +#132#0#6'Height'#2#23#3'Top'#3#192#1#5'Width'#2'X'#10'ParentFont'#8#8'TabOrd'
-  +'er'#2#11#4'Text'#6#4'0.02'#0#0#5'TEdit'#6'Edit11'#4'Left'#3#132#0#6'Height'
+  +'er'#2#11#4'Text'#6#4'0.02'#0#0#5'TEdit'#6'Edit13'#4'Left'#3#132#0#6'Height'
   +#2#23#3'Top'#3#224#1#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#12#4'Text'
-  +#6#4'0.01'#0#0#5'TEdit'#6'Edit12'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#0#2
-  +#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#13#4'Text'#6#1'0'#0#0#5'TEdit'
-  +#6'Edit13'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3' '#2#5'Width'#2'X'#10'Par'
-  +'entFont'#8#8'TabOrder'#2#14#4'Text'#6#1'0'#0#0#5'TEdit'#6'Edit14'#4'Left'#3
-  +#132#0#6'Height'#2#23#3'Top'#3'@'#2#5'Width'#2'X'#10'ParentFont'#8#8'TabOrde'
-  +'r'#2#15#4'Text'#6#1'0'#0#0#6'TPanel'#6'Panel1'#4'Left'#3'8'#1#6'Height'#2'f'
-  +#3'Top'#3#4#2#5'Width'#3#225#1#12'ClientHeight'#2'f'#11'ClientWidth'#3#225#1
-  +#10'ParentFont'#8#8'TabOrder'#2#16#0#6'TLabel'#7'Label31'#4'Left'#2#23#6'Hei'
-  +'ght'#2#15#3'Top'#2#8#5'Width'#2'Y'#7'Caption'#6#16'Calculation Type'#0#0#12
-  +'TRadioButton'#12'RadioButton4'#4'Left'#2#24#6'Height'#2#19#3'Top'#2'('#5'Wi'
-  +'dth'#3#174#0#7'Caption'#6#28'Input Desired Concentrations'#7'Checked'#9#8'O'
-  +'nChange'#7#18'RadioButton4Change'#8'TabOrder'#2#1#7'TabStop'#9#0#0#12'TRadi'
-  +'oButton'#12'RadioButton5'#4'Left'#2#24#6'Height'#2#19#3'Top'#2'@'#5'Width'#3
-  +#179#0#7'Caption'#6#28'Concentrations from  Weights'#8'OnChange'#7#18'RadioB'
-  +'utton5Change'#8'TabOrder'#2#0#0#0#7'TButton'#8'Button10'#4'Left'#3#248#0#6
+  +#6#3'0.0'#0#0#5'TEdit'#6'Edit14'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#0#2
+  +#5'Width'#2'X'#10'ParentFont'#8#8'TabOrder'#2#13#4'Text'#6#4'0.05'#0#0#5'TEd'
+  +'it'#6'Edit15'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3' '#2#5'Width'#2'X'#10
+  +'ParentFont'#8#8'TabOrder'#2#14#4'Text'#6#1'0'#0#0#5'TEdit'#6'Edit16'#4'Left'
+  +#3#132#0#6'Height'#2#23#3'Top'#3'@'#2#5'Width'#2'X'#10'ParentFont'#8#8'TabOr'
+  +'der'#2#15#4'Text'#6#1'0'#0#0#6'TPanel'#6'Panel1'#4'Left'#3'8'#1#6'Height'#2
+  +'f'#3'Top'#3#4#2#5'Width'#3#225#1#12'ClientHeight'#2'f'#11'ClientWidth'#3#225
+  +#1#10'ParentFont'#8#8'TabOrder'#2#16#0#6'TLabel'#7'Label31'#4'Left'#2#23#6'H'
+  +'eight'#2#15#3'Top'#2#8#5'Width'#2'Y'#7'Caption'#6#16'Calculation Type'#0#0
+  +#12'TRadioButton'#12'RadioButton4'#4'Left'#2#24#6'Height'#2#19#3'Top'#2'('#5
+  +'Width'#3#174#0#7'Caption'#6#28'Input Desired Concentrations'#7'Checked'#9#8
+  +'OnChange'#7#18'RadioButton4Change'#8'TabOrder'#2#1#7'TabStop'#9#0#0#12'TRad'
+  +'ioButton'#12'RadioButton5'#4'Left'#2#24#6'Height'#2#19#3'Top'#2'@'#5'Width'
+  +#3#179#0#7'Caption'#6#28'Concentrations from  Weights'#8'OnChange'#7#18'Radi'
+  +'oButton5Change'#8'TabOrder'#2#0#0#0#7'TButton'#8'Button10'#4'Left'#3#248#0#6
   +'Height'#2#25#4'Hint'#6'zCopy weights resulting from a formulation calculati'
   +'on to the database (to use within a weights to formulation calculation)'#3
   +'Top'#2'@'#5'Width'#3#198#0#7'Caption'#6#25'Copy Weight Results to DB'#7'Ena'
@@ -30017,91 +30017,91 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'RadioButton3'#4'Left'#2#31#6'Height'#2#19#4'Hint'#6'FChanges volume input t'
   +'o cubic meters ( one cubic meter is 1000 Liters)'#3'Top'#2'P'#5'Width'#2'Z'
   +#7'Caption'#6#12'Cubic Meters'#8'OnChange'#7#18'RadioButton3Change'#8'TabOrd'
-  ,'er'#2#3#0#0#0#7'TButton'#7'Button5'#4'Left'#3#224#1#6'Height'#2#25#3'Top'#2
+  ,'er'#2#3#0#0#0#7'TButton'#7'Button5'#4'Left'#3#206#1#6'Height'#2#25#3'Top'#2
   +#7#5'Width'#2'X'#7'Caption'#6#9'Create DB'#7'Enabled'#8#7'OnClick'#7#12'Butt'
   +'on5Click'#10'ParentFont'#8#8'TabOrder'#2#19#7'Visible'#8#0#0#5'TEdit'#6'Edi'
-  +'t15'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#160#1#5'Width'#2'X'#10'ParentF'
+  +'t11'#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#160#1#5'Width'#2'X'#10'ParentF'
   +'ont'#8#8'TabOrder'#2#10#4'Text'#6#3'0.5'#0#0#7'TButton'#7'Button3'#4'Left'#3
   +'x'#1#6'Height'#2#25#3'Top'#2#7#5'Width'#2'['#7'Caption'#6#12'Add Field DB'#7
   +'Enabled'#8#7'OnClick'#7#12'Button3Click'#10'ParentFont'#8#8'TabOrder'#2#20#7
-  +'Visible'#8#0#0#9'TCheckBox'#9'CheckBox1'#4'Left'#3#192#0#6'Height'#2#19#3'T'
-  +'op'#2#8#5'Width'#2'I'#7'Caption'#6#9'Enable DB'#8'OnChange'#7#15'CheckBox1C'
-  +'hange'#10'ParentFont'#8#8'TabOrder'#2#21#7'Visible'#8#0#0#5'TEdit'#6'Edit16'
-  +#4'Left'#3#132#0#6'Height'#2#23#3'Top'#3#128#0#5'Width'#2'X'#10'ParentFont'#8
-  +#8'TabOrder'#2#1#4'Text'#6#1'0'#0#0#6'TPanel'#6'Panel4'#4'Left'#3#128#2#6'He'
-  +'ight'#2'H'#3'Top'#3#24#1#5'Width'#3#153#0#12'ClientHeight'#2'H'#11'ClientWi'
-  +'dth'#3#153#0#10'ParentFont'#8#8'TabOrder'#2#22#0#6'TLabel'#7'Label19'#4'Lef'
-  +'t'#2')'#6'Height'#2#15#3'Top'#2#8#5'Width'#2'9'#7'Caption'#6#10'Mass Units'
-  +#0#0#12'TRadioButton'#12'RadioButton8'#4'Left'#2#8#6'Height'#2#19#4'Hint'#6
-  +'/Sets the weight outputs of the program to grams'#3'Top'#2' '#5'Width'#2'6'
-  +#7'Caption'#6#5'Grams'#7'Checked'#9#8'OnChange'#7#18'RadioButton8Change'#8'T'
-  +'abOrder'#2#0#7'TabStop'#9#0#0#12'TRadioButton'#12'RadioButton9'#4'Left'#2'G'
-  +#6'Height'#2#19#4'Hint'#6'0Sets the weight outputs of the program to ounces'
-  +#3'Top'#2' '#5'Width'#2'<'#7'Caption'#6#6'Ounces'#8'OnChange'#7#18'RadioButt'
-  +'on9Change'#8'TabOrder'#2#1#0#0#0#6'TPanel'#6'Panel5'#4'Left'#3'8'#1#6'Heigh'
-  +'t'#3#176#0#3'Top'#2'a'#5'Width'#3#225#1#12'ClientHeight'#3#176#0#11'ClientW'
-  +'idth'#3#225#1#10'ParentFont'#8#8'TabOrder'#2#23#0#7'TButton'#7'Button7'#4'L'
-  +'eft'#3#222#0#6'Height'#2#25#3'Top'#2'8'#5'Width'#3#246#0#7'Caption'#6#18'Su'
-  +'bstance Analysis'#7'OnClick'#7#12'Button7Click'#8'TabOrder'#2#0#0#0#7'TButt'
-  +'on'#7'Button8'#4'Left'#3#222#0#6'Height'#2#24#4'Hint'#6'BClick this button '
-  +'to open up the Water Quality parameters dialogue'#3'Top'#2'd'#5'Width'#3#246
-  +#0#7'Caption'#6#28'Set Water Quality Parameters'#7'OnClick'#7#12'Button8Clic'
-  +'k'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button4'#4'Left'#2#15#6'Height'#2#25#4
-  +'Hint'#6'LSaves the current concentration inputs as a formulations within th'
-  +'e database'#3'Top'#2'N'#5'Width'#3#190#0#7'Caption'#6#21'Add Formulation to'
-  +' DB'#7'OnClick'#7#12'Button4Click'#8'OnResize'#7#13'Button4Resize'#8'TabOrd'
-  +'er'#2#2#0#0#7'TButton'#7'Button6'#4'Left'#2#15#6'Height'#2#25#4'Hint'#6'2De'
-  +'letes the selected formulation from the database'#3'Top'#2'.'#5'Width'#3#190
-  +#0#7'Caption'#6#26'Delete Formulation From DB'#7'OnClick'#7#12'Button6Click'
-  +#8'TabOrder'#2#3#0#0#9'TComboBox'#9'ComboBox1'#4'Left'#2#15#6'Height'#2#23#3
-  +'Top'#3#142#0#5'Width'#3#190#0#10'ItemHeight'#2#15#8'OnSelect'#7#15'ComboBox'
-  +'1Select'#6'Sorted'#9#8'TabOrder'#2#4#4'Text'#6#26'Select formulation from D'
-  +'B'#0#0#7'TButton'#7'Button9'#4'Left'#3#222#0#6'Height'#2#25#4'Hint'#6'GClic'
-  +'k this button to open up the instrument precision settings dialogue'#3'Top'
-  +#3#142#0#5'Width'#3#246#0#7'Caption'#6#31'Set Instrument Precision Values'#7
-  +'OnClick'#7#12'Button9Click'#8'TabOrder'#2#5#0#0#7'TButton'#7'Button1'#4'Lef'
-  +'t'#3#222#0#6'Height'#2#24#4'Hint'#6'=Select the substances which will be us'
-  +'ed for the calculations'#3'Top'#2#15#5'Width'#3#246#0#7'Caption'#6#19'Subst'
-  +'ance Selection'#5'Color'#7#16'clInactiveBorder'#10'Font.Style'#11#6'fsBold'
-  +#0#7'OnClick'#7#12'Button1Click'#10'ParentFont'#8#14'ParentShowHint'#8#8'Sho'
-  +'wHint'#9#8'TabOrder'#2#6#0#0#5'TEdit'#6'Edit19'#4'Left'#2#15#6'Height'#2#23
-  +#4'Hint'#6'4Write the name you want the formulation to have here'#3'Top'#2#16
-  +#5'Width'#3#190#0#8'TabOrder'#2#8#4'Text'#6#27'Input Formulation Name Here'#0
-  +#0#7'TButton'#8'Button18'#4'Left'#2#15#6'Height'#2#25#3'Top'#2'n'#5'Width'#3
-  +#190#0#7'Caption'#6#29'Set current values to default'#7'OnClick'#7#13'Button'
-  +'18Click'#8'TabOrder'#2#7#0#0#0#9'TCheckBox'#9'CheckBox3'#4'Left'#3'0'#2#6'H'
-  +'eight'#2#19#4'Hint'#6'[Checking this box will cause all calculation-related'
-  +' informative pop-ups to be switched off'#3'Top'#2'I'#5'Width'#2'j'#7'Captio'
-  +'n'#6#15'Disable Pop-ups'#8'OnChange'#7#15'CheckBox3Change'#10'ParentFont'#8
-  +#8'TabOrder'#2#24#0#0#9'TCheckBox'#9'CheckBox5'#4'Left'#3#174#2#6'Height'#2
-  +#19#4'Hint'#6'OWhen checked the program will be started on a small window (g'
-  +'reat for netbooks)'#3'Top'#2'I'#5'Width'#2'`'#7'Caption'#6#12'Small Window'
-  +#8'OnChange'#7#15'CheckBox5Change'#8'TabOrder'#2#25#0#0#6'TPanel'#6'Panel8'#4
-  +'Left'#3#252#1#6'Height'#2'p'#3'Top'#3#24#1#5'Width'#2'x'#12'ClientHeight'#2
-  +'p'#11'ClientWidth'#2'x'#8'TabOrder'#2#26#0#6'TLabel'#7'Label34'#4'Left'#2#0
-  +#6'Height'#2#15#3'Top'#2#8#5'Width'#2'j'#7'Caption'#6#19'Concentration Units'
-  +#0#0#12'TRadioButton'#13'RadioButton10'#4'Left'#2#8#6'Height'#2#19#3'Top'#2
-  ,'('#5'Width'#2'-'#7'Caption'#6#3'ppm'#7'Checked'#9#8'OnChange'#7#19'RadioBut'
-  +'ton10Change'#8'TabOrder'#2#3#7'TabStop'#9#0#0#12'TRadioButton'#13'RadioButt'
-  +'on11'#4'Left'#2#8#6'Height'#2#19#3'Top'#2'H'#5'Width'#2#31#7'Caption'#6#1'M'
-  +#8'OnChange'#7#19'RadioButton11Change'#8'TabOrder'#2#0#0#0#12'TRadioButton'
-  +#13'RadioButton12'#4'Left'#2'@'#6'Height'#2#19#3'Top'#2'('#5'Width'#2'*'#7'C'
-  +'aption'#6#2'mM'#8'OnChange'#7#19'RadioButton12Change'#8'TabOrder'#2#1#0#0#12
-  +'TRadioButton'#13'RadioButton13'#4'Left'#2'@'#6'Height'#2#19#3'Top'#2'H'#5'W'
-  +'idth'#2'('#7'Caption'#6#2'mN'#8'OnChange'#7#19'RadioButton13Change'#8'TabOr'
-  +'der'#2#2#0#0#0#7'TButton'#8'Button23'#4'Left'#3'H'#2#6'Height'#2#25#3'Top'#2
-  +#8#5'Width'#2'K'#7'Caption'#6#11'Add field S'#7'OnClick'#7#13'Button23Click'
-  +#8'TabOrder'#2#27#7'Visible'#8#0#0#7'TButton'#8'Button24'#4'Left'#3' '#1#6'H'
-  +'eight'#2#25#3'Top'#2#7#5'Width'#2'K'#7'Caption'#6#9'SetValues'#7'OnClick'#7
-  +#13'Button24Click'#8'TabOrder'#2#28#7'Visible'#8#0#0#9'TComboBox'#9'ComboBox'
-  +'3'#4'Left'#2'0'#6'Height'#2#23#3'Top'#3' '#2#5'Width'#2'5'#10'ItemHeight'#2
-  +#15#9'ItemIndex'#2#0#13'Items.Strings'#1#6#2'Si'#6#4'SiO2'#0#5'Style'#7#14'c'
-  +'sDropDownList'#8'TabOrder'#2#29#4'Text'#6#2'Si'#0#0#7'TBitBtn'#8'Button26'#4
-  +'Left'#3#209#2#6'Height'#2'('#3'Top'#2#23#5'Width'#2'L'#10'Glyph.Data'#10'B'
-  +#30#0#0'>'#30#0#0'BM>'#30#0#0#0#0#0#0'6'#0#0#0'('#0#0#0'>'#0#0#0#31#0#0#0#1#0
-  +' '#0#0#0#0#0#8#30#0#0'd'#0#0#0'd'#0#0#0#0#0#0#0#0#0#0#0#255#255#255#255#255
-  +#255#255#255#245#251#255#255#255#255#255#255#0#153#255#255#0#153#255#255#0
-  +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
+  +'Visible'#8#0#0#9'TCheckBox'#9'CheckBox1'#4'Left'#2'\'#6'Height'#2#19#3'Top'
+  +#2#7#5'Width'#2'I'#7'Caption'#6#9'Enable DB'#8'OnChange'#7#15'CheckBox1Chang'
+  +'e'#10'ParentFont'#8#8'TabOrder'#2#21#7'Visible'#8#0#0#5'TEdit'#5'Edit2'#4'L'
+  +'eft'#3#132#0#6'Height'#2#23#3'Top'#3#128#0#5'Width'#2'X'#10'ParentFont'#8#8
+  +'TabOrder'#2#1#4'Text'#6#1'0'#0#0#6'TPanel'#6'Panel4'#4'Left'#3#128#2#6'Heig'
+  +'ht'#2'H'#3'Top'#3#24#1#5'Width'#3#153#0#12'ClientHeight'#2'H'#11'ClientWidt'
+  +'h'#3#153#0#10'ParentFont'#8#8'TabOrder'#2#22#0#6'TLabel'#7'Label19'#4'Left'
+  +#2')'#6'Height'#2#15#3'Top'#2#8#5'Width'#2'9'#7'Caption'#6#10'Mass Units'#0#0
+  +#12'TRadioButton'#12'RadioButton8'#4'Left'#2#8#6'Height'#2#19#4'Hint'#6'/Set'
+  +'s the weight outputs of the program to grams'#3'Top'#2' '#5'Width'#2'6'#7'C'
+  +'aption'#6#5'Grams'#7'Checked'#9#8'OnChange'#7#18'RadioButton8Change'#8'TabO'
+  +'rder'#2#0#7'TabStop'#9#0#0#12'TRadioButton'#12'RadioButton9'#4'Left'#2'G'#6
+  +'Height'#2#19#4'Hint'#6'0Sets the weight outputs of the program to ounces'#3
+  +'Top'#2' '#5'Width'#2'<'#7'Caption'#6#6'Ounces'#8'OnChange'#7#18'RadioButton'
+  +'9Change'#8'TabOrder'#2#1#0#0#0#6'TPanel'#6'Panel5'#4'Left'#3'8'#1#6'Height'
+  +#3#176#0#3'Top'#2'`'#5'Width'#3#225#1#12'ClientHeight'#3#176#0#11'ClientWidt'
+  +'h'#3#225#1#10'ParentFont'#8#8'TabOrder'#2#23#0#7'TButton'#7'Button7'#4'Left'
+  +#3#222#0#6'Height'#2#25#3'Top'#2'8'#5'Width'#3#246#0#7'Caption'#6#18'Substan'
+  +'ce Analysis'#7'OnClick'#7#12'Button7Click'#8'TabOrder'#2#0#0#0#7'TButton'#7
+  +'Button8'#4'Left'#3#222#0#6'Height'#2#24#4'Hint'#6'BClick this button to ope'
+  +'n up the Water Quality parameters dialogue'#3'Top'#2'd'#5'Width'#3#246#0#7
+  +'Caption'#6#28'Set Water Quality Parameters'#7'OnClick'#7#12'Button8Click'#8
+  +'TabOrder'#2#1#0#0#7'TButton'#7'Button4'#4'Left'#2#15#6'Height'#2#25#4'Hint'
+  +#6'LSaves the current concentration inputs as a formulations within the data'
+  +'base'#3'Top'#2'N'#5'Width'#3#190#0#7'Caption'#6#21'Add Formulation to DB'#7
+  +'OnClick'#7#12'Button4Click'#8'OnResize'#7#13'Button4Resize'#8'TabOrder'#2#2
+  +#0#0#7'TButton'#7'Button6'#4'Left'#2#15#6'Height'#2#25#4'Hint'#6'2Deletes th'
+  +'e selected formulation from the database'#3'Top'#2'.'#5'Width'#3#190#0#7'Ca'
+  +'ption'#6#26'Delete Formulation From DB'#7'OnClick'#7#12'Button6Click'#8'Tab'
+  +'Order'#2#3#0#0#9'TComboBox'#9'ComboBox1'#4'Left'#2#15#6'Height'#2#23#3'Top'
+  +#3#142#0#5'Width'#3#190#0#10'ItemHeight'#2#15#8'OnChange'#7#15'ComboBox1Chan'
+  +'ge'#8'OnSelect'#7#15'ComboBox1Select'#6'Sorted'#9#8'TabOrder'#2#4#4'Text'#6
+  +#26'Select formulation from DB'#0#0#7'TButton'#7'Button9'#4'Left'#3#222#0#6
+  +'Height'#2#25#4'Hint'#6'GClick this button to open up the instrument precisi'
+  +'on settings dialogue'#3'Top'#3#142#0#5'Width'#3#246#0#7'Caption'#6#31'Set I'
+  +'nstrument Precision Values'#7'OnClick'#7#12'Button9Click'#8'TabOrder'#2#5#0
+  +#0#7'TButton'#7'Button1'#4'Left'#3#224#0#6'Height'#2#24#4'Hint'#6'=Select th'
+  +'e substances which will be used for the calculations'#3'Top'#2#16#5'Width'#3
+  +#246#0#7'Caption'#6#19'Substance Selection'#5'Color'#7#16'clInactiveBorder'
+  +#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#12'Button1Click'#10'ParentFont'#8
+  +#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#5'TEdit'#6'Edit19'#4
+  +'Left'#2#15#6'Height'#2#23#4'Hint'#6'4Write the name you want the formulatio'
+  +'n to have here'#3'Top'#2#16#5'Width'#3#190#0#8'TabOrder'#2#8#4'Text'#6#27'I'
+  +'nput Formulation Name Here'#0#0#7'TButton'#8'Button18'#4'Left'#2#15#6'Heigh'
+  +'t'#2#25#3'Top'#2'n'#5'Width'#3#190#0#7'Caption'#6#29'Set current values to '
+  +'default'#7'OnClick'#7#13'Button18Click'#8'TabOrder'#2#7#0#0#0#9'TCheckBox'#9
+  +'CheckBox3'#4'Left'#3'0'#2#6'Height'#2#19#4'Hint'#6'[Checking this box will '
+  +'cause all calculation-related informative pop-ups to be switched off'#3'Top'
+  +#2'I'#5'Width'#2'j'#7'Caption'#6#15'Disable Pop-ups'#8'OnChange'#7#15'CheckB'
+  +'ox3Change'#10'ParentFont'#8#8'TabOrder'#2#24#0#0#9'TCheckBox'#9'CheckBox5'#4
+  +'Left'#3#174#2#6'Height'#2#19#4'Hint'#6'OWhen checked the program will be st'
+  +'arted on a small window (great for netbooks)'#3'Top'#2'I'#5'Width'#2'`'#7'C'
+  +'aption'#6#12'Small Window'#8'OnChange'#7#15'CheckBox5Change'#8'TabOrder'#2
+  +#25#0#0#6'TPanel'#6'Panel8'#4'Left'#3#252#1#6'Height'#2'p'#3'Top'#3#24#1#5'W'
+  +'idth'#2'x'#12'ClientHeight'#2'p'#11'ClientWidth'#2'x'#8'TabOrder'#2#26#0#6
+  +'TLabel'#7'Label34'#4'Left'#2#0#6'Height'#2#15#3'Top'#2#8#5'Width'#2'j'#7'Ca'
+  +'ption'#6#19'Concentration Units'#0#0#12'TRadioButton'#13'RadioButton10'#4'L'
+  ,'eft'#2#8#6'Height'#2#19#3'Top'#2'('#5'Width'#2'-'#7'Caption'#6#3'ppm'#7'Che'
+  +'cked'#9#8'OnChange'#7#19'RadioButton10Change'#8'TabOrder'#2#3#7'TabStop'#9#0
+  +#0#12'TRadioButton'#13'RadioButton11'#4'Left'#2#8#6'Height'#2#19#3'Top'#2'H'
+  +#5'Width'#2#31#7'Caption'#6#1'M'#8'OnChange'#7#19'RadioButton11Change'#8'Tab'
+  +'Order'#2#0#0#0#12'TRadioButton'#13'RadioButton12'#4'Left'#2'@'#6'Height'#2
+  +#19#3'Top'#2'('#5'Width'#2'*'#7'Caption'#6#2'mM'#8'OnChange'#7#19'RadioButto'
+  +'n12Change'#8'TabOrder'#2#1#0#0#12'TRadioButton'#13'RadioButton13'#4'Left'#2
+  +'@'#6'Height'#2#19#3'Top'#2'H'#5'Width'#2'('#7'Caption'#6#2'mN'#8'OnChange'#7
+  +#19'RadioButton13Change'#8'TabOrder'#2#2#0#0#0#7'TButton'#8'Button23'#4'Left'
+  +#3'$'#2#6'Height'#2#25#3'Top'#2#7#5'Width'#2'K'#7'Caption'#6#11'Add field S'
+  +#7'OnClick'#7#13'Button23Click'#8'TabOrder'#2#27#7'Visible'#8#0#0#7'TButton'
+  +#8'Button24'#4'Left'#3'8'#1#6'Height'#2#25#3'Top'#2#7#5'Width'#2'K'#7'Captio'
+  +'n'#6#9'SetValues'#7'OnClick'#7#13'Button24Click'#8'TabOrder'#2#28#7'Visible'
+  +#8#0#0#9'TComboBox'#9'ComboBox3'#4'Left'#2','#6'Height'#2#23#3'Top'#3#224#1#5
+  +'Width'#2'5'#10'ItemHeight'#2#15#9'ItemIndex'#2#0#13'Items.Strings'#1#6#2'Si'
+  +#6#4'SiO2'#0#8'OnChange'#7#15'ComboBox3Change'#5'Style'#7#14'csDropDownList'
+  +#8'TabOrder'#2#29#4'Text'#6#2'Si'#0#0#7'TBitBtn'#8'Button26'#4'Left'#3#209#2
+  +#6'Height'#2'('#3'Top'#2#23#5'Width'#2'L'#10'Glyph.Data'#10'B'#30#0#0'>'#30#0
+  +#0'BM>'#30#0#0#0#0#0#0'6'#0#0#0'('#0#0#0'>'#0#0#0#31#0#0#0#1#0' '#0#0#0#0#0#8
+  +#30#0#0'd'#0#0#0'd'#0#0#0#0#0#0#0#0#0#0#0#255#255#255#255#255#255#255#255#245
+  +#251#255#255#255#255#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
   +#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255
   +#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0
   +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
@@ -30110,12 +30110,10 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
   +#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255
   +#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0
-  +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#255#255#255#255#245
-  +#251#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255
-  +#0#153#255#255'_'#191#255#255#145#212#255#255#165#219#255#255#168#220#255#255
-  +#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255
-  +#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220
-  +#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168
+  +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
+  +#255#255#0#153#255#255#0#153#255#255#255#255#255#255#245#251#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#255#255#255#255#255#0#153#255#255'_'#191
+  +#255#255#145#212#255#255#165#219#255#255#168#220#255#255#168#220#255#255#168
   +#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255
   +#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255
   +#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220
@@ -30123,12 +30121,12 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255
   +#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255
   +#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220
-  +#255#255#168#220#255#255#165#219#255#255#145#212#255#255'_'#191#255#255#0#153
-  +#255#255#255#255#255#255#255#255#255#255#239#249#255#255#0#153#255#255#149
-  +#213#254#255#190#230#255#255#201#234#255#255#205#235#255#255#206#237#255#255
-  +#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255
-  +#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235
-  +#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205
+  +#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168
+  +#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255
+  +#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255#255#168#220#255
+  +#255#165#219#255#255#145#212#255#255'_'#191#255#255#0#153#255#255#255#255#255
+  +#255#255#255#255#255#239#249#255#255#0#153#255#255#149#213#254#255#190#230
+  +#255#255#201#234#255#255#205#235#255#255#206#237#255#255#205#235#255#255#205
   +#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255
   +#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255
   +#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235
@@ -30136,22 +30134,24 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255
   +#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255
   +#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235
-  +#255#255#206#237#255#255#205#235#255#255#201#234#255#255#190#230#255#255#149
-  +#213#254#255#0#153#255#255#239#249#255#255#255#255#255#255'W'#188#255#255#181
-  +#226#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255
+  +#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205
+  +#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255
+  +#205#235#255#255#205#235#255#255#205#235#255#255#205#235#255#255#206#237#255
+  +#255#205#235#255#255#201#234#255#255#190#230#255#255#149#213#254#255#0#153
+  +#255#255#239#249#255#255#255#255#255#255'W'#188#255#255#181#226#255#255#188
+  +#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255
   +#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255
   +#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228
   +#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188
   +#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255
   +#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255
-  +#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228
-  ,#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188
+  ,#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228
+  +#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188
   +#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255
   +#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255
   +#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228
-  +#255#255#188#228#255#255#188#228#255#255#188#228#255#255#188#228#255#255#181
-  +#226#255#255'W'#188#255#255#255#255#255#255#0#153#255#255#135#207#255#255#165
-  +#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255
+  +#255#255#188#228#255#255#188#228#255#255#188#228#255#255#181#226#255#255'W'
+  +#188#255#255#255#255#255#255#0#153#255#255#135#207#255#255#165#219#255#255
   +#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255
   +#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219
   +#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165
@@ -30163,313 +30163,313 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255
   +#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219
   +#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165
-  +#219#255#255#135#207#255#255#0#153#255#255#0#153#255#255#135#207#255#255#142
-  +#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255
+  +#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255#165#219#255#255
+  +#135#207#255#255#0#153#255#255#0#153#255#255#135#207#255#255#142#210#255#255
   +#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255
   +#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210
-  +#255#255'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255#142#210#255#255#142#210
-  +#255#255#142#210#255#255'f3'#18#255'f3'#18#255#142#210#255#255#142#210#255
-  +#255'f3'#18#255#142#210#255#255#142#210#255#255'f3'#18#255#142#210#255#255'f'
-  +'3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255#142#210#255#255'f3'#18#255'f3'#18
-  +#255#142#210#255#255#142#210#255#255'f3'#18#255'f3'#18#255'f3'#18#255#142#210
+  +#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255'f3'
+  +#18#255'f3'#18#255'f3'#18#255'f3'#18#255#142#210#255#255#142#210#255#255#142
+  +#210#255#255'f3'#18#255'f3'#18#255#142#210#255#255#142#210#255#255'f3'#18#255
+  +#142#210#255#255#142#210#255#255'f3'#18#255#142#210#255#255'f3'#18#255'f3'#18
+  +#255'f3'#18#255'f3'#18#255#142#210#255#255'f3'#18#255'f3'#18#255#142#210#255
+  +#255#142#210#255#255'f3'#18#255'f3'#18#255'f3'#18#255#142#210#255#255#142#210
   +#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142
   +#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255
-  +#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255
-  +#255#135#207#255#255#0#153#255#255#0#153#255#255'v'#202#255#255'{'#203#255
-  +#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255
-  +#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255
-  +#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'f3'#18#255
-  +'{'#203#255#255'{'#203#255#255'{'#203#255#255'f3'#18#255'{'#203#255#255'f3'
-  +#18#255'{'#203#255#255'{'#203#255#255'f3'#18#255'{'#203#255#255'f3'#18#255'{'
+  +#142#210#255#255#142#210#255#255#142#210#255#255#142#210#255#255#135#207#255
+  +#255#0#153#255#255#0#153#255#255'v'#202#255#255'{'#203#255#255'{'#203#255#255
+  +'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255
+  +'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255
+  +'{'#203#255#255'{'#203#255#255'{'#203#255#255'f3'#18#255'{'#203#255#255'{'
   +#203#255#255'{'#203#255#255'f3'#18#255'{'#203#255#255'f3'#18#255'{'#203#255
   +#255'{'#203#255#255'f3'#18#255'{'#203#255#255'f3'#18#255'{'#203#255#255'{'
-  +#203#255#255'f3'#18#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203
+  +#203#255#255'f3'#18#255'{'#203#255#255'f3'#18#255'{'#203#255#255'{'#203#255
+  +#255'f3'#18#255'{'#203#255#255'f3'#18#255'{'#203#255#255'{'#203#255#255'f3'
+  +#18#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203
   +#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203
   +#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203
-  +#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'v'#202
-  +#255#255#0#153#255#255#0#153#255#255'f'#195#255#255'j'#196#255#255'j'#196#255
-  +#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255
-  +#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255
-  +#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'f3'#18#255'j'#196#255#255
-  +'j'#196#255#255'j'#196#255#255'f3'#18#255'j'#196#255#255'f3'#18#255'j'#196
-  +#255#255'j'#196#255#255'f3'#18#255'j'#196#255#255'f3'#18#255'j'#196#255#255
-  +'j'#196#255#255'f3'#18#255'j'#196#255#255'j'#196#255#255'f3'#18#255'f3'#18
-  +#255'f3'#18#255'j'#196#255#255'f3'#18#255'j'#196#255#255'j'#196#255#255'f3'
-  +#18#255'f3'#18#255'f3'#18#255'f3'#18#255'j'#196#255#255'j'#196#255#255'j'#196
+  +#255#255'{'#203#255#255'{'#203#255#255'{'#203#255#255'v'#202#255#255#0#153
+  +#255#255#0#153#255#255'f'#195#255#255'j'#196#255#255'j'#196#255#255'j'#196
   +#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196
   +#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196
-  +#255#255'j'#196#255#255'j'#196#255#255'f'#195#255#255#0#153#255#255#0#153#255
-  +#255'W'#188#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255
-  +#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255
-  +#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255
-  +#255'Y'#189#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255
-  +'f3'#18#255'Y'#189#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'f3'#18
-  +#255'Y'#189#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'f3'#18#255'Y'
-  +#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'f3'#18#255'Y'#189
+  +#255#255'j'#196#255#255'j'#196#255#255'f3'#18#255'j'#196#255#255'j'#196#255
+  +#255'j'#196#255#255'f3'#18#255'j'#196#255#255'f3'#18#255'j'#196#255#255'j'
+  +#196#255#255'f3'#18#255'j'#196#255#255'f3'#18#255'j'#196#255#255'j'#196#255
+  +#255'f3'#18#255'j'#196#255#255'j'#196#255#255'f3'#18#255'f3'#18#255'f3'#18
+  +#255'j'#196#255#255'f3'#18#255'j'#196#255#255'j'#196#255#255'f3'#18#255'f3'
+  +#18#255'f3'#18#255'f3'#18#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'
+  +#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'
+  +#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'#196#255#255'j'
+  +#196#255#255'j'#196#255#255'f'#195#255#255#0#153#255#255#0#153#255#255'W'#188
+  +#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189
+  +#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189
+  +#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189
+  +#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'f3'#18#255
+  +'Y'#189#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'f3'#18#255'Y'#189
   +#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'f3'#18#255'Y'#189#255#255
-  +'Y'#189#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'
-  +#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'
-  ,#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'
-  +#189#255#255'Y'#189#255#255'W'#188#255#255#0#153#255#255#0#153#255#255'D'#182
-  +#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183
-  +#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183
-  +#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183
-  +#255#255'f3'#18#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'f3'#18#255
-  +'I'#183#255#255'I'#183#255#255'f3'#18#255'f3'#18#255'I'#183#255#255'I'#183
-  +#255#255'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255'I'#183#255#255'f3'#18
-  +#255'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255'I'#183
-  +#255#255'I'#183#255#255'f3'#18#255'f3'#18#255'I'#183#255#255'I'#183#255#255
+  +'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'f3'#18#255'Y'#189#255#255'f3'
+  +#18#255'Y'#189#255#255'Y'#189#255#255'f3'#18#255'Y'#189#255#255'Y'#189#255
+  +#255'f3'#18#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255
+  ,'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255
+  +'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255'Y'#189#255#255
+  +'Y'#189#255#255'W'#188#255#255#0#153#255#255#0#153#255#255'D'#182#255#255'I'
+  +#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'
+  +#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'
+  +#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'f3'
+  +#18#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'f3'#18#255'I'#183#255
+  +#255'I'#183#255#255'f3'#18#255'f3'#18#255'I'#183#255#255'I'#183#255#255'f3'
+  +#18#255'f3'#18#255'f3'#18#255'f3'#18#255'I'#183#255#255'f3'#18#255'f3'#18#255
+  +'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255'I'#183#255#255'I'#183
+  +#255#255'f3'#18#255'f3'#18#255'I'#183#255#255'I'#183#255#255'I'#183#255#255
   +'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255
   +'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255
-  +'I'#183#255#255'I'#183#255#255'I'#183#255#255'I'#183#255#255'D'#182#255#255#0
-  +#153#255#255#0#153#255#255'9'#178#255#255'<'#178#255#255'<'#178#255#255'<'
+  +'I'#183#255#255'I'#183#255#255'I'#183#255#255'D'#182#255#255#0#153#255#255#0
+  +#153#255#255'9'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'
   +#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'
   +#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'
-  +#178#255#255'<'#178#255#255'<'#178#255#255'f3'#18#255'f3'#18#255'f3'#18#255
-  +'f3'#18#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'>'#179#255#255'>'
-  +#179#255#255'>'#179#255#255'>'#179#255#255'>'#179#255#255'>'#179#255#255'>'
-  +#179#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'
-  +#178#255#255'<'#178#255#255'<'#178#255#255'f3'#18#255'<'#178#255#255'<'#178
+  +#178#255#255'<'#178#255#255'f3'#18#255'f3'#18#255'f3'#18#255'f3'#18#255'<'
+  +#178#255#255'<'#178#255#255'<'#178#255#255'>'#179#255#255'>'#179#255#255'>'
+  +#179#255#255'>'#179#255#255'>'#179#255#255'>'#179#255#255'>'#179#255#255'<'
+  +#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'
+  +#178#255#255'<'#178#255#255'f3'#18#255'<'#178#255#255'<'#178#255#255'<'#178
   +#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178
   +#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178
   +#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178
-  +#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'9'#178
-  +#255#255#0#153#255#255#0#153#255#255'-'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'5'#177#255#255'5'#177#255#255'<'#178#255#255':'#180#255#255'9'#178#255
-  +#255'9'#178#255#255'5'#177#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255
-  +#255'0'#173#255#255'-'#173#255#255#0#153#255#255#0#153#255#255'&'#169#255#255
-  +''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255
-  +#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170
-  +#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''
-  +#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255
-  +''''#170#255#255'('#171#255#255'+'#172#255#255'/'#174#255#255'5'#177#255#255
-  +':'#180#255#255'='#181#255#255'='#181#255#255':'#180#255#255'2'#176#255#255
-  +'/'#174#255#255'('#171#255#255''''#170#255#255''''#170#255#255''''#170#255
-  +#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170
+  +#255#255'<'#178#255#255'<'#178#255#255'<'#178#255#255'9'#178#255#255#0#153
+  +#255#255#0#153#255#255'-'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'5'#177
+  +#255#255'5'#177#255#255'<'#178#255#255':'#180#255#255'9'#178#255#255'9'#178
+  +#255#255'5'#177#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173#255#255'0'#173
+  +#255#255'-'#173#255#255#0#153#255#255#0#153#255#255'&'#169#255#255''''#170
   +#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''
   +#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255
   +''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255
   +#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170
-  +#255#255'&'#169#255#255#0#153#255#255#0#153#255#255'"'#167#255#255'#'#168#255
-  +#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255
-  +#255'&'#169#255#255'&'#169#255#255''''#170#255#255''''#170#255#255'&'#170#255
-  +#255'&'#169#255#255'&'#169#255#255'#'#168#255#255'&'#169#255#255'&'#169#255
-  +#255''''#170#255#255'('#171#255#255'+'#172#255#255'+'#172#255#255'+'#172#255
-  +#255'/'#174#255#255'5'#177#255#255'='#181#255#255'D'#186#255#255'D'#186#255
-  +#255'D'#186#255#255'='#181#255#255'='#181#255#255'2'#176#255#255'+'#172#255
-  +#255''''#170#255#255'&'#170#255#255'&'#169#255#255'&'#169#255#255'#'#168#255
-  +#255'#'#168#255#255'&'#169#255#255'&'#169#255#255''''#170#255#255'('#171#255
-  +#255'+'#172#255#255'+'#172#255#255'+'#172#255#255'('#171#255#255'('#171#255
-  +#255''''#170#255#255''''#170#255#255'&'#170#255#255'&'#169#255#255'#'#168#255
-  +#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255
+  +#255#255'('#171#255#255'+'#172#255#255'/'#174#255#255'5'#177#255#255':'#180
+  +#255#255'='#181#255#255'='#181#255#255':'#180#255#255'2'#176#255#255'/'#174
+  +#255#255'('#171#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''
+  +#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255
+  +''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255
+  +#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170
+  +#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''
+  +#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255''''#170#255#255
+  +'&'#169#255#255#0#153#255#255#0#153#255#255'"'#167#255#255'#'#168#255#255'#'
+  +#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'&'
+  +#169#255#255'&'#169#255#255''''#170#255#255''''#170#255#255'&'#170#255#255'&'
+  +#169#255#255'&'#169#255#255'#'#168#255#255'&'#169#255#255'&'#169#255#255''''
+  +#170#255#255'('#171#255#255'+'#172#255#255'+'#172#255#255'+'#172#255#255'/'
+  +#174#255#255'5'#177#255#255'='#181#255#255'D'#186#255#255'D'#186#255#255'D'
+  +#186#255#255'='#181#255#255'='#181#255#255'2'#176#255#255'+'#172#255#255''''
+  +#170#255#255'&'#170#255#255'&'#169#255#255'&'#169#255#255'#'#168#255#255'#'
+  +#168#255#255'&'#169#255#255'&'#169#255#255''''#170#255#255'('#171#255#255'+'
+  +#172#255#255'+'#172#255#255'+'#172#255#255'('#171#255#255'('#171#255#255''''
+  +#170#255#255''''#170#255#255'&'#170#255#255'&'#169#255#255'#'#168#255#255'#'
+  +#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'
+  +#168#255#255'#'#168#255#255'"'#167#255#255#0#153#255#255#0#153#255#255'"'#167
+  ,#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168
+  +#255#255'&'#169#255#255'('#171#255#255'+'#172#255#255'/'#174#255#255'/'#174
+  +#255#255'-'#173#255#255'+'#172#255#255'('#171#255#255''''#170#255#255'('#171
+  +#255#255'-'#173#255#255'2'#176#255#255'5'#177#255#255'9'#178#255#255':'#180
+  +#255#255':'#180#255#255'='#181#255#255'D'#186#255#255'D'#182#255#255'wkb'#255
+  +'g<#'#255'}|x'#255'`'#199#253#255'L'#189#255#255'='#181#255#255'5'#177#255
+  +#255'/'#174#255#255'/'#174#255#255'-'#173#255#255'+'#172#255#255'('#171#255
+  +#255''''#170#255#255'('#171#255#255'-'#173#255#255'2'#176#255#255'5'#177#255
+  +#255'9'#178#255#255'9'#178#255#255'9'#178#255#255'9'#178#255#255'5'#177#255
+  +#255'2'#176#255#255'2'#176#255#255'/'#174#255#255'+'#172#255#255'('#171#255
+  +#255'&'#169#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255
   +#255'#'#168#255#255'#'#168#255#255'"'#167#255#255#0#153#255#255#0#153#255#255
   +'"'#167#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255
-  ,'#'#168#255#255'&'#169#255#255'('#171#255#255'+'#172#255#255'/'#174#255#255
-  +'/'#174#255#255'-'#173#255#255'+'#172#255#255'('#171#255#255''''#170#255#255
-  +'('#171#255#255'-'#173#255#255'2'#176#255#255'5'#177#255#255'9'#178#255#255
-  +':'#180#255#255':'#180#255#255'='#181#255#255'D'#186#255#255'D'#182#255#255
-  +'wkb'#255'g<#'#255'}|x'#255'`'#199#253#255'L'#189#255#255'='#181#255#255'5'
-  +#177#255#255'/'#174#255#255'/'#174#255#255'-'#173#255#255'+'#172#255#255'('
-  +#171#255#255''''#170#255#255'('#171#255#255'-'#173#255#255'2'#176#255#255'5'
-  +#177#255#255'9'#178#255#255'9'#178#255#255'9'#178#255#255'9'#178#255#255'5'
-  +#177#255#255'2'#176#255#255'2'#176#255#255'/'#174#255#255'+'#172#255#255'('
-  +#171#255#255'&'#169#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'
-  +#168#255#255'#'#168#255#255'#'#168#255#255'"'#167#255#255#0#153#255#255#0#153
-  +#255#255'"'#167#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'#'#168
-  +#255#255'&'#169#255#255'('#171#255#255'/'#174#255#255'5'#177#255#255':'#180
-  +#255#255'='#181#255#255':'#180#255#255'5'#177#255#255'/'#174#255#255'-'#173
-  +#255#255'/'#174#255#255'5'#177#255#255'='#181#255#255'D'#186#255#255'J'#189
-  +#255#255'L'#189#255#255'L'#189#255#255'L'#189#255#255'U'#194#254#255'`'#199
-  +#253#255'j'#161#186#255'd6'#27#255'g<#'#255'_'#179#224#255'`'#199#253#255'U'
-  +#194#254#255'D'#186#255#255'='#181#255#255'='#181#255#255'9'#178#255#255'2'
-  +#176#255#255'/'#174#255#255'-'#173#255#255'/'#174#255#255'5'#177#255#255'='
-  +#181#255#255'D'#186#255#255'L'#189#255#255'L'#189#255#255'L'#189#255#255'J'
-  +#189#255#255'D'#186#255#255'D'#186#255#255'D'#186#255#255':'#180#255#255'5'
-  +#177#255#255'/'#174#255#255'('#171#255#255'&'#169#255#255'#'#168#255#255'#'
-  +#168#255#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'"'#167#255#255#0
-  +#153#255#255#0#153#255#255'"'#168#255#255'&'#170#255#255'I'#183#255#255'_'
-  +#191#255#255'f'#195#255#255'j'#198#255#255'o'#200#255#255'v'#202#255#255'x'
-  +#205#255#255#131#205#247#255#131#205#247#255#130#210#254#255'}'#207#255#255
-  +'x'#205#255#255'x'#205#255#255'x'#205#255#255'}'#207#255#255#130#210#254#255
-  +#141#204#236#255#140#194#221#255#149#217#251#255#149#220#255#255#147#213#245
-  +#255#152#222#255#255#161#226#255#255#162#215#237#255'wkb'#255'd6'#27#255'wkb'
-  +#255#158#225#255#255#149#220#255#255#141#215#254#255#136#210#250#255#136#210
-  +#250#255'}'#207#255#255'}'#207#255#255'x'#205#255#255'x'#205#255#255'x'#205
-  +#255#255'}'#207#255#255#134#212#255#255#141#204#236#255#148#204#229#255#149
-  +#220#255#255#149#220#255#255#149#217#251#255#148#217#255#255#141#215#254#255
-  +#136#210#250#255#130#210#254#255'}'#207#255#255'v'#202#255#255'o'#200#255#255
-  +'j'#198#255#255'j'#196#255#255'f'#195#255#255'Y'#189#255#255'D'#182#255#255
-  +'#'#168#255#255'"'#168#255#255#0#153#255#255#0#153#255#255'9'#178#255#255'r'
-  +#200#254#255'~'#205#254#255#132#207#254#255#132#207#254#255#134#209#254#255
-  +#142#210#255#255#148#217#255#255#156#219#254#255'{cS'#255'nH2'#255#138#150
-  +#153#255#162#220#249#255#157#220#254#255#156#219#254#255#157#220#254#255#161
-  +#221#254#255#146#168#177#255'sM7'#255'lB)'#255'uXG'#255#130'ti'#255'uXG'#255
-  +#143#145#141#255#187#234#255#255#184#225#240#255#148#129's'#255'd6'#27#255'g'
-  +'<#'#255#173#189#193#255#187#234#255#255#178#229#254#255#162#154#135#255#159
-  +'}V'#255#169#185#183#255#163#219#248#255#157#220#254#255#156#219#254#255#157
-  +#220#254#255#161#221#254#255#164#175#168#255#164'}R'#255#160'p>'#255#164#138
-  +'g'#255#164#142'n'#255#159'}V'#255#181#186#181#255#174#202#207#255#159'}V'
-  +#255#162#154#135#255#158#216#246#255#148#217#255#255#145#212#255#255#134#209
-  +#254#255#132#207#254#255#132#207#254#255#132#207#254#255'~'#205#254#255'f'
-  +#195#255#255'-'#173#255#255#0#153#255#255#0#153#255#255'{'#203#255#255#149
-  +#213#254#255#149#213#254#255#149#213#254#255#149#213#254#255#149#213#254#255
-  +#155#216#254#255#161#221#254#255#176#226#255#255'uS>'#255'd6'#27#255#136'lZ'
-  +#255#176#213#230#255#183#231#254#255#178#229#254#255#183#231#254#255#176#213
-  +#230#255#135'xm'#255'd6'#27#255#128'`L'#255#167#163#157#255#136'lZ'#255'd6'
-  +#27#255'{ZE'#255#203#240#254#255#202#229#236#255#129'eR'#255'd6'#27#255'd6'
-  +#27#255#129'eR'#255#203#240#254#255#198#238#255#255#169#149'x'#255#155'g2'
-  +#255#169#149'x'#255#184#225#240#255#183#231#254#255#178#229#254#255#178#229
-  +#254#255#184#225#240#255#164#138'g'#255#155'g2'#255#172#145'o'#255#183#180
-  +#163#255#166#133'^'#255#155'g2'#255#177#164#140#255#189#200#198#255#159'q@'
-  +#255#164'}R'#255#174#204#213#255#169#224#254#255#161#221#254#255#155#216#254
-  +#255#149#213#254#255#149#213#254#255#149#213#254#255#149#213#254#255#145#212
-  +#255#255'r'#200#254#255#0#153#255#255#0#153#255#255#155#216#254#255#162#219
-  +#254#255#162#219#254#255#162#219#254#255#162#219#254#255#164#220#254#255#169
-  +#224#254#255#176#226#255#255#187#234#255#255#135'xm'#255'lB)'#255'nF.'#255
-  +#173#189#193#255#203#240#254#255#200#238#255#255#198#238#255#255#198#235#251
-  +#255#135'xm'#255'd6'#27#255#134'rc'#255#214#246#255#255#195#209#211#255'nF.'
-  ,#255'nH2'#255#198#221#225#255#209#232#239#255'sM7'#255'd6'#27#255'd6'#27#255
-  +'g<#'#255#171#176#172#255#214#246#255#255#188#182#164#255#158'l:'#255#164'vG'
-  +#255#198#221#225#255#203#240#254#255#198#238#255#255#198#238#255#255#200#238
-  +#255#255#166#133'^'#255#155'g2'#255#184#170#147#255#214#246#255#255#197#203
-  +#194#255#159'q@'#255#172#141'h'#255#197#203#194#255#172#141'h'#255#158'l:'
-  +#255#181#186#181#255#183#231#254#255#176#226#255#255#168#220#255#255#164#220
-  +#254#255#162#219#254#255#162#219#254#255#162#219#254#255#162#219#254#255#153
-  +#215#254#255#0#153#255#255#0#153#255#255#168#220#255#255#175#224#255#255#175
-  +#224#255#255#175#224#255#255#175#224#255#255#176#226#255#255#181#226#255#255
-  +#187#234#255#255#194#233#255#255#167#163#157#255'yVA'#255'd6'#27#255'vT@'#255
-  +#129'eR'#255#134'rc'#255#168#155#146#255#202#229#236#255#195#209#211#255#127
-  +'^J'#255'g<#'#255#132'gU'#255#137'p_'#255'g<#'#255'nF.'#255#181#186#181#255
-  +#209#232#239#255'd6'#27#255'lB)'#255#148#129's'#255'd6'#27#255'vT@'#255#216
-  +#241#248#255#206#217#212#255#160'p>'#255#156'i5'#255#166#133'^'#255#172#137
-  +'b'#255#178#150't'#255#188#182#164#255#214#241#249#255#197#203#194#255#166
-  +#128'U'#255#158'l:'#255#172#145'o'#255#172#141'h'#255#156'i5'#255#166#128'U'
-  +#255#201#199#186#255#187#168#142#255#155'g2'#255#184#170#147#255#198#238#255
-  +#255#190#230#255#255#181#229#254#255#176#226#255#255#175#224#255#255#175#224
-  +#255#255#175#224#255#255#175#224#255#255#168#220#255#255#0#153#255#255#0#153
-  +#255#255#181#226#255#255#187#229#255#255#187#229#255#255#187#229#255#255#187
-  +#229#255#255#187#229#255#255#190#230#255#255#199#233#255#255#206#237#255#255
-  +#189#200#198#255#132'gU'#255'd6'#27#255'g<#'#255'nF.'#255'd6'#27#255'd6'#27
-  +#255#137'p_'#255#195#202#200#255#208#221#224#255#178#172#164#255#160#144#132
-  +#255#148#129's'#255'{ZE'#255'g<#'#255#160#144#132#255#203#211#211#255'd6'#27
-  +#255'sM7'#255#208#221#224#255'yVA'#255'd6'#27#255#167#163#157#255#225#245#254
-  +#255#165'zL'#255#155'g2'#255#156'i5'#255#161'rB'#255#155'g2'#255#158'l:'#255
-  +#178#150't'#255#213#224#220#255#213#224#220#255#197#186#169#255#187#168#142
-  +#255#184#159#128#255#165'zL'#255#158'l:'#255#195#185#167#255#195#185#167#255
-  +#155'g2'#255#178#150't'#255#208#240#255#255#201#234#255#255#194#233#255#255
-  +#190#230#255#255#187#229#255#255#187#229#255#255#187#229#255#255#187#229#255
-  +#255#181#226#255#255#0#153#255#255#0#153#255#255#190#230#255#255#199#233#255
-  +#255#199#233#255#255#199#233#255#255#199#233#255#255#199#233#255#255#201#234
-  +#255#255#206#237#255#255#212#240#255#255#209#232#239#255#148#129's'#255'd6'
-  +#27#255#136'lZ'#255#191#190#186#255#185#180#174#255#127'^J'#255'd6'#27#255
-  +#150#127'p'#255#203#211#211#255#178#172#164#255#190#187#182#255#178#172#164
-  +#255#128'`L'#255'd6'#27#255#136'lZ'#255#185#180#174#255'd6'#27#255#127'^J'
-  +#255#230#249#255#255#182#179#173#255'd6'#27#255'nF.'#255#214#230#233#255#178
-  +#145'k'#255#155'g2'#255#178#150't'#255#207#204#192#255#201#193#176#255#165'z'
-  +'L'#255#155'g2'#255#195#176#153#255#213#210#199#255#201#199#186#255#207#204
-  +#192#255#202#189#171#255#168#128'U'#255#155'g2'#255#184#170#147#255#207#204
-  +#192#255#155'g2'#255#171#134'^'#255#214#234#242#255#212#240#255#255#206#237
-  +#255#255#201#234#255#255#199#233#255#255#199#233#255#255#199#233#255#255#199
-  +#233#255#255#190#230#255#255#0#153#255#255#0#153#255#255#201#234#255#255#210
-  +#238#255#255#210#238#255#255#210#238#255#255#210#238#255#255#210#238#255#255
-  +#210#238#255#255#212#240#255#255#221#242#255#255#225#245#254#255#168#155#146
-  +#255'd6'#27#255#136'lZ'#255#228#241#243#255#238#250#255#255#178#172#164#255
-  +'d6'#27#255'{ZE'#255#165#148#136#255#128'`L'#255'uS>'#255'yVA'#255'g<#'#255
-  +'sM7'#255#168#155#146#255#168#155#146#255'd6'#27#255#148'zj'#255#230#249#255
-  +#255#225#242#248#255#132'gU'#255'd6'#27#255#165#148#136#255#188#166#139#255
-  +#156'i5'#255#178#150't'#255#238#250#255#255#238#250#255#255#188#166#139#255
-  +#155'g2'#255#172#141'h'#255#188#166#139#255#171#134'^'#255#168#128'U'#255#164
-  +'}R'#255#156'i5'#255#165'zL'#255#209#201#188#255#221#220#213#255#159'q@'#255
-  +#165'zL'#255#210#213#208#255#221#242#255#255#217#241#255#255#213#239#255#255
-  +#210#238#255#255#210#238#255#255#210#238#255#255#210#238#255#255#201#234#255
-  +#255#0#153#255#255#0#153#255#255#213#239#255#255#221#242#255#255#221#242#255
-  +#255#221#242#255#255#221#242#255#255#221#242#255#255#221#242#255#255#221#242
-  +#255#255#225#245#254#255#233#246#255#255#190#187#182#255'nF.'#255'lB)'#255
-  +#168#155#146#255#197#193#189#255#150#127'p'#255'd6'#27#255'yVA'#255#194#187
-  +#182#255#182#179#173#255#156#133'v'#255#150#127'p'#255#160#144#132#255#189
-  +#183#178#255#227#235#238#255#197#193#189#255#158#140#128#255#198#198#196#255
-  +#231#247#255#255#233#246#255#255#205#207#207#255#160#144#132#255#167#163#157
-  +#255#197#186#169#255#160'p>'#255#160'p>'#255#207#194#175#255#212#206#198#255
-  +#178#145'k'#255#155'g2'#255#171#134'^'#255#212#206#198#255#202#189#171#255
-  +#184#159#128#255#185#155'z'#255#187#168#142#255#209#201#188#255#233#245#248
-  ,#255#224#228#224#255#171#134'^'#255#158'l:'#255#202#189#171#255#229#245#255
-  +#255#229#245#255#255#221#242#255#255#221#242#255#255#221#242#255#255#221#242
-  +#255#255#221#242#255#255#210#238#255#255#0#153#255#255#0#153#255#255#221#242
-  +#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232
-  +#246#255#255#232#246#255#255#233#246#255#255#234#247#255#255#236#249#255#255
-  +#217#218#218#255#129'eR'#255'd6'#27#255'g<#'#255'g<#'#255'd6'#27#255'nF.'#255
-  +#156#133'v'#255#235#241#243#255#238#250#255#255#238#250#255#255#237#249#255
-  +#255#237#249#255#255#237#249#255#255#237#249#255#255#236#249#255#255#236#249
-  +#255#255#236#249#255#255#234#248#255#255#236#249#255#255#236#249#255#255#237
-  +#249#255#255#238#250#255#255#227#225#219#255#164'vG'#255#155'g2'#255#158'l:'
-  +#255#158'l:'#255#155'g2'#255#161'rB'#255#195#176#153#255#235#241#243#255#240
-  +#250#255#255#238#250#255#255#237#249#255#255#237#249#255#255#238#250#255#255
-  +#238#250#255#255#232#238#239#255#189#162#132#255#155'g2'#255#189#162#132#255
-  +#227#235#238#255#234#248#255#255#233#246#255#255#232#246#255#255#232#246#255
-  +#255#232#246#255#255#232#246#255#255#221#242#255#255#0#153#255#255#0#153#255
-  +#255#210#238#255#255#239#249#255#255#239#249#255#255#239#249#255#255#239#249
-  +#255#255#239#249#255#255#239#249#255#255#239#249#255#255#240#250#255#255#241
-  +#250#255#255#235#241#243#255#156#133'v'#255'nF.'#255'nF.'#255'lB)'#255'sM7'
-  +#255#148'zj'#255#212#206#198#255#241#250#255#255#245#251#255#255#241#250#255
+  +'&'#169#255#255'('#171#255#255'/'#174#255#255'5'#177#255#255':'#180#255#255
+  +'='#181#255#255':'#180#255#255'5'#177#255#255'/'#174#255#255'-'#173#255#255
+  +'/'#174#255#255'5'#177#255#255'='#181#255#255'D'#186#255#255'J'#189#255#255
+  +'L'#189#255#255'L'#189#255#255'L'#189#255#255'U'#194#254#255'`'#199#253#255
+  +'j'#161#186#255'd6'#27#255'g<#'#255'_'#179#224#255'`'#199#253#255'U'#194#254
+  +#255'D'#186#255#255'='#181#255#255'='#181#255#255'9'#178#255#255'2'#176#255
+  +#255'/'#174#255#255'-'#173#255#255'/'#174#255#255'5'#177#255#255'='#181#255
+  +#255'D'#186#255#255'L'#189#255#255'L'#189#255#255'L'#189#255#255'J'#189#255
+  +#255'D'#186#255#255'D'#186#255#255'D'#186#255#255':'#180#255#255'5'#177#255
+  +#255'/'#174#255#255'('#171#255#255'&'#169#255#255'#'#168#255#255'#'#168#255
+  +#255'#'#168#255#255'#'#168#255#255'#'#168#255#255'"'#167#255#255#0#153#255
+  +#255#0#153#255#255'"'#168#255#255'&'#170#255#255'I'#183#255#255'_'#191#255
+  +#255'f'#195#255#255'j'#198#255#255'o'#200#255#255'v'#202#255#255'x'#205#255
+  +#255#131#205#247#255#131#205#247#255#130#210#254#255'}'#207#255#255'x'#205
+  +#255#255'x'#205#255#255'x'#205#255#255'}'#207#255#255#130#210#254#255#141#204
+  +#236#255#140#194#221#255#149#217#251#255#149#220#255#255#147#213#245#255#152
+  +#222#255#255#161#226#255#255#162#215#237#255'wkb'#255'd6'#27#255'wkb'#255#158
+  +#225#255#255#149#220#255#255#141#215#254#255#136#210#250#255#136#210#250#255
+  +'}'#207#255#255'}'#207#255#255'x'#205#255#255'x'#205#255#255'x'#205#255#255
+  +'}'#207#255#255#134#212#255#255#141#204#236#255#148#204#229#255#149#220#255
+  +#255#149#220#255#255#149#217#251#255#148#217#255#255#141#215#254#255#136#210
+  +#250#255#130#210#254#255'}'#207#255#255'v'#202#255#255'o'#200#255#255'j'#198
+  +#255#255'j'#196#255#255'f'#195#255#255'Y'#189#255#255'D'#182#255#255'#'#168
+  +#255#255'"'#168#255#255#0#153#255#255#0#153#255#255'9'#178#255#255'r'#200#254
+  +#255'~'#205#254#255#132#207#254#255#132#207#254#255#134#209#254#255#142#210
+  +#255#255#148#217#255#255#156#219#254#255'{cS'#255'nH2'#255#138#150#153#255
+  +#162#220#249#255#157#220#254#255#156#219#254#255#157#220#254#255#161#221#254
+  +#255#146#168#177#255'sM7'#255'lB)'#255'uXG'#255#130'ti'#255'uXG'#255#143#145
+  +#141#255#187#234#255#255#184#225#240#255#148#129's'#255'd6'#27#255'g<#'#255
+  +#173#189#193#255#187#234#255#255#178#229#254#255#162#154#135#255#159'}V'#255
+  +#169#185#183#255#163#219#248#255#157#220#254#255#156#219#254#255#157#220#254
+  +#255#161#221#254#255#164#175#168#255#164'}R'#255#160'p>'#255#164#138'g'#255
+  +#164#142'n'#255#159'}V'#255#181#186#181#255#174#202#207#255#159'}V'#255#162
+  +#154#135#255#158#216#246#255#148#217#255#255#145#212#255#255#134#209#254#255
+  +#132#207#254#255#132#207#254#255#132#207#254#255'~'#205#254#255'f'#195#255
+  +#255'-'#173#255#255#0#153#255#255#0#153#255#255'{'#203#255#255#149#213#254
+  +#255#149#213#254#255#149#213#254#255#149#213#254#255#149#213#254#255#155#216
+  +#254#255#161#221#254#255#176#226#255#255'uS>'#255'd6'#27#255#136'lZ'#255#176
+  +#213#230#255#183#231#254#255#178#229#254#255#183#231#254#255#176#213#230#255
+  +#135'xm'#255'd6'#27#255#128'`L'#255#167#163#157#255#136'lZ'#255'd6'#27#255'{'
+  +'ZE'#255#203#240#254#255#202#229#236#255#129'eR'#255'd6'#27#255'd6'#27#255
+  +#129'eR'#255#203#240#254#255#198#238#255#255#169#149'x'#255#155'g2'#255#169
+  +#149'x'#255#184#225#240#255#183#231#254#255#178#229#254#255#178#229#254#255
+  +#184#225#240#255#164#138'g'#255#155'g2'#255#172#145'o'#255#183#180#163#255
+  +#166#133'^'#255#155'g2'#255#177#164#140#255#189#200#198#255#159'q@'#255#164
+  +'}R'#255#174#204#213#255#169#224#254#255#161#221#254#255#155#216#254#255#149
+  +#213#254#255#149#213#254#255#149#213#254#255#149#213#254#255#145#212#255#255
+  +'r'#200#254#255#0#153#255#255#0#153#255#255#155#216#254#255#162#219#254#255
+  +#162#219#254#255#162#219#254#255#162#219#254#255#164#220#254#255#169#224#254
+  +#255#176#226#255#255#187#234#255#255#135'xm'#255'lB)'#255'nF.'#255#173#189
+  +#193#255#203#240#254#255#200#238#255#255#198#238#255#255#198#235#251#255#135
+  ,'xm'#255'd6'#27#255#134'rc'#255#214#246#255#255#195#209#211#255'nF.'#255'nH2'
+  +#255#198#221#225#255#209#232#239#255'sM7'#255'd6'#27#255'd6'#27#255'g<#'#255
+  +#171#176#172#255#214#246#255#255#188#182#164#255#158'l:'#255#164'vG'#255#198
+  +#221#225#255#203#240#254#255#198#238#255#255#198#238#255#255#200#238#255#255
+  +#166#133'^'#255#155'g2'#255#184#170#147#255#214#246#255#255#197#203#194#255
+  +#159'q@'#255#172#141'h'#255#197#203#194#255#172#141'h'#255#158'l:'#255#181
+  +#186#181#255#183#231#254#255#176#226#255#255#168#220#255#255#164#220#254#255
+  +#162#219#254#255#162#219#254#255#162#219#254#255#162#219#254#255#153#215#254
+  +#255#0#153#255#255#0#153#255#255#168#220#255#255#175#224#255#255#175#224#255
+  +#255#175#224#255#255#175#224#255#255#176#226#255#255#181#226#255#255#187#234
+  +#255#255#194#233#255#255#167#163#157#255'yVA'#255'd6'#27#255'vT@'#255#129'eR'
+  +#255#134'rc'#255#168#155#146#255#202#229#236#255#195#209#211#255#127'^J'#255
+  +'g<#'#255#132'gU'#255#137'p_'#255'g<#'#255'nF.'#255#181#186#181#255#209#232
+  +#239#255'd6'#27#255'lB)'#255#148#129's'#255'd6'#27#255'vT@'#255#216#241#248
+  +#255#206#217#212#255#160'p>'#255#156'i5'#255#166#133'^'#255#172#137'b'#255
+  +#178#150't'#255#188#182#164#255#214#241#249#255#197#203#194#255#166#128'U'
+  +#255#158'l:'#255#172#145'o'#255#172#141'h'#255#156'i5'#255#166#128'U'#255#201
+  +#199#186#255#187#168#142#255#155'g2'#255#184#170#147#255#198#238#255#255#190
+  +#230#255#255#181#229#254#255#176#226#255#255#175#224#255#255#175#224#255#255
+  +#175#224#255#255#175#224#255#255#168#220#255#255#0#153#255#255#0#153#255#255
+  +#181#226#255#255#187#229#255#255#187#229#255#255#187#229#255#255#187#229#255
+  +#255#187#229#255#255#190#230#255#255#199#233#255#255#206#237#255#255#189#200
+  +#198#255#132'gU'#255'd6'#27#255'g<#'#255'nF.'#255'd6'#27#255'd6'#27#255#137
+  +'p_'#255#195#202#200#255#208#221#224#255#178#172#164#255#160#144#132#255#148
+  +#129's'#255'{ZE'#255'g<#'#255#160#144#132#255#203#211#211#255'd6'#27#255'sM7'
+  +#255#208#221#224#255'yVA'#255'd6'#27#255#167#163#157#255#225#245#254#255#165
+  +'zL'#255#155'g2'#255#156'i5'#255#161'rB'#255#155'g2'#255#158'l:'#255#178#150
+  +'t'#255#213#224#220#255#213#224#220#255#197#186#169#255#187#168#142#255#184
+  +#159#128#255#165'zL'#255#158'l:'#255#195#185#167#255#195#185#167#255#155'g2'
+  +#255#178#150't'#255#208#240#255#255#201#234#255#255#194#233#255#255#190#230
+  +#255#255#187#229#255#255#187#229#255#255#187#229#255#255#187#229#255#255#181
+  +#226#255#255#0#153#255#255#0#153#255#255#190#230#255#255#199#233#255#255#199
+  +#233#255#255#199#233#255#255#199#233#255#255#199#233#255#255#201#234#255#255
+  +#206#237#255#255#212#240#255#255#209#232#239#255#148#129's'#255'd6'#27#255
+  +#136'lZ'#255#191#190#186#255#185#180#174#255#127'^J'#255'd6'#27#255#150#127
+  +'p'#255#203#211#211#255#178#172#164#255#190#187#182#255#178#172#164#255#128
+  +'`L'#255'd6'#27#255#136'lZ'#255#185#180#174#255'd6'#27#255#127'^J'#255#230
+  +#249#255#255#182#179#173#255'd6'#27#255'nF.'#255#214#230#233#255#178#145'k'
+  +#255#155'g2'#255#178#150't'#255#207#204#192#255#201#193#176#255#165'zL'#255
+  +#155'g2'#255#195#176#153#255#213#210#199#255#201#199#186#255#207#204#192#255
+  +#202#189#171#255#168#128'U'#255#155'g2'#255#184#170#147#255#207#204#192#255
+  +#155'g2'#255#171#134'^'#255#214#234#242#255#212#240#255#255#206#237#255#255
+  +#201#234#255#255#199#233#255#255#199#233#255#255#199#233#255#255#199#233#255
+  +#255#190#230#255#255#0#153#255#255#0#153#255#255#201#234#255#255#210#238#255
+  +#255#210#238#255#255#210#238#255#255#210#238#255#255#210#238#255#255#210#238
+  +#255#255#212#240#255#255#221#242#255#255#225#245#254#255#168#155#146#255'd6'
+  +#27#255#136'lZ'#255#228#241#243#255#238#250#255#255#178#172#164#255'd6'#27
+  +#255'{ZE'#255#165#148#136#255#128'`L'#255'uS>'#255'yVA'#255'g<#'#255'sM7'#255
+  +#168#155#146#255#168#155#146#255'd6'#27#255#148'zj'#255#230#249#255#255#225
+  +#242#248#255#132'gU'#255'd6'#27#255#165#148#136#255#188#166#139#255#156'i5'
+  +#255#178#150't'#255#238#250#255#255#238#250#255#255#188#166#139#255#155'g2'
+  +#255#172#141'h'#255#188#166#139#255#171#134'^'#255#168#128'U'#255#164'}R'#255
+  +#156'i5'#255#165'zL'#255#209#201#188#255#221#220#213#255#159'q@'#255#165'zL'
+  +#255#210#213#208#255#221#242#255#255#217#241#255#255#213#239#255#255#210#238
+  +#255#255#210#238#255#255#210#238#255#255#210#238#255#255#201#234#255#255#0
+  +#153#255#255#0#153#255#255#213#239#255#255#221#242#255#255#221#242#255#255
+  +#221#242#255#255#221#242#255#255#221#242#255#255#221#242#255#255#221#242#255
+  +#255#225#245#254#255#233#246#255#255#190#187#182#255'nF.'#255'lB)'#255#168
+  +#155#146#255#197#193#189#255#150#127'p'#255'd6'#27#255'yVA'#255#194#187#182
+  +#255#182#179#173#255#156#133'v'#255#150#127'p'#255#160#144#132#255#189#183
+  +#178#255#227#235#238#255#197#193#189#255#158#140#128#255#198#198#196#255#231
+  +#247#255#255#233#246#255#255#205#207#207#255#160#144#132#255#167#163#157#255
+  +#197#186#169#255#160'p>'#255#160'p>'#255#207#194#175#255#212#206#198#255#178
+  +#145'k'#255#155'g2'#255#171#134'^'#255#212#206#198#255#202#189#171#255#184
+  ,#159#128#255#185#155'z'#255#187#168#142#255#209#201#188#255#233#245#248#255
+  +#224#228#224#255#171#134'^'#255#158'l:'#255#202#189#171#255#229#245#255#255
+  +#229#245#255#255#221#242#255#255#221#242#255#255#221#242#255#255#221#242#255
+  +#255#221#242#255#255#210#238#255#255#0#153#255#255#0#153#255#255#221#242#255
+  +#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246
+  +#255#255#232#246#255#255#233#246#255#255#234#247#255#255#236#249#255#255#217
+  +#218#218#255#129'eR'#255'd6'#27#255'g<#'#255'g<#'#255'd6'#27#255'nF.'#255#156
+  +#133'v'#255#235#241#243#255#238#250#255#255#238#250#255#255#237#249#255#255
+  +#237#249#255#255#237#249#255#255#237#249#255#255#236#249#255#255#236#249#255
+  +#255#236#249#255#255#234#248#255#255#236#249#255#255#236#249#255#255#237#249
+  +#255#255#238#250#255#255#227#225#219#255#164'vG'#255#155'g2'#255#158'l:'#255
+  +#158'l:'#255#155'g2'#255#161'rB'#255#195#176#153#255#235#241#243#255#240#250
+  +#255#255#238#250#255#255#237#249#255#255#237#249#255#255#238#250#255#255#238
+  +#250#255#255#232#238#239#255#189#162#132#255#155'g2'#255#189#162#132#255#227
+  +#235#238#255#234#248#255#255#233#246#255#255#232#246#255#255#232#246#255#255
+  +#232#246#255#255#232#246#255#255#221#242#255#255#0#153#255#255#0#153#255#255
+  +#210#238#255#255#239#249#255#255#239#249#255#255#239#249#255#255#239#249#255
+  +#255#239#249#255#255#239#249#255#255#239#249#255#255#240#250#255#255#241#250
+  +#255#255#235#241#243#255#156#133'v'#255'nF.'#255'nF.'#255'lB)'#255'sM7'#255
+  +#148'zj'#255#212#206#198#255#241#250#255#255#245#251#255#255#241#250#255#255
+  +#241#250#255#255#241#250#255#255#241#250#255#255#241#250#255#255#241#250#255
   +#255#241#250#255#255#241#250#255#255#241#250#255#255#241#250#255#255#241#250
-  +#255#255#241#250#255#255#241#250#255#255#241#250#255#255#241#250#255#255#241
-  +#250#255#255#241#250#255#255#245#251#255#255#240#245#246#255#179#143'h'#255
-  +#164'vG'#255#160'p>'#255#160'p>'#255#165'zL'#255#185#155'z'#255#227#225#219
-  +#255#241#250#255#255#245#251#255#255#241#250#255#255#241#250#255#255#241#250
-  +#255#255#241#250#255#255#241#250#255#255#242#249#252#255#202#189#171#255#164
-  +'vG'#255#189#162#132#255#221#220#213#255#241#250#255#255#239#249#255#255#239
-  +#249#255#255#239#249#255#255#239#249#255#255#239#249#255#255#206#237#255#255
-  +#0#153#255#255#255#255#255#255#149#213#254#255#245#251#255#255#245#251#255
-  +#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251
-  +#255#255#245#251#255#255#246#252#255#255#246#252#255#255#246#252#255#255#248
-  +#253#255#255#248#253#255#255#248#253#255#255#248#253#255#255#248#253#255#255
-  +#246#252#255#255#246#252#255#255#246#252#255#255#246#252#255#255#245#251#255
-  +#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251
-  +#255#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#246
-  +#252#255#255#246#252#255#255#246#252#255#255#246#252#255#255#248#253#255#255
-  +#248#253#255#255#248#253#255#255#248#253#255#255#246#252#255#255#246#252#255
-  +#255#246#252#255#255#246#252#255#255#246#252#255#255#245#251#255#255#245#251
-  +#255#255#246#252#255#255#246#252#255#255#246#252#255#255#246#252#255#255#246
-  +#252#255#255#246#252#255#255#246#252#255#255#245#251#255#255#245#251#255#255
-  +#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#146#211#255
-  +#255#255#255#255#255#255#255#255#255#0#153#255#255#206#235#255#255#237#249
-  +#255#255#248#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250
-  +#253#255#255#250#253#255#255#250#253#255#255#251#253#255#255#251#253#255#255
-  +#251#253#255#255#251#254#255#255#251#254#255#255#251#254#255#255#251#253#255
-  +#255#251#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253
+  +#255#255#241#250#255#255#245#251#255#255#240#245#246#255#179#143'h'#255#164
+  +'vG'#255#160'p>'#255#160'p>'#255#165'zL'#255#185#155'z'#255#227#225#219#255
+  +#241#250#255#255#245#251#255#255#241#250#255#255#241#250#255#255#241#250#255
+  +#255#241#250#255#255#241#250#255#255#242#249#252#255#202#189#171#255#164'vG'
+  +#255#189#162#132#255#221#220#213#255#241#250#255#255#239#249#255#255#239#249
+  +#255#255#239#249#255#255#239#249#255#255#239#249#255#255#206#237#255#255#0
+  +#153#255#255#255#255#255#255#149#213#254#255#245#251#255#255#245#251#255#255
+  +#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255
+  +#255#245#251#255#255#246#252#255#255#246#252#255#255#246#252#255#255#248#253
+  +#255#255#248#253#255#255#248#253#255#255#248#253#255#255#248#253#255#255#246
+  +#252#255#255#246#252#255#255#246#252#255#255#246#252#255#255#245#251#255#255
+  +#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255
+  +#255#245#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#246#252
+  +#255#255#246#252#255#255#246#252#255#255#246#252#255#255#248#253#255#255#248
+  +#253#255#255#248#253#255#255#248#253#255#255#246#252#255#255#246#252#255#255
+  +#246#252#255#255#246#252#255#255#246#252#255#255#245#251#255#255#245#251#255
+  +#255#246#252#255#255#246#252#255#255#246#252#255#255#246#252#255#255#246#252
+  +#255#255#246#252#255#255#246#252#255#255#245#251#255#255#245#251#255#255#245
+  +#251#255#255#245#251#255#255#245#251#255#255#245#251#255#255#146#211#255#255
+  +#255#255#255#255#255#255#255#255#0#153#255#255#206#235#255#255#237#249#255
+  +#255#248#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253
+  +#255#255#250#253#255#255#250#253#255#255#251#253#255#255#251#253#255#255#251
+  +#253#255#255#251#254#255#255#251#254#255#255#251#254#255#255#251#253#255#255
+  +#251#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253#255
+  +#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253
   +#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250
-  +#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255
-  +#250#253#255#255#250#253#255#255#251#253#255#255#251#253#255#255#251#253#255
-  +#255#251#254#255#255#251#254#255#255#251#254#255#255#251#253#255#255#251#253
-  +#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250
-  +#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#251#253#255#255
-  +#251#253#255#255#251#253#255#255#250#253#255#255#250#253#255#255#250#253#255
-  +#255#250#253#255#255#248#253#255#255#237#249#255#255#206#235#255#255#0#153
-  +#255#255#251#254#255#255#255#255#255#255#255#255#255#255#0#153#255#255#149
-  +#213#254#255#201#234#255#255#229#245#255#255#232#246#255#255#232#246#255#255
-  +#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255
-  +#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#233#246
-  +#255#255#233#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232
-  +#246#255#255#233#246#255#255#233#246#255#255#232#246#255#255#232#246#255#255
-  +#233#246#255#255#233#246#255#255#232#246#255#255#232#246#255#255#232#246#255
-  +#255#232#246#255#255#232#246#255#255#232#246#255#255#233#246#255#255#232#246
+  +#253#255#255#250#253#255#255#251#253#255#255#251#253#255#255#251#253#255#255
+  +#251#254#255#255#251#254#255#255#251#254#255#255#251#253#255#255#251#253#255
+  +#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255#250#253
+  +#255#255#250#253#255#255#250#253#255#255#250#253#255#255#251#253#255#255#251
+  +#253#255#255#251#253#255#255#250#253#255#255#250#253#255#255#250#253#255#255
+  +#250#253#255#255#248#253#255#255#237#249#255#255#206#235#255#255#0#153#255
+  +#255#251#254#255#255#255#255#255#255#255#255#255#255#0#153#255#255#149#213
+  +#254#255#201#234#255#255#229#245#255#255#232#246#255#255#232#246#255#255#232
+  +#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255
+  +#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#233#246#255
+  +#255#233#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246
   +#255#255#233#246#255#255#233#246#255#255#232#246#255#255#232#246#255#255#233
-  +#246#255#255#232#246#255#255#232#246#255#255#233#246#255#255#233#246#255#255
-  +#232#246#255#255#233#246#255#255#233#246#255#255#232#246#255#255#232#246#255
-  ,#255#233#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246
-  +#255#255#229#245#255#255#201#234#255#255#149#213#254#255#0#153#255#255#255
+  +#246#255#255#233#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255
+  +#232#246#255#255#232#246#255#255#232#246#255#255#233#246#255#255#232#246#255
+  +#255#233#246#255#255#233#246#255#255#232#246#255#255#232#246#255#255#233#246
+  +#255#255#232#246#255#255#232#246#255#255#233#246#255#255#233#246#255#255#232
+  ,#246#255#255#233#246#255#255#233#246#255#255#232#246#255#255#232#246#255#255
+  +#233#246#255#255#232#246#255#255#232#246#255#255#232#246#255#255#232#246#255
+  +#255#229#245#255#255#201#234#255#255#149#213#254#255#0#153#255#255#255#255
   +#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255
-  +#255#255#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0
-  +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
+  +#255#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
   +#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255
   +#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0
   +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
@@ -30477,35 +30477,36 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0
   +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153
   +#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255
-  +#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#3
-  +#154#255#255#0#153#255#255#255#255#255#255#254#255#255#255#255#255#255#255
-  +#255#255#255#255#7'OnClick'#7#13'Button26Click'#8'TabOrder'#2#30#0#0#7'TButt'
-  +'on'#8'Button15'#4'Left'#3'8'#1#6'Height'#2#18#3'Top'#2'M'#5'Width'#2'x'#7'C'
-  +'aption'#6#16'Zero all targets'#7'OnClick'#7#13'Button15Click'#8'TabOrder'#2
-  +#31#0#0#6'TPanel'#6'Panel9'#4'Left'#3#128#2#6'Height'#2'7'#3'Top'#3'P'#1#5'W'
-  +'idth'#3#153#0#12'ClientHeight'#2'7'#11'ClientWidth'#3#153#0#10'ParentFont'#8
-  +#8'TabOrder'#2' '#0#6'TLabel'#7'Label25'#4'Left'#2')'#6'Height'#2#15#3'Top'#2
-  +#8#5'Width'#2'3'#7'Caption'#6#8'EC Model'#0#0#12'TRadioButton'#13'RadioButto'
-  +'n14'#4'Left'#2#8#6'Height'#2#19#4'Hint'#6'=Model using limiting molar condu'
-  +'ctivity values to estimate EC'#3'Top'#2' '#5'Width'#2'9'#7'Caption'#6#5'LMC'
-  +'v2'#7'Checked'#9#8'OnChange'#7#18'RadioButton8Change'#8'TabOrder'#2#0#7'Tab'
-  +'Stop'#9#0#0#12'TRadioButton'#13'RadioButton15'#4'Left'#2'G'#6'Height'#2#19#4
-  +'Hint'#6#242'Empirical model created using experimental data. Works best whe'
-  +'n only these salts are used for macronutrients:'#13#10#13#10'Calcium nitrat'
-  +'e (ag grade)'#13#10'Potassium sulfate'#13#10'Potassium monobasic phosphate'
-  +#13#10'Magnesium sulfate (heptahydrate)'#13#10'Ammonium sulfate'#3'Top'#2' '
-  +#5'Width'#2'E'#7'Caption'#6#9'Empirical'#8'OnChange'#7#18'RadioButton9Change'
-  +#8'TabOrder'#2#1#0#0#0#0#9'TTabSheet'#9'TabSheet2'#7'Caption'#6#7'Results'#12
-  +'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#11'Font.Height'#2#245#10'Paren'
-  +'tFont'#8#0#6'TLabel'#7'Label20'#4'Left'#3#196#1#6'Height'#2'h'#3'Top'#3'@'#1
-  +#5'Width'#3'D'#1#8'AutoSize'#8#7'Caption'#6';Any observations about the calc'
-  +'ulations will be posted here'#12'Font.CharSet'#7#12'ANSI_CHARSET'#11'Font.H'
-  +'eight'#2#240#9'Font.Name'#6#15'Times New Roman'#10'Font.Pitch'#7#10'fpVaria'
-  +'ble'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#8'WordWrap'#9#0#0#6'TLa'
-  +'bel'#7'Label21'#4'Left'#3#213#1#6'Height'#2#13#3'Top'#3#192#1#5'Width'#2'c'
-  +#7'Caption'#6#19'Predicted EC Value '#0#0#6'TPanel'#6'Panel6'#4'Left'#3#200#1
-  +#6'Height'#2'8'#3'Top'#3#216#1#5'Width'#3#132#0#7'Caption'#6#6'EC = 0'#12'Fo'
-  +'nt.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
+  +#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0
+  +#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#0#153#255#255#3#154
+  +#255#255#0#153#255#255#255#255#255#255#254#255#255#255#255#255#255#255#255
+  +#255#255#255#7'OnClick'#7#13'Button26Click'#8'TabOrder'#2#30#0#0#7'TButton'#8
+  +'Button15'#4'Left'#3'8'#1#6'Height'#2#18#3'Top'#2'M'#5'Width'#2'x'#7'Caption'
+  +#6#16'Zero all targets'#7'OnClick'#7#13'Button15Click'#8'TabOrder'#2#31#0#0#6
+  +'TPanel'#6'Panel9'#4'Left'#3#128#2#6'Height'#2'7'#3'Top'#3'P'#1#5'Width'#3
+  +#153#0#12'ClientHeight'#2'7'#11'ClientWidth'#3#153#0#10'ParentFont'#8#8'TabO'
+  +'rder'#2' '#0#6'TLabel'#7'Label25'#4'Left'#2')'#6'Height'#2#15#3'Top'#2#8#5
+  +'Width'#2'3'#7'Caption'#6#8'EC Model'#0#0#12'TRadioButton'#13'RadioButton14'
+  +#4'Left'#2#8#6'Height'#2#19#4'Hint'#6'=Model using limiting molar conductivi'
+  +'ty values to estimate EC'#3'Top'#2' '#5'Width'#2'9'#7'Caption'#6#5'LMCv2'#7
+  +'Checked'#9#8'OnChange'#7#18'RadioButton8Change'#8'TabOrder'#2#0#7'TabStop'#9
+  +#0#0#12'TRadioButton'#13'RadioButton15'#4'Left'#2'G'#6'Height'#2#19#4'Hint'#6
+  +#242'Empirical model created using experimental data. Works best when only t'
+  +'hese salts are used for macronutrients:'#13#10#13#10'Calcium nitrate (ag gr'
+  +'ade)'#13#10'Potassium sulfate'#13#10'Potassium monobasic phosphate'#13#10'M'
+  +'agnesium sulfate (heptahydrate)'#13#10'Ammonium sulfate'#3'Top'#2' '#5'Widt'
+  +'h'#2'E'#7'Caption'#6#9'Empirical'#8'OnChange'#7#18'RadioButton9Change'#8'Ta'
+  +'bOrder'#2#1#0#0#0#0#9'TTabSheet'#9'TabSheet2'#7'Caption'#6#7'Results'#12'Cl'
+  +'ientHeight'#3#133#2#11'ClientWidth'#3':'#3#11'Font.Height'#2#245#10'ParentF'
+  +'ont'#8#0#6'TLabel'#7'Label20'#4'Left'#3#196#1#6'Height'#2'h'#3'Top'#3'@'#1#5
+  +'Width'#3'D'#1#8'AutoSize'#8#7'Caption'#6';Any observations about the calcul'
+  +'ations will be posted here'#12'Font.CharSet'#7#12'ANSI_CHARSET'#11'Font.Hei'
+  +'ght'#2#240#9'Font.Name'#6#15'Times New Roman'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#8'WordWrap'#9#0#0#6'TLabe'
+  +'l'#7'Label21'#4'Left'#3#213#1#6'Height'#2#13#3'Top'#3#192#1#5'Width'#2'c'#7
+  +'Caption'#6#19'Predicted EC Value '#0#0#6'TPanel'#6'Panel6'#4'Left'#3#200#1#6
+  +'Height'#2'8'#3'Top'#3#216#1#5'Width'#3#132#0#7'Caption'#6#6'EC = 0'#12'Font'
+  +'.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
   +#240#9'Font.Name'#6#15'Times New Roman'#10'Font.Pitch'#7#10'fpVariable'#12'F'
   +'ont.Quality'#7#7'fqDraft'#10'ParentFont'#8#8'TabOrder'#2#0#7'OnClick'#7#11
   +'Panel6Click'#0#0#7'TBitBtn'#8'Button13'#4'Left'#2'8'#6'Height'#2' '#4'Hint'
@@ -30528,8 +30529,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#14#16#0#16#27#0#0#0#19#0#0#0#9#0#0
-  +#0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  ,#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  ,#0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#17#4#5#4')'#25'1'#27#138#5'='#7
   +#251#18'8'#20#193#26#28#26'F'#1#2#1'"'#0#0#0#16#0#0#0#5#0#0#0#1#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
@@ -30592,8 +30593,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#18#18#18'&A'#145'n'#252',N?V'#0#0#0#8
   +#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#11'#''$Ts'#166#139#255'<7:='#10#0#3#16
   +#0#0#0#6#0#0#0#3#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'Ly_sp'#167#135
-  ,#255'KlX'#170#8#0#4'8'#0#0#0#22#0#0#0#14#0#0#0#5#1#2#2#3#3#10#6'!i'#154'}'
+  ,#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'Ly_sp'#167#135
+  +#255'KlX'#170#8#0#4'8'#0#0#0#22#0#0#0#14#0#0#0#5#1#2#2#3#3#10#6'!i'#154'}'
   +#240'Uwbh'#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0'#6*'#0#0#0#0#0'dgd,'#139#166#147#134'm'#150'z'#220'^'#135'j'#220'5\@'#136
@@ -30634,222 +30635,223 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'TButton'#8'Button25'#4'Left'#3'y'#2#6'Height'#2#24#3'Top'#3#248#1#5'Width'#3
   +#143#0#7'Caption'#6#23'Nutrient Ratio Analysis'#7'OnClick'#7#13'Button25Clic'
   +'k'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#0#0#11'TStringGrid'#11
-  +'StringGrid1'#4'Left'#2'6'#6'Height'#3'8'#1#3'Top'#3#21#1#5'Width'#3'p'#1#8
-  +'ColCount'#2#4#7'Columns'#14#1#13'Title.Caption'#6#7'Element'#0#1#9'Alignmen'
-  +'t'#7#8'taCenter'#15'Title.Alignment'#7#8'taCenter'#13'Title.Caption'#6#12'R'
-  +'esult (ppm)'#0#1#9'Alignment'#7#8'taCenter'#15'Title.Alignment'#7#8'taCente'
-  +'r'#13'Title.Caption'#6#11'Gross Error'#0#1#9'Alignment'#7#8'taCenter'#15'Ti'
-  +'tle.Alignment'#7#8'taCenter'#13'Title.Caption'#6#18'Instrumental Error'#5'W'
-  +'idth'#2'i'#0#0#15'DefaultColWidth'#2'U'#16'DefaultRowHeight'#2#18#9'FixedCo'
-  +'ls'#2#0#8'RowCount'#2#17#8'TabOrder'#2#5#16'TitleFont.Height'#2#245#0#0#11
-  +'TStringGrid'#11'StringGrid2'#4'Left'#2'6'#6'Height'#3#253#0#3'Top'#2#8#5'Wi'
-  +'dth'#3#210#2#8'ColCount'#2#6#7'Columns'#14#1#11'ButtonStyle'#7#15'cbsButton'
-  +'Column'#8'ReadOnly'#9#13'Title.Caption'#6#30'Substance Name [click for url]'
-  +#0#1#9'Alignment'#7#8'taCenter'#8'ReadOnly'#9#15'Title.Alignment'#7#8'taCent'
-  +'er'#13'Title.Caption'#6#7'Formula'#0#1#9'Alignment'#7#8'taCenter'#15'Title.'
-  +'Alignment'#7#8'taCenter'#13'Title.Caption'#6#26'Amount [Edit to fine-tune]'
-  +#0#1#9'Alignment'#7#8'taCenter'#13'Title.Caption'#6#5'Units'#5'Width'#2'#'#0
-  +#1#9'Alignment'#7#8'taCenter'#8'ReadOnly'#9#15'Title.Alignment'#7#8'taCenter'
-  +#13'Title.Caption'#6#16'Preparation Cost'#0#1#13'Title.Caption'#6#6'Source'#7
-  +'Visible'#8#0#0#15'DefaultColWidth'#3#170#0#16'DefaultRowHeight'#2#20#9'Fixe'
-  +'dCols'#2#0#7'Options'#11#15'goFixedVertLine'#15'goFixedHorzLine'#10'goVertL'
-  +'ine'#10'goHorzLine'#13'goRangeSelect'#9'goEditing'#14'goSmoothScroll'#0#8'R'
-  +'owCount'#2#1#8'TabOrder'#2#6#16'TitleFont.Height'#2#245#17'OnEditButtonClic'
-  +'k'#7#26'StringGrid2EditButtonClick'#13'OnEditingDone'#7#22'StringGrid2Editi'
-  +'ngDone'#0#0#6'TLabel'#7'Label18'#4'Left'#3#196#1#6'Height'#2#18#3'Top'#3#21
-  ,#1#5'Width'#2'H'#7'Caption'#6#10'Total Cost'#11'Font.Height'#2#241#9'Font.Na'
-  +'me'#6#4'Sans'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#0#0#7'TButton'
-  +#8'Button16'#4'Left'#3'P'#2#6'Height'#2#25#3'Top'#3#216#1#5'Width'#2#27#7'Ca'
-  +'ption'#6#1'+'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlac'
-  +'k'#11'Font.Height'#2#235#9'Font.Name'#6#8'Segoe UI'#10'Font.Pitch'#7#10'fpV'
-  +'ariable'#12'Font.Quality'#7#7'fqDraft'#7'OnClick'#7#13'Button16Click'#10'Pa'
-  +'rentFont'#8#8'TabOrder'#2#7#0#0#7'TButton'#8'Button17'#4'Left'#3'P'#2#6'Hei'
-  +'ght'#2#25#3'Top'#3#247#1#5'Width'#2#27#7'Caption'#6#1'-'#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#235#9'Font.N'
-  +'ame'#6#8'Segoe UI'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqD'
-  +'raft'#7'OnClick'#7#13'Button17Click'#10'ParentFont'#8#8'TabOrder'#2#8#0#0#7
-  +'TBitBtn'#8'Button19'#4'Left'#3'x'#2#6'Height'#2#25#4'Hint'#6'5Shows the % c'
-  +'omposition of the mixture of solids used'#3'Top'#3#184#1#5'Width'#3#144#0#7
-  +'Caption'#6#18'Input mix analysis'#7'Enabled'#8#7'OnClick'#7#13'Button19Clic'
-  +'k'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#9#0#0#7'TButton'#8'Butt'
-  +'on20'#4'Left'#3#200#0#6'Height'#2'"'#4'Hint'#6'@Copies the "Result (ppm)" f'
-  +'ields to the targets on the Main Page'#3'Top'#3'X'#2#5'Width'#3#144#0#7'Cap'
-  +'tion'#6#23'Copy results to targets'#7'OnClick'#7#13'Button20Click'#14'Paren'
-  +'tShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#10#0#0#0#9'TTabSheet'#9'TabSheet3'
-  +#7'Caption'#6#5'About'#12'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#0#6'T'
-  +'Panel'#6'Panel7'#4'Left'#3#235#0#6'Height'#3'P'#1#3'Top'#3#144#0#5'Width'#3
-  +'x'#1#12'ClientHeight'#3'P'#1#11'ClientWidth'#3'x'#1#8'TabOrder'#2#0#0#6'TIm'
-  +'age'#7'Image10'#4'Left'#3#144#0#6'Height'#3'x'#1#3'Top'#3'H'#255#5'Width'#3
-  +#128#1#12'Picture.Data'#10#206'V'#1#0#23'TPortableNetworkGraphic'#178'V'#1#0
-  +#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#1#164#0#0#1#164#8#6#0#0#0'~LQ5'#0#0
-  +#0#9'pHYs'#0#0#11#19#0#0#11#19#1#0#154#156#24#0#0#10'OiCCPPhotoshop ICC prof'
-  +'ile'#0#0'x'#218#157'SgTS'#233#22'='#247#222#244'BK'#136#128#148'KoR'#21#8' '
-  +'RB'#139#128#20#145'&*!'#9#16'J'#136'!'#161#217#21'Q'#193#17'EE'#4#27#200#160
-  +#136#3#142#142#128#140#21'Q,'#12#138#10#216#7#228'!'#162#142#131#163#136#138
-  +#202#251#225'{'#163'k'#214#188#247#230#205#254#181#215'>'#231#172#243#157#179
-  +#207#7#192#8#12#150'H3Q5'#128#12#169'B'#30#17#224#131#199#196#198#225#228'.@'
-  +#129#10'$p'#0#16#8#179'd!s'#253'#'#1#0#248'~<<+"'#192#7#190#0#1'x'#211#11#8#0
-  +#192'M'#155#192'0'#28#135#255#15#234'B'#153'\'#1#128#132#1#192't'#145'8K'#8
-  +#128#20#0'@z'#142'B'#166#0'@F'#1#128#157#152'&S'#0#160#4#0'`'#203'cb'#227#0
-  +'P-'#0'`'''#127#230#211#0#128#157#248#153'{'#1#0'['#148'!'#21#1#160#145#0' '
-  +#19'e'#136'D'#0'h;'#0#172#207'V'#138'E'#0'X0'#0#20'fK'#196'9'#0#216'-'#0'0IW'
-  +'fH'#0#176#183#0#192#206#16#11#178#0#8#12#0'0Q'#136#133')'#0#4'{'#0'`'#200'#'
-  +'#x'#0#132#153#0#20'F'#242'W<'#241'+'#174#16#231'*'#0#0'x'#153#178'<'#185'$9'
-  +'E'#129'['#8'-q'#7'WW.'#30'('#206'I'#23'+'#20'6a'#2'a'#154'@.'#194'y'#153#25
-  +'2'#129'4'#15#224#243#204#0#0#160#145#21#17#224#131#243#253'x'#206#14#174#206
-  +#206'6'#142#182#14'_-'#234#191#6#255'"bb'#227#254#229#207#171'p@'#0#0#225't~'
-  +#209#254',/'#179#26#128';'#6#128'm'#254#162'%'#238#4'h^'#11#160'u'#247#139'f'
-  +#178#15'@'#181#0#160#233#218'W'#243'p'#248'~<<E'#161#144#185#217#217#229#228
-  +#228#216'J'#196'B[a'#202'W}'#254'g'#194'_'#192'W'#253'l'#249'~<'#252#247#245
-  +#224#190#226'$'#129'2]'#129'G'#4#248#224#194#204#244'L'#165#28#207#146#9#132
-  +'b'#220#230#143'G'#252#183#11#255#252#29#211'"'#196'Ib'#185'X*'#20#227'Q'#18
-  +'q'#142'D'#154#140#243'2'#165'"'#137'B'#146')'#197'%'#210#255'd'#226#223','
-  +#251#3'>'#223'5'#0#176'j>'#1'{'#145'-'#168']c'#3#246'K'''#16'Xt'#192#226#247
-  +#0#0#242#187'o'#193#212'('#8#3#128'h'#131#225#207'w'#255#239'?'#253'G'#160'%'
-  +#0#128'fI'#146'q'#0#0'^D$.T'#202#179'?'#199#8#0#0'D'#160#129'*'#176'A'#27#244
-  +#193#24','#192#6#28#193#5#220#193#11#252'`6'#132'B$'#196#194'B'#16'B'#10'd'
-  +#128#28'r`)'#172#130'B('#134#205#176#29'*`/'#212'@'#29'4'#192'Qh'#134#147'p'
-  +#14'.'#194'U'#184#14'=p'#15#250'a'#8#158#193'('#188#129#9#4'A'#200#8#19'a!'
-  +#218#136#1'b'#138'X#'#142#8#23#153#133#248'!'#193'H'#4#18#139'$ '#201#136#20
-  +'Q"K'#145'5H1R'#138'T UH'#29#242'=r'#2'9'#135'\F'#186#145';'#200#0'2'#130#252
-  +#134#188'G1'#148#129#178'Q='#212#12#181'C'#185#168'7'#26#132'F'#162#11#208'd'
-  +'t1'#154#143#22#160#155#208'r'#180#26'='#140'6'#161#231#208#171'h'#15#218#143
-  +'>C'#199'0'#192#232#24#7'3'#196'l0.'#198#195'B'#177'8,'#9#147'c'#203#177'"'
-  +#172#12#171#198#26#176'V'#172#3#187#137#245'c'#207#177'w'#4#18#129'E'#192#9
-  +'6'#4'wB a'#30'AHXLXN'#216'H'#168' '#28'$4'#17#218#9'7'#9#3#132'Q'#194'''"'
-  +#147#168'K'#180'&'#186#17#249#196#24'b21'#135'XH,#'#214#18#143#19'/'#16'{'
-  +#136'C'#196'7$'#18#137'C2'''#185#144#2'I'#177#164'T'#210#18#210'F'#210'nR#'
-  +#233','#169#155'4H'#26'#'#147#201#218'dk'#178#7'9'#148', +'#200#133#228#157
-  +#228#195#228'3'#228#27#228'!'#242'['#10#157'b@q'#164#248'S'#226'(R'#202'jJ'
-  ,#25#229#16#229'4'#229#6'e'#152'2AU'#163#154'R'#221#168#161'T'#17'5'#143'ZB'
-  +#173#161#182'R'#175'Q'#135#168#19'4u'#154'9'#205#131#22'IK'#165#173#162#149
-  +#211#26'h'#23'h'#247'i'#175#232't'#186#17#221#149#30'N'#151#208'W'#210#203
-  +#233'G'#232#151#232#3#244'w'#12#13#134#21#131#199#136'g('#25#155#24#7#24'g'
-  +#25'w'#24#175#152'L'#166#25#211#139#25#199'T071'#235#152#231#153#15#153'oUX*'
-  +#182'*|'#21#145#202#10#149'J'#149'&'#149#27'*/T'#169#170#166#170#222#170#11
-  +'U'#243'U'#203'T'#143#169'^S}'#174'FU3S'#227#169#9#212#150#171'U'#170#157'P'
-  +#235'S'#27'Sg'#169';'#168#135#170'g'#168'oT?'#164'~Y'#253#137#6'Y'#195'L'#195
-  +'OC'#164'Q'#160#177'_'#227#188#198' '#11'c'#25#179'x,!k'#13#171#134'u'#129'5'
-  +#196'&'#177#205#217'|v*'#187#152#253#29#187#139'='#170#169#161'9C3J3W'#179'R'
-  +#243#148'f?'#7#227#152'q'#248#156'tN'#9#231'('#167#151#243'~'#138#222#20#239
-  +')'#226')'#27#166'4L'#185'1e\k'#170#150#151#150'X'#171'H'#171'Q'#171'G'#235
-  +#189'6'#174#237#167#157#166#189'E'#187'Y'#251#129#14'A'#199'J''\''Gg'#143#206
-  +#5#157#231'S'#217'S'#221#167#10#167#22'M=:'#245#174'.'#170'k'#165#27#161#187
-  +'Dw'#191'n'#167#238#152#158#190'^'#128#158'Lo'#167#222'y'#189#231#250#28'}/'
-  +#253'T'#253'm'#250#167#245'G'#12'X'#6#179#12'$'#6#219#12#206#24'<'#197'5qo<'
-  +#29'/'#199#219#241'QC]'#195'@C'#165'a'#149'a'#151#225#132#145#185#209'<'#163
-  +#213'F'#141'F'#15#140'i'#198'\'#227'$'#227'm'#198'm'#198#163'&'#6'&!&KM'#234
-  +'M'#238#154'RM'#185#166')'#166';L;L'#199#205#204#205#162#205#214#153'5'#155
-  +'=1'#215'2'#231#155#231#155#215#155#223#183'`ZxZ,'#182#168#182#184'eI'#178
-  +#228'Z'#166'Y'#238#182#188'n'#133'Z9Y'#165'XUZ]'#179'F'#173#157#173'%'#214
-  +#187#173#187#167#17#167#185'N'#147'N'#171#158#214'g'#195#176#241#182#201#182
-  +#169#183#25#176#229#216#6#219#174#182'm'#182'}agb'#23'g'#183#197#174#195#238
-  +#147#189#147'}'#186'}'#141#253'='#7#13#135#217#14#171#29'Z'#29'~s'#180'r'#20
-  +':V:'#222#154#206#156#238'?}'#197#244#150#233'/gX'#207#16#207#216'3'#227#182
-  +#19#203')'#196'i'#157'S'#155#211'Gg'#23'g'#185's'#131#243#136#139#137'K'#130
-  +#203'.'#151'>.'#155#27#198#221#200#189#228'Jt'#245'q]'#225'z'#210#245#157#155
-  +#179#155#194#237#168#219#175#238'6'#238'i'#238#135#220#159#204'4'#159')'#158
-  +'Y3s'#208#195#200'C'#224'Q'#229#209'?'#11#159#149'0k'#223#172'~OCO'#129'g'
-  +#181#231'#/c/'#145'W'#173#215#176#183#165'w'#170#247'a'#239#23'>'#246'>r'#159
-  +#227'>'#227'<7'#222'2'#222'Y_'#204'7'#192#183#200#183#203'O'#195'o'#158'_'
-  +#133#223'C'#127'#'#255'd'#255'z'#255#209#0#167#128'%'#1'g'#3#137#129'A'#129
-  +'['#2#251#248'z|!'#191#142'?:'#219'e'#246#178#217#237'A'#140#160#185'A'#21'A'
-  +#143#130#173#130#229#193#173'!h'#200#236#144#173'!'#247#231#152#206#145#206
-  +'i'#14#133'P~'#232#214#208#7'a'#230'a'#139#195'~'#12''''#133#135#133'W'#134
-  +'?'#142'p'#136'X'#26#209'1'#151'5w'#209#220'Cs'#223'D'#250'D'#150'D'#222#155
-  +'g1O9'#175'-J5*>'#170'.j<'#218'7'#186'4'#186'?'#198'.fY'#204#213'X'#157'XIlK'
-  +#28'9.*'#174'6nl'#190#223#252#237#243#135#226#157#226#11#227'{'#23#152'/'#200
-  +']py'#161#206#194#244#133#167#22#169'.'#18',:'#150'@L'#136'N8'#148#240'A'#16
-  +'*'#168#22#140'%'#242#19'w%'#142#10'y'#194#29#194'g"/'#209'6'#209#136#216'C\'
-  +'*'#30'N'#242'H*Mz'#146#236#145#188'5y$'#197'3'#165','#229#185#132''''#169
-  +#144#188'L'#13'L'#221#155':'#158#22#154'v m2=:'#189'1'#131#146#145#144'qB'
-  +#170'!M'#147#182'g'#234'g'#230'fv'#203#172'e'#133#178#254#197'n'#139#183'/'
-  +#30#149#7#201'k'#179#144#172#5'Y-'#10#182'B'#166#232'TZ('#215'*'#7#178'geWf'
-  +#191#205#137#202'9'#150#171#158'+'#205#237#204#179#202#219#144'7'#156#239#159
-  +#255#237#18#194#18#225#146#182#165#134'KW-'#29'X'#230#189#172'j9'#178'<qy'
-  +#219#10#227#21#5'+'#134'V'#6#172'<'#184#138#182'*m'#213'O'#171#237'W'#151#174
-  +'~'#189'&zMk'#129'^'#193#202#130#193#181#1'k'#235#11'U'#10#229#133'}'#235#220
-  +#215#237']OX/Y'#223#181'a'#250#134#157#27'>'#21#137#138#174#20#219#23#151#21
-  +#127#216'('#220'x'#229#27#135'o'#202#191#153#220#148#180#169#171#196#185'd'
-  +#207'f'#210'f'#233#230#222'-'#158'['#14#150#170#151#230#151#14'n'#13#217#218
-  +#180#13#223'V'#180#237#245#246'E'#219'/'#151#205'('#219#187#131#182'C'#185
-  +#163#191'<'#184#188'e'#167#201#206#205';?T'#164'T'#244'T'#250'T6'#238#210#221
-  +#181'a'#215#248'n'#209#238#27'{'#188#246'4'#236#213#219'['#188#247#253'>'#201
-  +#190#219'U'#1'UM'#213'f'#213'e'#251'I'#251#179#247'?'#174#137#170#233#248#150
-  +#251'm]'#173'Nmq'#237#199#3#210#3#253#7'#'#14#182#215#185#212#213#29#210'=TR'
-  +#143#214'+'#235'G'#14#199#31#190#254#157#239'w-'#13'6'#13'U'#141#156#198#226
-  +'#pDy'#228#233#247#9#223#247#30#13':'#218'v'#140'{'#172#225#7#211#31'v'#29'g'
-  +#29'/jB'#154#242#154'F'#155'S'#154#251'[b['#186'O'#204'>'#209#214#234#222'z'
-  +#252'G'#219#31#15#156'4<YyJ'#243'T'#201'i'#218#233#130#211#147'g'#242#207#140
-  +#157#149#157'}~.'#249#220'`'#219#162#182'{'#231'c'#206#223'j'#15'o'#239#186
-  +#16't'#225#210'E'#255#139#231';'#188';'#206'\'#242#184't'#242#178#219#229#19
-  +'W'#184'W'#154#175':_m'#234't'#234'<'#254#147#211'O'#199#187#156#187#154#174
-  +#185'\k'#185#238'z'#189#181'{f'#247#233#27#158'7'#206#221#244#189'y'#241#22
-  ,#255#214#213#158'9='#221#189#243'zo'#247#197#247#245#223#22#221'~r'''#253#206
-  +#203#187#217'w'''#238#173#188'O'#188'_'#244'@'#237'A'#217'C'#221#135#213'?['
-  +#254#220#216#239#220#127'j'#192'w'#160#243#209#220'G'#247#6#133#131#207#254
-  +#145#245#143#15'C'#5#143#153#143#203#134#13#134#235#158'8>99'#226'?r'#253#233
-  +#252#167'C'#207'd'#207'&'#158#23#254#162#254#203#174#23#22'/~'#248#213#235
-  +#215#206#209#152#209#161#151#242#151#147#191'm|'#165#253#234#192#235#25#175
-  +#219#198#194#198#30#190#201'x31^'#244'V'#251#237#193'w'#220'w'#29#239#163#223
-  +#15'O'#228'| '#127'('#255'h'#249#177#245'S'#208#167#251#147#25#147#147#255#4
-  +#3#152#243#252'c3-'#219#0#0#0' cHRM'#0#0'z%'#0#0#128#131#0#0#249#255#0#0#128
-  +#233#0#0'u0'#0#0#234'`'#0#0':'#152#0#0#23'o'#146'_'#197'F'#0#1'K'#221'IDATx'
-  +#218#236#253#247#147'div'#29#8#158'O='#229'"dj'#173'Ue'#233'j'#133#150#232#6
-  +#208'P'#4'X'#132' '#6'$'#135#24#14#151#195#221#177#157#29#219#31'fv'#198'vmm'
-  +'g'#205'vg'#205#246'/'#24#179'Y'#179#249'e'#185'$'#209'$'#135#4#9#128'@7'#208
-  +'h'#221']'#186'*'#179#170#178'R'#171#200#208#225#238'O~j'#127'x'#239#185'?'
-  +#247'p'#143#136#172#202'R'#217#239#150'y'#185#142#140'p'#127#239';'#223#185
-  +#247#220's'#137#181#22'u'#212'QG'#29'u'#212#241'q'#7#173'?'#130':'#234#168
+  +'StringGrid1'#4'Left'#2'6'#6'Height'#3'8'#1#3'Top'#3#21#1#5'Width'#3#130#1#7
+  +'Columns'#14#1#13'Title.Caption'#6#7'Element'#0#1#9'Alignment'#7#8'taCenter'
+  +#15'Title.Alignment'#7#8'taCenter'#13'Title.Caption'#6#12'Result (ppm)'#0#1#9
+  +'Alignment'#7#8'taCenter'#15'Title.Alignment'#7#8'taCenter'#13'Title.Caption'
+  +#6#2'GE'#5'Width'#2'<'#0#1#9'Alignment'#7#8'taCenter'#15'Title.Alignment'#7#8
+  +'taCenter'#13'Title.Caption'#6#2'IE'#5'Width'#2'<'#0#1#9'Alignment'#7#8'taCe'
+  +'nter'#15'Title.Alignment'#7#8'taCenter'#13'Title.Caption'#6#11'Water (ppm)'
+  +#0#0#15'DefaultColWidth'#2'U'#16'DefaultRowHeight'#2#18#9'FixedCols'#2#0#8'R'
+  +'owCount'#2#17#8'TabOrder'#2#5#16'TitleFont.Height'#2#245#0#0#11'TStringGrid'
+  +#11'StringGrid2'#4'Left'#2'6'#6'Height'#3#253#0#3'Top'#2#8#5'Width'#3#210#2#8
+  +'ColCount'#2#6#7'Columns'#14#1#11'ButtonStyle'#7#15'cbsButtonColumn'#8'ReadO'
+  +'nly'#9#13'Title.Caption'#6#30'Substance Name [click for url]'#0#1#9'Alignme'
+  +'nt'#7#8'taCenter'#8'ReadOnly'#9#15'Title.Alignment'#7#8'taCenter'#13'Title.'
+  +'Caption'#6#7'Formula'#0#1#9'Alignment'#7#8'taCenter'#15'Title.Alignment'#7#8
+  +'taCenter'#13'Title.Caption'#6#26'Amount [Edit to fine-tune]'#0#1#9'Alignmen'
+  +'t'#7#8'taCenter'#13'Title.Caption'#6#5'Units'#5'Width'#2'#'#0#1#9'Alignment'
+  +#7#8'taCenter'#8'ReadOnly'#9#15'Title.Alignment'#7#8'taCenter'#13'Title.Capt'
+  +'ion'#6#16'Preparation Cost'#0#1#13'Title.Caption'#6#6'Source'#7'Visible'#8#0
+  +#0#15'DefaultColWidth'#3#170#0#16'DefaultRowHeight'#2#20#9'FixedCols'#2#0#7
+  +'Options'#11#15'goFixedVertLine'#15'goFixedHorzLine'#10'goVertLine'#10'goHor'
+  +'zLine'#13'goRangeSelect'#9'goEditing'#14'goSmoothScroll'#0#8'RowCount'#2#1#8
+  +'TabOrder'#2#6#16'TitleFont.Height'#2#245#17'OnEditButtonClick'#7#26'StringG'
+  ,'rid2EditButtonClick'#13'OnEditingDone'#7#22'StringGrid2EditingDone'#0#0#6'T'
+  +'Label'#7'Label18'#4'Left'#3#196#1#6'Height'#2#18#3'Top'#3#21#1#5'Width'#2'H'
+  +#7'Caption'#6#10'Total Cost'#11'Font.Height'#2#241#9'Font.Name'#6#4'Sans'#10
+  +'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#0#0#7'TButton'#8'Button16'#4'Le'
+  +'ft'#3'P'#2#6'Height'#2#25#3'Top'#3#216#1#5'Width'#2#27#7'Caption'#6#1'+'#12
+  +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
+  +#2#235#9'Font.Name'#6#8'Segoe UI'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Qu'
+  +'ality'#7#7'fqDraft'#7'OnClick'#7#13'Button16Click'#10'ParentFont'#8#8'TabOr'
+  +'der'#2#7#0#0#7'TButton'#8'Button17'#4'Left'#3'P'#2#6'Height'#2#25#3'Top'#3
+  +#247#1#5'Width'#2#27#7'Caption'#6#1'-'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#235#9'Font.Name'#6#8'Segoe UI'#10
+  +'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#7'OnClick'#7#13
+  +'Button17Click'#10'ParentFont'#8#8'TabOrder'#2#8#0#0#7'TBitBtn'#8'Button19'#4
+  +'Left'#3'x'#2#6'Height'#2#25#4'Hint'#6'5Shows the % composition of the mixtu'
+  +'re of solids used'#3'Top'#3#184#1#5'Width'#3#144#0#7'Caption'#6#18'Input mi'
+  +'x analysis'#7'Enabled'#8#7'OnClick'#7#13'Button19Click'#14'ParentShowHint'#8
+  +#8'ShowHint'#9#8'TabOrder'#2#9#0#0#7'TButton'#8'Button20'#4'Left'#3#200#0#6
+  +'Height'#2'"'#4'Hint'#6'@Copies the "Result (ppm)" fields to the targets on '
+  +'the Main Page'#3'Top'#3'X'#2#5'Width'#3#144#0#7'Caption'#6#23'Copy results '
+  +'to targets'#7'OnClick'#7#13'Button20Click'#14'ParentShowHint'#8#8'ShowHint'
+  +#9#8'TabOrder'#2#10#0#0#0#9'TTabSheet'#9'TabSheet3'#7'Caption'#6#5'About'#12
+  +'ClientHeight'#3#133#2#11'ClientWidth'#3':'#3#0#6'TPanel'#6'Panel7'#4'Left'#3
+  +#235#0#6'Height'#3'P'#1#3'Top'#3#144#0#5'Width'#3'x'#1#12'ClientHeight'#3'P'
+  +#1#11'ClientWidth'#3'x'#1#8'TabOrder'#2#0#0#6'TImage'#7'Image10'#4'Left'#3
+  +#144#0#6'Height'#3'x'#1#3'Top'#3'H'#255#5'Width'#3#128#1#12'Picture.Data'#10
+  +#206'V'#1#0#23'TPortableNetworkGraphic'#178'V'#1#0#137'PNG'#13#10#26#10#0#0#0
+  +#13'IHDR'#0#0#1#164#0#0#1#164#8#6#0#0#0'~LQ5'#0#0#0#9'pHYs'#0#0#11#19#0#0#11
+  +#19#1#0#154#156#24#0#0#10'OiCCPPhotoshop ICC profile'#0#0'x'#218#157'SgTS'
+  +#233#22'='#247#222#244'BK'#136#128#148'KoR'#21#8' RB'#139#128#20#145'&*!'#9
+  +#16'J'#136'!'#161#217#21'Q'#193#17'EE'#4#27#200#160#136#3#142#142#128#140#21
+  +'Q,'#12#138#10#216#7#228'!'#162#142#131#163#136#138#202#251#225'{'#163'k'#214
+  +#188#247#230#205#254#181#215'>'#231#172#243#157#179#207#7#192#8#12#150'H3Q5'
+  +#128#12#169'B'#30#17#224#131#199#196#198#225#228'.@'#129#10'$p'#0#16#8#179'd'
+  +'!s'#253'#'#1#0#248'~<<+"'#192#7#190#0#1'x'#211#11#8#0#192'M'#155#192'0'#28
+  +#135#255#15#234'B'#153'\'#1#128#132#1#192't'#145'8K'#8#128#20#0'@z'#142'B'
+  +#166#0'@F'#1#128#157#152'&S'#0#160#4#0'`'#203'cb'#227#0'P-'#0'`'''#127#230
+  +#211#0#128#157#248#153'{'#1#0'['#148'!'#21#1#160#145#0' '#19'e'#136'D'#0'h;'
+  +#0#172#207'V'#138'E'#0'X0'#0#20'fK'#196'9'#0#216'-'#0'0IWfH'#0#176#183#0#192
+  +#206#16#11#178#0#8#12#0'0Q'#136#133')'#0#4'{'#0'`'#200'##x'#0#132#153#0#20'F'
+  +#242'W<'#241'+'#174#16#231'*'#0#0'x'#153#178'<'#185'$9E'#129'['#8'-q'#7'WW.'
+  +#30'('#206'I'#23'+'#20'6a'#2'a'#154'@.'#194'y'#153#25'2'#129'4'#15#224#243
+  +#204#0#0#160#145#21#17#224#131#243#253'x'#206#14#174#206#206'6'#142#182#14'_'
+  +'-'#234#191#6#255'"bb'#227#254#229#207#171'p@'#0#0#225't~'#209#254',/'#179#26
+  +#128';'#6#128'm'#254#162'%'#238#4'h^'#11#160'u'#247#139'f'#178#15'@'#181#0
+  +#160#233#218'W'#243'p'#248'~<<E'#161#144#185#217#217#229#228#228#216'J'#196
+  +'B[a'#202'W}'#254'g'#194'_'#192'W'#253'l'#249'~<'#252#247#245#224#190#226'$'
+  +#129'2]'#129'G'#4#248#224#194#204#244'L'#165#28#207#146#9#132'b'#220#230#143
+  +'G'#252#183#11#255#252#29#211'"'#196'Ib'#185'X*'#20#227'Q'#18'q'#142'D'#154
+  +#140#243'2'#165'"'#137'B'#146')'#197'%'#210#255'd'#226#223','#251#3'>'#223'5'
+  +#0#176'j>'#1'{'#145'-'#168']c'#3#246'K'''#16'Xt'#192#226#247#0#0#242#187'o'
+  +#193#212'('#8#3#128'h'#131#225#207'w'#255#239'?'#253'G'#160'%'#0#128'fI'#146
+  +'q'#0#0'^D$.T'#202#179'?'#199#8#0#0'D'#160#129'*'#176'A'#27#244#193#24','#192
+  +#6#28#193#5#220#193#11#252'`6'#132'B$'#196#194'B'#16'B'#10'd'#128#28'r`)'#172
+  +#130'B('#134#205#176#29'*`/'#212'@'#29'4'#192'Qh'#134#147'p'#14'.'#194'U'#184
+  +#14'=p'#15#250'a'#8#158#193'('#188#129#9#4'A'#200#8#19'a!'#218#136#1'b'#138
+  +'X#'#142#8#23#153#133#248'!'#193'H'#4#18#139'$ '#201#136#20'Q"K'#145'5H1R'
+  +#138'T UH'#29#242'=r'#2'9'#135'\F'#186#145';'#200#0'2'#130#252#134#188'G1'
+  +#148#129#178'Q='#212#12#181'C'#185#168'7'#26#132'F'#162#11#208'dt1'#154#143
+  +#22#160#155#208'r'#180#26'='#140'6'#161#231#208#171'h'#15#218#143'>C'#199'0'
+  +#192#232#24#7'3'#196'l0.'#198#195'B'#177'8,'#9#147'c'#203#177'"'#172#12#171
+  +#198#26#176'V'#172#3#187#137#245'c'#207#177'w'#4#18#129'E'#192#9'6'#4'wB a'
+  +#30'AHXLXN'#216'H'#168' '#28'$4'#17#218#9'7'#9#3#132'Q'#194'''"'#147#168'K'
+  +#180'&'#186#17#249#196#24'b21'#135'XH,#'#214#18#143#19'/'#16'{'#136'C'#196'7'
+  +'$'#18#137'C2'''#185#144#2'I'#177#164'T'#210#18#210'F'#210'nR#'#233','#169
+  ,#155'4H'#26'#'#147#201#218'dk'#178#7'9'#148', +'#200#133#228#157#228#195#228
+  +'3'#228#27#228'!'#242'['#10#157'b@q'#164#248'S'#226'(R'#202'jJ'#25#229#16#229
+  +'4'#229#6'e'#152'2AU'#163#154'R'#221#168#161'T'#17'5'#143'ZB'#173#161#182'R'
+  +#175'Q'#135#168#19'4u'#154'9'#205#131#22'IK'#165#173#162#149#211#26'h'#23'h'
+  +#247'i'#175#232't'#186#17#221#149#30'N'#151#208'W'#210#203#233'G'#232#151#232
+  +#3#244'w'#12#13#134#21#131#199#136'g('#25#155#24#7#24'g'#25'w'#24#175#152'L'
+  +#166#25#211#139#25#199'T071'#235#152#231#153#15#153'oUX*'#182'*|'#21#145#202
+  +#10#149'J'#149'&'#149#27'*/T'#169#170#166#170#222#170#11'U'#243'U'#203'T'#143
+  +#169'^S}'#174'FU3S'#227#169#9#212#150#171'U'#170#157'P'#235'S'#27'Sg'#169';'
+  +#168#135#170'g'#168'oT?'#164'~Y'#253#137#6'Y'#195'L'#195'OC'#164'Q'#160#177
+  +'_'#227#188#198' '#11'c'#25#179'x,!k'#13#171#134'u'#129'5'#196'&'#177#205#217
+  +'|v*'#187#152#253#29#187#139'='#170#169#161'9C3J3W'#179'R'#243#148'f?'#7#227
+  +#152'q'#248#156'tN'#9#231'('#167#151#243'~'#138#222#20#239')'#226')'#27#166
+  +'4L'#185'1e\k'#170#150#151#150'X'#171'H'#171'Q'#171'G'#235#189'6'#174#237#167
+  +#157#166#189'E'#187'Y'#251#129#14'A'#199'J''\''Gg'#143#206#5#157#231'S'#217
+  +'S'#221#167#10#167#22'M=:'#245#174'.'#170'k'#165#27#161#187'Dw'#191'n'#167
+  +#238#152#158#190'^'#128#158'Lo'#167#222'y'#189#231#250#28'}/'#253'T'#253'm'
+  +#250#167#245'G'#12'X'#6#179#12'$'#6#219#12#206#24'<'#197'5qo<'#29'/'#199#219
+  +#241'QC]'#195'@C'#165'a'#149'a'#151#225#132#145#185#209'<'#163#213'F'#141'F'
+  +#15#140'i'#198'\'#227'$'#227'm'#198'm'#198#163'&'#6'&!&KM'#234'M'#238#154'RM'
+  +#185#166')'#166';L;L'#199#205#204#205#162#205#214#153'5'#155'=1'#215'2'#231
+  +#155#231#155#215#155#223#183'`ZxZ,'#182#168#182#184'eI'#178#228'Z'#166'Y'#238
+  +#182#188'n'#133'Z9Y'#165'XUZ]'#179'F'#173#157#173'%'#214#187#173#187#167#17
+  +#167#185'N'#147'N'#171#158#214'g'#195#176#241#182#201#182#169#183#25#176#229
+  +#216#6#219#174#182'm'#182'}agb'#23'g'#183#197#174#195#238#147#189#147'}'#186
+  +'}'#141#253'='#7#13#135#217#14#171#29'Z'#29'~s'#180'r'#20':V:'#222#154#206
+  +#156#238'?}'#197#244#150#233'/gX'#207#16#207#216'3'#227#182#19#203')'#196'i'
+  +#157'S'#155#211'Gg'#23'g'#185's'#131#243#136#139#137'K'#130#203'.'#151'>.'
+  +#155#27#198#221#200#189#228'Jt'#245'q]'#225'z'#210#245#157#155#179#155#194
+  +#237#168#219#175#238'6'#238'i'#238#135#220#159#204'4'#159')'#158'Y3s'#208#195
+  +#200'C'#224'Q'#229#209'?'#11#159#149'0k'#223#172'~OCO'#129'g'#181#231'#/c/'
+  +#145'W'#173#215#176#183#165'w'#170#247'a'#239#23'>'#246'>r'#159#227'>'#227'<'
+  +'7'#222'2'#222'Y_'#204'7'#192#183#200#183#203'O'#195'o'#158'_'#133#223'C'#127
+  +'#'#255'd'#255'z'#255#209#0#167#128'%'#1'g'#3#137#129'A'#129'['#2#251#248'z|'
+  +'!'#191#142'?:'#219'e'#246#178#217#237'A'#140#160#185'A'#21'A'#143#130#173
+  +#130#229#193#173'!h'#200#236#144#173'!'#247#231#152#206#145#206'i'#14#133'P~'
+  +#232#214#208#7'a'#230'a'#139#195'~'#12''''#133#135#133'W'#134'?'#142'p'#136
+  +'X'#26#209'1'#151'5w'#209#220'Cs'#223'D'#250'D'#150'D'#222#155'g1O9'#175'-J5'
+  +'*>'#170'.j<'#218'7'#186'4'#186'?'#198'.fY'#204#213'X'#157'XIlK'#28'9.*'#174
+  +'6nl'#190#223#252#237#243#135#226#157#226#11#227'{'#23#152'/'#200']py'#161
+  +#206#194#244#133#167#22#169'.'#18',:'#150'@L'#136'N8'#148#240'A'#16'*'#168#22
+  +#140'%'#242#19'w%'#142#10'y'#194#29#194'g"/'#209'6'#209#136#216'C\*'#30'N'
+  +#242'H*Mz'#146#236#145#188'5y$'#197'3'#165','#229#185#132''''#169#144#188'L'
+  +#13'L'#221#155':'#158#22#154'v m2=:'#189'1'#131#146#145#144'qB'#170'!M'#147
+  +#182'g'#234'g'#230'fv'#203#172'e'#133#178#254#197'n'#139#183'/'#30#149#7#201
+  +'k'#179#144#172#5'Y-'#10#182'B'#166#232'TZ('#215'*'#7#178'geWf'#191#205#137
+  +#202'9'#150#171#158'+'#205#237#204#179#202#219#144'7'#156#239#159#255#237#18
+  +#194#18#225#146#182#165#134'KW-'#29'X'#230#189#172'j9'#178'<qy'#219#10#227#21
+  +#5'+'#134'V'#6#172'<'#184#138#182'*m'#213'O'#171#237'W'#151#174'~'#189'&zMk'
+  +#129'^'#193#202#130#193#181#1'k'#235#11'U'#10#229#133'}'#235#220#215#237']OX'
+  +'/Y'#223#181'a'#250#134#157#27'>'#21#137#138#174#20#219#23#151#21#127#216'('
+  +#220'x'#229#27#135'o'#202#191#153#220#148#180#169#171#196#185'd'#207'f'#210
+  +'f'#233#230#222'-'#158'['#14#150#170#151#230#151#14'n'#13#217#218#180#13#223
+  +'V'#180#237#245#246'E'#219'/'#151#205'('#219#187#131#182'C'#185#163#191'<'
+  +#184#188'e'#167#201#206#205';?T'#164'T'#244'T'#250'T6'#238#210#221#181'a'#215
+  +#248'n'#209#238#27'{'#188#246'4'#236#213#219'['#188#247#253'>'#201#190#219'U'
+  +#1'UM'#213'f'#213'e'#251'I'#251#179#247'?'#174#137#170#233#248#150#251'm]'
+  +#173'Nmq'#237#199#3#210#3#253#7'#'#14#182#215#185#212#213#29#210'=TR'#143#214
+  +'+'#235'G'#14#199#31#190#254#157#239'w-'#13'6'#13'U'#141#156#198#226'#pDy'
+  +#228#233#247#9#223#247#30#13':'#218'v'#140'{'#172#225#7#211#31'v'#29'g'#29'/'
+  +'jB'#154#242#154'F'#155'S'#154#251'[b['#186'O'#204'>'#209#214#234#222'z'#252
+  +'G'#219#31#15#156'4<YyJ'#243'T'#201'i'#218#233#130#211#147'g'#242#207#140#157
+  +#149#157'}~.'#249#220'`'#219#162#182'{'#231'c'#206#223'j'#15'o'#239#186#16't'
+  +#225#210'E'#255#139#231';'#188';'#206'\'#242#184't'#242#178#219#229#19'W'#184
+  ,'W'#154#175':_m'#234't'#234'<'#254#147#211'O'#199#187#156#187#154#174#185'\k'
+  +#185#238'z'#189#181'{f'#247#233#27#158'7'#206#221#244#189'y'#241#22#255#214
+  +#213#158'9='#221#189#243'zo'#247#197#247#245#223#22#221'~r'''#253#206#203#187
+  +#217'w'''#238#173#188'O'#188'_'#244'@'#237'A'#217'C'#221#135#213'?['#254#220
+  +#216#239#220#127'j'#192'w'#160#243#209#220'G'#247#6#133#131#207#254#145#245
+  +#143#15'C'#5#143#153#143#203#134#13#134#235#158'8>99'#226'?r'#253#233#252#167
+  +'C'#207'd'#207'&'#158#23#254#162#254#203#174#23#22'/~'#248#213#235#215#206
+  +#209#152#209#161#151#242#151#147#191'm|'#165#253#234#192#235#25#175#219#198
+  +#194#198#30#190#201'x31^'#244'V'#251#237#193'w'#220'w'#29#239#163#223#15'O'
+  +#228'| '#127'('#255'h'#249#177#245'S'#208#167#251#147#25#147#147#255#4#3#152
+  +#243#252'c3-'#219#0#0#0' cHRM'#0#0'z%'#0#0#128#131#0#0#249#255#0#0#128#233#0
+  +#0'u0'#0#0#234'`'#0#0':'#152#0#0#23'o'#146'_'#197'F'#0#1'K'#221'IDATx'#218
+  +#236#253#247#147'div'#29#8#158'O='#229'"dj'#173'Ue'#233'j'#133#150#232#6#208
+  +'P'#4'X'#132' '#6'$'#135#24#14#151#195#221#177#157#29#219#31'fv'#198'vmmg'
+  +#205'vg'#205#246'/'#24#179'Y'#179#249'e'#185'$'#209'$'#135#4#9#128'@7'#208'h'
+  +#221']'#186'*'#179#170#178'R'#171#200#208#225#238'O~j'#127'x'#239#185'?'#247
+  +'p'#143#136#172#202'R'#217#239#150'y'#185#142#140'p'#127#239';'#223#185#247
+  +#220's'#137#181#22'u'#212'QG'#29'u'#212#241'q'#7#173'?'#130':'#234#168#163
+  +#142':j@'#170#163#142':'#234#168#163#142#26#144#234#168#163#142':'#234#168#1
+  +#169#142':'#234#168#163#142':j@'#170#163#142':'#234#168#163#6#164':'#234#168
+  +#163#142':'#234#168#1#169#142':'#234#168#163#142#26#144#234#168#163#142':'
+  +#234#168#163#6#164':'#234#168#163#142':j@'#170#163#142':'#234#168#163#142#26
+  +#144#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142':j@'#170#163#142
+  +':'#234#168#163#6#164':'#234#168#163#142':'#234#168#1#169#142':'#234#168#163
+  +#142#26#144#234#168#163#142':'#234#168#163#6#164':'#234#168#163#142':j@'#170
+  +#163#142':'#234#168#163#142#26#144#234#168#163#142':'#234#168#1#169#142':'
+  +#234#168#163#142':j@'#170#163#142':'#234#168#163#6#164':'#234#168#163#142':'
+  +#234#168#1#169#142':'#234#168#163#142#26#144#234#168#163#142':'#234#168#163#6
+  +#164':'#234#168#163#142':j@'#170#163#142':'#234#168#163#142#26#144#234#168
+  +#163#142':'#234#168#1#169#142':'#234#168#163#142':j@'#170#163#142':'#234#168
+  +#163#6#164':'#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142#26#144
+  +#234#168#163#142':'#234#168#163#6#164':'#234#168#163#142':'#234#168#1#169#142
+  +':'#234#168#163#142#26#144#234#168#163#142':'#234#168#163#6#164':'#234#168
   +#163#142':j@'#170#163#142':'#234#168#163#142#26#144#234#168#163#142':'#234
   +#168#1#169#142':'#234#168#163#142':j@'#170#163#142':'#234#168#163#6#164':'
   +#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142#26#144#234#168#163
   +#142':'#234#168#163#6#164':'#234#168#163#142':j@'#170#163#142':'#234#168#163
   +#142#26#144#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142':j@'#170
   +#163#142':'#234#168#163#6#164':'#234#168#163#142':'#234#168#1#169#142':'#234
-  +#168#163#142#26#144#234#168#163#142':'#234#168#163#6#164':'#234#168#163#142
-  +':j@'#170#163#142':'#234#168#163#142#26#144#234#168#163#142':'#234#168#1#169
-  +#142':'#234#168#163#142':j@'#170#163#142':'#234#168#163#6#164':'#234#168#163
-  +#142':'#234#168#1#169#142':'#234#168#163#142#26#144#234#168#163#142':'#234
-  +#168#163#6#164':'#234#168#163#142':j@'#170#163#142':'#234#168#163#142#26#144
-  +#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142':j@'#170#163#142':'
-  +#234#168#163#6#164':'#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142
-  +#26#144#234#168#163#142':'#234#168#163#6#164':'#234#168#163#142':'#234#168#1
-  +#169#142':'#234#168#163#142#26#144#234#168#163#142':'#234#168#163#6#164':'
-  +#234#168#163#142':j@'#170#163#142':'#234#168#163#142#26#144#234#168#163#142
-  +':'#234#168#1#169#142':'#234#168#163#142':j@'#170#163#142':'#234#168#163#6
-  +#164':'#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142#26#144#234
-  +#168#163#142':'#234#168#163#6#164':'#234#168#163#142':j@'#170#163#142':'#234
-  +#168#163#142#26#144#234#168#163#142':'#234#168#1#169#142':'#234#168#163#142
-  +':j@'#170#163#142':'#234#168#163#6#164':'#234#168#163#142':'#234#168#1#169
-  +#142':'#234#168#163#142#26#144#234#168#163#142':'#234#168#227#209#5#255'('
-  +#254#17'B'#200'G'#253'w'#189#159#127#208#214#135'C'#29'u'#212#241'i'#10'k'#31
-  +#175'e'#139#127#202#127#127#242#17#252#172#26#168#234#168#163#142':j@zh'#16
-  +'zT'#0'e'''#252#204#26#156#234#168#163#142':j@'#26#11'6;}'#236'a'#193#136'L'
-  +#0#168#26#156#234#168#163#142':~'#142#1'i;'#208#217#9'('#145'mX'#208'v`D'#182
-  +#0#167#26#152#234#168#163#142':'#30#7'@z'#241#197#23'''>'#247#173'o}'#139#236
-  +#16#136#200'C'#130#209'$@'#25'}l'#28#24#145'q'#192#244#226#139'/'#214#192'TG'
-  +#29'u'#212#241'82'#164#17'0'#218#238'6'#217#193's'#147#194'n'#193#154#200#4
-  +'p'#218#4'L'#229#239'['#3'S'#29'u'#212'Q'#199'c'#2'H['#176#162'Q'#176#153't'
-  +#159#236#128'5'#141#3'$;'#129'!'#141#130'S'#13'Lu'#212'QG'#29#143'; M`E;'#1
-  +#158'M'#183']'#215#165#142#227#16#207#243#24'c'#140'0'#198#8#0'h'#173#173#214
-  +#218#198'ql'#178','#179'Y'#150#153#9'L'#201#142#128'P'#13'Lu'#212'QG'#29'?'
-  +#15#128#180#13#24'M'#2'!2'#10'H'#142#227#208'V'#171#197#131' `'#237'v['#8'!'
-  +#28#206#185'`'#140'1'#0'PJ'#25#165#148'J'#211'4'#139#162'H'#246'z='#149#166
-  +#169#14#195#208#140#128#145#29#185'?z'#187#6#166':'#234#168#163#142'G'#24#228
-  +#163#232#244#221#198#169'a'#187#20#29#217#9#16#1' '#141'F'#131#181#219'm'#209
-  +'j'#181#156'F'#163#209#240'}?'#224#156'79'#231'>!'#196#5#0'k'#173'RJ%J'#169
-  +'PJ'#25'EQ'#148'DQ'#20'w'#187']'#21'E'#145#146'R'#26')'#229'8p'#26#7'L'#227
-  +#128#10#147'n'#215#160'TG'#29'u<'#202#248#227'?'#254#227#26#144#30'! '#237'D'
-  +#172'P'#189'MG'#30#167#0#136#16#130#250#190#207#166#166#166'D'#179#217#244
-  +#155#205'f'#219#247#253#25#199'qf'#25'cs'#140#177'iB'#136'_'#188'7'#213'Z'
-  +#247#148'R'#29'c'#204'Z'#150'e'#157'4M'#187'q'#28#135#5'8'#201'0'#12'e'#146
-  +'$'#186#0'&'#251#8#128'i'#232'C'#182#143#155#223'G'#29'u'#212#241#193#214#200
-  +'o'#146#193#234'A'#177#133#158'w8'#236#159#214#214'A'#143#236';'#216#130#21
-  +'MbCd'#28#24'5'#26#13'>33'#227'NMM5|'#223#159#241'<o'#183#227'8'#251'8'#231#7
-  +'fw'#207#158'z'#234'KO'#189#224#205'y{'#150#23#151#227#229'{K'#139#11#151#31
+  +#168#163#142#26#144#234#168#163#142':'#234#168#227#209#5#255'('#254#17'B'#200
+  +'G'#253'w'#189#159#127#208#214#135'C'#29'u'#212#241'i'#10'k'#31#175'e'#139
+  +#127#202#127#127#242#17#252#172#26#168#234#168#163#142':j@zh'#16'zT'#0'e'''
+  +#252#204#26#156#234#168#163#142':j@'#26#11'6;}'#236'a'#193#136'L'#0#168#26
+  +#156#234#168#163#142':~'#142#1'i;'#208#217#9'('#145'mX'#208'v`D'#182#0#167#26
+  +#152#234#168#163#142':'#30#7'@z'#241#197#23'''>'#247#173'o}'#139#236#16#136
+  +#200'C'#130#209'$@'#25'}l'#28#24#145'q'#192#244#226#139'/'#214#192'TG'#29'u'
+  +#212#241'82'#164#17'0'#218#238'6'#217#193's'#147#194'n'#193#154#200#4'p'#218
+  +#4'L'#229#239'['#3'S'#29'u'#212'Q'#199'c'#2'H['#176#162'Q'#176#153't'#159#236
+  +#128'5'#141#3'$;'#129'!'#141#130'S'#13'Lu'#212'QG'#29#143'; M`E;'#1#158'M'
+  +#183']'#215#165#142#227#16#207#243#24'c'#140'0'#198#8#0'h'#173#173#214#218
+  +#198'ql'#178','#179'Y'#150#153#9'L'#201#142#128'P'#13'Lu'#212'QG'#29'?'#15
+  +#128#180#13#24'M'#2'!2'#10'H'#142#227#208'V'#171#197#131' `'#237'v['#8'!'#28
+  +#206#185'`'#140'1'#0'PJ'#25#165#148'J'#211'4'#139#162'H'#246'z='#149#166#169
+  +#14#195#208#140#128#145#29#185'?z'#187#6#166':'#234#168#163#142'G'#24#228#163
+  +#232#244#221#198#169'a'#187#20#29#217#9#16#1' '#141'F'#131#181#219'm'#209'j'
+  +#181#156'F'#163#209#240'}?'#224#156'79'#231'>!'#196#5#0'k'#173'RJ%J'#169'PJ'
+  +#25'EQ'#148'DQ'#20'w'#187']'#21'E'#145#146'R'#26')'#229'8p'#26#7'L'#227#128
+  +#10#147'n'#215#160'TG'#29'u<'#202#248#227'?'#254#227#26#144#30'! '#237'D'#172
+  +'P'#189'MG'#30#167#0#136#16#130#250#190#207#166#166#166'D'#179#217#244#155
+  +#205'f'#219#247#253#25#199'qf'#25'cs'#140#177'iB'#136'_'#188'7'#213'Z'#247
+  +#148'R'#29'c'#204'Z'#150'e'#157'4M'#187'q'#28#135#5'8'#201'0'#12'e'#146'$'
+  +#186#0'&'#251#8#128'i'#232'C'#182#143#155#223'G'#29'u'#212#241#193#214#200'o'
+  +#146#193#234'A'#177#133#158'w8'#236#159#214#214'A'#143#236';'#216#130#21'MbC'
+  +'d'#28#24'5'#26#13'>33'#227'NMM5|'#223#159#241'<o'#183#227'8'#251'8'#231#7'f'
+  ,'w'#207#158'z'#234'KO'#189#224#205'y{'#150#23#151#227#229'{K'#139#11#151#31
   +'\Nz'#201'='#173#245'"'#231'|Y'#8#177#234#186#238'Z'#16#4#27'q'#28#247#130' '
-  ,#136#195'0'#204#194'0'#148'i'#154#142#2#147#193#228#212#221#232#253#177#13
+  +#136#195'0'#204#194'0'#148'i'#154#142#2#147#193#228#212#221#232#253#177#13
   +#182#164'@'#232#26#152#234#168#163#142#254#194'G'#199'<h'#177'Y'#194'U'#173
   +'n?n'#159#195#199#196#144'vZ/'#218#4'@'#213#251#190#239#179'f'#179#233#180'Z'
   +'-wjj'#170#221'h4f]'#215#221'/'#132'8'#236'8'#206#177'g'#191#246#236#151'/|'
@@ -30911,9 +30913,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#141#133#206#165'*0'#185#174#187#230#251'~'#199#247#253'('#12#195#180#215#235
   +'I'#173#181#174'0'#166#173#210'x5['#170#163#142#159#215'`#'#128'C''l'#229#205
   +#152#231'j@z'#164','#169#159#178's]'#151#184#174#203#154#205#166'h6'#155#141
-  +' '#8#230'\'#215'='#232#186#238#169#249'}s/'#252#242#239#255#210'Wg'#230'f'
+  ,' '#8#230'\'#215'='#232#186#238#169#249'}s/'#252#242#239#255#210'Wg'#230'f'
   +#252'7o'#189#142#133#222#221'\'#188#160'I'#158#162'+'#190#200#254'zm+'#171
-  ,#188'1XOWa'#173#133#181#6#214#26#24'k`m.'#3#167#132#142#176'$'#192#194#14'~'
+  +#188'1XOWa'#173#133#181#6#214#26#24'k`m.'#3#167#132#142#176'$'#192#194#14'~'
   +#6'%``Pi'#134#182'7'#133'='#231#246#182'f'#231#167#191'r'#255#218#253#11'W'
   +#127'r'#227#167'I''y'#151'1vW'#8'q'#207#243#188'e'#207#243'V}'#223#239'z'#158
   +#23'EQ'#148#197'q'#172#226'8V'#152#220'D'#251'Pl'#169#6#165':'#234'x'#140#176
@@ -30975,9 +30977,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'smX'#139'<'#213'F'#8'`'#6')='#11#187#169'oi'#252')'#153#223#241'y'#3#174#240
   +#243#26#19#19#133#251#3'+'#128#169#248#19'H'#14'x'#22#6'J'#27'h+!'#173#4#227
   +#12#247#215#238#225#246#229#187#247';'#151#226#239'$q'#242#174#148#242'f'#28
-  +#199#247#162'(Z'#238't:'#157'0'#12#227'n'#183#155'n'#147#194'35(}"'#192#135
+  ,#199#247#162'(Z'#238't:'#157'0'#12#227'n'#183#155'n'#147#194'35(}"'#192#135
   +'|'#0#160#249'8'#1#201'>'#228#243#182#6#166#15'7'#166'_d'#155#149'v'#152#144
-  ,#15#169'4'#131#172#215#128#244#200#1'i'#168#134'T'#185#205#202'k'#198#24#167
+  +#15#169'4'#131#172#215#128#244#200#1'i'#168#134'T'#185#205#202'k'#198#24#167
   +#148'r'#206'9'#23'B8'#174#235#186'B'#8#207'q'#156#192'u'#221#160#0#167#182#16
   +'bJ'#8'1'#237'8'#206','#231'|>#'#233#209#181'x'#229'X'#230#199'3G'#207#29#162
   +'O='#251#4'44`'#1#10#10'[1V'#29'bL'#5'Pm'#21#30#15#224#241#18#152#156'B'#252
@@ -31039,9 +31041,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#182#244#144'l'#232'a'#192'e'#146'(g'#211'c'#5#192#16#215'u)c'#140':'#142'C)'
   +#165'D'#8'A'#8'!'#148'sN'#139#20'3!'#132#144#226#154#21'M'#214#228'Q'#184'8'
   +#140#1#161#156'BW'#192#167#10'F'#132#16'C'#8'1'#198#24'U'#156'+2'#12'C'#149
-  +#166#169#238'v'#187#186#215#235#153'1'#153#141':>,v4n('#223'cl'#23#244'q'#166
+  ,#166#169#238'v'#187#186#215#235#153'1'#153#141':>,v4n('#223'cl'#23#244'q'#166
   +#236#182'J'#3#140#3#166#173'@'#8#19#192#139#142#0#19'-6oFJ'#169#149'R*'#203
-  ,'#'#137#227'8'#246'<'#175#235#251#254#134#231'yk'#190#239#175#186#174#187#28
+  +'#'#137#227'8'#246'<'#175#235#251#254#134#231'yk'#190#239#175#186#174#187#28
   +'x'#237#133#25#177'k'#247#202#27#203#231#254#253#165'o'#239#223#127'v'#151
   +#251#236#211'O'#194#208#156#148#16'Zx3'#216#130#24#209'R'#8'1'#142'G[H'#147
   +'@f'#9#148#201'{'#152#132'q'#251#174#226#196#230#181'%F)`'#5#148'Rh'#187'm<'
@@ -31103,9 +31105,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#24#173#10#11'*'#9'e'#18'H'#155'@kY'#128'N~zXk'#251#199#23#161'E'#10#217#0
   +#132#18#24']l'#185#181#134#214#192#218'z'#23#157'^'#136#213'wbD'#215'H'#239
   +#244#254''''#254#231#217#169#249#191#14#211'p'#189#155'vM'#150'e6MS2r~Ql?8rG'
-  +#12#174'fR'#149#148#157#29#164#231'le'#171#157#247'.b'#168#12#208#175'+'#161
+  ,#12#174'fR'#149#148#157#29#164#231'le'#171#157#247'.b'#168#12#208#175'+'#161
   +#6#164#15#19#148#182#234#137#24'='#17'F'#23#155#209#159'a'#182'H'#217'm'#245
-  ,'<+Sy'#198#24#149'g'#242#178','#23#231'%Q'#146'$'#29#223#247'7'#130' X'#243
+  +'<+Sy'#198#24#149'g'#242#178','#23#231'%Q'#146'$'#29#223#247'7'#130' X'#243
   +'2oe'#198#223'{_/d'''#255#244#255#251'7'#167#247#157#157'n^|'#234#28','#20#24
   +'g '#150#228#30#174#22#197#212#192#193#175'J@'#134#164#227#229#184#11#159'7'
   +#225#8'/7le'#28#148#20'N'#229#198#129#130'D&%'#158'8{'#177'u'#217'y'#235#155
@@ -31167,9 +31169,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#167#211#137#194'0TI'#146'X'#173'u'#21#140#170#231#207'v'#169';'#140'9'#143
   +'-v6'#233#135#140'cK'#143';('#17#134#161#241#229'd'#20#246'+[IR'#205#9#213
   +#128#244#161#165#239#182#163#251#227#128#201#238'`'#135'<'#206#188'}'#18'(U'
-  +#251#153#198#165#243'X'#9'L'#198#152'R'#252#144'$I'#146#164'i'#26'eYV'#166
+  ,#251#153#198#165#243'X'#9'L'#198#152'R'#252#144'$I'#146#164'i'#26'eYV'#166
   +#241#214#166#188#221#15#200#130'9'#249#23#127#252#227#179#135#158#156'm'#156
-  ,'<y'#4'LPXCr'#177'C%}W'#253'3'#171#253'K'#153#142#161'l'#6#215#6'p'#172#7'F'
+  +'<y'#4'LPXCr'#177'C%}W'#253'3'#171#253'K'#153#142#161'l'#6#215#6'p'#172#7'F'
   +#5#8'e'#160#133#23#158#181#10'-'#191#141#243#207'5'#247#189#227'_'#249'M'#242
   +#170#231#16'BDq'#225#133#29'@'#175#215#235'%#'#10#188'QP'#250'Xe'#225#31'0=7'
   +#17#136#130' '#16#158#231#177'f'#179#233#249#190#31#248#190#223'r'#28'g'#218
@@ -31231,9 +31233,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'7'#22'v}'#230#243'OR'#240#188'q'#17#214#14'LZ'#173#5'%'#149#22#166#138#187
   +'x,7'#160#11#182'd'#173#3'B('#152'-d'#225'6'#198#241#253#199#29#242#185'k_\z'
   +'%'#243#233#3#207#169#24'{'#18#20'N'#211#157'N'''#29'SS'#250#208'A'#233'}'
-  +#176'":'#134#229#14#213#137#26#141#134#211'l6'#253'F'#163#209#242'<o'#218'q'
+  ,#176'":'#134#229#14#213#137#26#141#134#211'l6'#253'F'#163#209#242'<o'#218'q'
   +#156#221#142#227#236#21'B'#28#8#154#254#209#207'}'#253#217#207#156#127#254
-  ,#212#129#204'&'#236#149#155#223#199#173#229#203#16#196#135#199'Z'#240#184#15
+  +#212#129#204'&'#236#149#155#223#199#173#229#203#16#196#135#199'Z'#240#184#15
   +#193'<p'#226'@P'''#239#25'"<'#23''''#144#225#186#205#251#2#160#237#24#208'N'
   +#1'h'#194'{F'#255#141'rNN_bJ'#8't'#135#224#198#219'w2'#29#226#199'q'#28#223
   +#141#162'h%'#142#227'HkM\'#215#13#26#141'F'#144#219#241'q'#230'8'#142'(gp1'
@@ -31295,9 +31297,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#207#242#143'J'#179#16#154')'#184'h@P'#11'J('#8'(d*1'#229'M'#131'?'#195#14
   +#222#246#30#252#198#198'k'#158#0#192#11#150'T'#214#7#186#189'^'#175#156#171
   +'TeG'#163#146'p'#236#20#152'&|'#7#239'''EG'#133#16#204#247'}'#209'j'#181#220
-  +'V'#171#213#8#130'`'#218#247#253'y'#207#243#246#11'!'#14#183#166#154#167#191
+  ,'V'#171#213#8#130'`'#218#247#253'y'#207#243#246#11'!'#14#183#166#154#167#191
   +#246#155'_'#248#226#217'g'#142#239#185#183'~'#139#252#245#165'oci'#227'*\2'
-  ,#133'&'#219#7#151'6'#224#8#31#14'u'#193#153#147#203#183#9#3#165#185'`'#193
+  +#133'&'#219#7#151'6'#224#8#31#14'u'#193#153#147#203#183#9#3#165#185'`'#193
   +#216#201#133#30'2'#6':'#200#16'x'#216#138#217#182#29#128#141#5#172'-'#218#159
   +'mu'#19'a7'#213'~'#202#222'%2'#162#219'+'#157#15'Q'#184'5'#244#253#206#134
   +#164'WE'#179'5!'#253#134'YB,'#178'H'#227#193#237#21#21#173#165'w'#140'1'#160
@@ -31359,9 +31361,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#165'T'#162#148#234'5L'#163#215#176'G'#23#127#248'gW'#158'='#246#244'Lk'#239
   +#190'9p'#193'r'#233'1'#25'8'#136'[='#178#172'Z'#141','#11'A'#9#5'u(`\'#16#150
   +'76'#201'D'#226#212#177'3'#129#231'\'#255#229'k'#127#221#245#176#140#210#144
-  +#149#21'j'#135#141#17'P'#170#186'kM'#154'@'#187#19' '#194'V'#181#162#145#20
+  ,#149#21'j'#135#141#17'P'#170#186'kM'#154'@'#187#19' '#194'V'#181#162#145#20
   +#157#215'l6['#205'fs'#222#243#188#3#142#227#28#246'<'#247#204#175#252#206'W'
-  ,#190'~'#238#185#19'{o,'#189'M.]'#249#1'z'#225#18'8'#154#240#217'4'#4'i'#194
+  +#190'~'#238#185#19'{o,'#189'M.]'#249#1'z'#225#18'8'#154#240#217'4'#4'i'#194
   +#161'~'#174#158'#N'#222'8L'#11#211#211#254#208#135'qRl'#155#255'Qv8'#253'f'
   +#242'bI%'#29'W'#5#153'|'#20'D'#149#17#229')'#185#17' '#26#151#186#27'U'#237
   +'mbi'#195#31'#'#169'$'#235'lQ?'#26#170''''#21'5'#166#18#156'('#5#172'6 '#140
@@ -31423,9 +31425,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#190#239#139'f'#179#233'NMM'#181#26#141#198'|'#163#209'8'#224'8'#206#241'f'
   +#171'y'#238#183#254#193#215#191'y'#232#212#158#153'7n}'#15'W'#239#253#8'ZQxt'
   +#23#4'o'#128#19#31#14#207#189#231'r0*Y'#17#250#139#255#166#17#166#21#224'(Up'
-  +'y'#157#200#14#129#203'&'#160#26'J'#197#153'J=i$=7'#4'\'#182#159#228#31#0#216
+  ,'y'#157#200#14#129#203'&'#160#26'J'#197#153'J=i$=7'#4'\'#182#159#228#31#0#216
   +'0'#16#149#191#199#152#3'r'#248'n'#197'e'#220#142'&'#242'J'#223#179#18'|*'
-  ,#242'p]'#21'E'#140#28#206'e_'#237'f_'#242#225#148#166#177#197#232't'#155#179
+  +#242'p]'#21'E'#140#28#206'e_'#237'f_'#242#225#148#166#177#197#232't'#155#179
   +'#m'#21#172#213#176#196#0'&'#7#165#238#154#197#253#183#19#180#211#19'wg'#167
   +#246#188#157'$'#201'R'#154#166#27'i'#222'C`'#9'!'#194'q'#28#143'RJ'#173#181
   +'R)%'#11#149#169',}'#31#139#212#29#217#1'K'#26'e'#228#163'_'#243#164#218#239
@@ -31487,9 +31489,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#195#172#167#216#174'V{'#147#134#1#200#244'{'#154#134'|'#237#6#230'A'#149'z'
   +#146#25#177#208#179'['#29#135#149'$'#156#238#155#171#142#29'g]'#21'9T'#235'P'
   +#5'0'#145'~O'#172#201'e'#240#132'`|&h'#184'vf'#172#129#133#134')z'#148#180#1
-  +#26#222','#26'm4N'#30'8'#216#240#220#0#150#24#8'*'#224#8#23'`6'#247#13#228#28
+  ,#26#222','#26'm4N'#30'8'#216#240#220#0#150#24#8'*'#224#8#23'`6'#247#13#228#28
   +#235'+'#189#132#16'k'#215#22'{'#177'6'#218#172'>'#216#232#172'/'#246'VW'#31
-  ,#244'V'#186'k'#209#154'1&*'#221#193#141'1'#161#181'64'#198#132#198#152#158
+  +#244'V'#186'k'#209#154'1&*'#221#193#141'1'#161#181'64'#198#132#198#152#158
   +#214':'#212'ZGJ'#169#176'HYGI'#146#164'i'#154'fQ'#20#169'('#138#164'R'#170#28
   +#191#190#149'0'#9';'#1#165#143#131'%'#145#194#139'p'#232#211#31'uk'#224#3#147
   +#213'!"\'#3'R]_z'#136'4'#30'}'#31'l'#137'M`KU'#135#7#171#181#182#5'c'#146'Z'
@@ -31551,9 +31553,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#170'Y!'#143#200#139#243'Cc'#31',r'#139'$TA`'#212''''#174#162#168#171'2'#148
   +#10#251#233#247#214'T'#7#231'Y'#131#201#246'?'#166'"x'#168'0'#170'jJn'#228'}'
   +'9'#11#171','#234'E'#26'p'#144#154#27#1#31';'#140#7'c'#199#163#147#9'@e'#7'5'
-  +#162'M'#239')'#211'tC'#172#138#140#149#14#19'l6~'#29#212#187#6'b'#6'c'#21#172
+  ,#162'M'#239')'#211'tC'#172#138#140#149#14#19'l6~'#29#212#187#6'b'#6'c'#21#172
   +'Q'#208'V'#21#239#163#253#205'K'#133#0#14#247'\'#21#154'8k'#9'4'#0#213'OI'
-  ,#153#226'9'#3'M'#1#202#243#13#136#181#6'a'#26'!"7'#176#178'v'#29#22#20#190';'
+  +#153#226'9'#3'M'#1#202#243#13#136#181#6'a'#26'!"7'#176#178'v'#29#22#20#190';'
   +'E'#231#167#143'L'#237#189'xr'#234#196'gO'#159#10'Wu'#239#246#229#149';'#215
   +'__z='#139#245#29#165#212#3'c'#204#3#199'qV'#148'R'#171'A'#16#172'7'#155#205
   +'^'#20'E'#241#250#250'z'#10'@'#21#160#132'm'#206#215#143#133'%'#17'K'#134'['
@@ -31615,9 +31617,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#3#0#154#4'?d<'#3#160','#183#179'*'#31'#'#164#168#209#147#225#161't'#165#162
   +',J4'#146'TBj'#149#191#143#0'^'#155#244#217#21#21#249'5'#19#18#235#201']t'
   +#238'.b'#174#189'gn'#223#243#199#127'g'#223#217#185'''.'#127'w'#229#127#210
-  +#139','#20'B'#244#28#199#137']'#215#205'\'#215'%q'#28#127#162'D'#13'C);['#249
+  ,#139','#20'B'#244#28#199#137']'#215#205'\'#215'%q'#28#127#162'D'#13'C);['#249
   +#252#139')'#188'%'#24#217#194#127#138#210#199#147'&'#213#128#244#201'aKcV'
-  ,#140#254#251'&'#205#139#153'h9'#132'B'#26#158#166#169#213'Z'#151')<'#169#148
+  +#140#254#251'&'#205#139#153'h9'#132'B'#26#158#166#169#213'Z'#151')<'#169#148
   +#202#10#31#177'$0'#7#195#27'/'#175'|A'#171'['#7#142#29';N|'#143#230#205#148
   +'&_'#252#24'a '#132#13'/EE'#195#132#214#22'i'#146#192#245'<'#242#165'_}'#242
   +#180#219#184#236#189#249'W'#247#191#13#192'e'#140'5'#149'R'#9'c'#204#243'}'
@@ -31679,9 +31681,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#141#220'b'#168'j_C'#138#133#223#228#204')#'#18'H-'#14#29#221#215#250#7#255
   +#229#197#211's'#173'}'#196' ew'#22#175'"'#203'2('#173#161#141#134'*'#235'BZA'
   +#27#9#173'so'#180'<M''a'#140#132'2Yq'#173'`L'#6'c'#178#252'9+'#251#194#2'2'
-  +#137#1'UG}'#143#173#211'l'#3'@'#227#250'i'#198#1#16#217#25'x'#141#254';'#163
+  ,#137#1'UG}'#143#173#211'l'#3'@'#227#250'i'#198#1#16#217#25'x'#141#254';'#163
   +#181#23';"'#5'''dk'#0#26#0#171#221':'#5'7'#242#11#147'Q'#150'5)'#5'W'#128'P'
-  ,#249'xY'#7#2#242'T'#27#161'$'#183#5#210#6'L'#208#190#28'['#27#131#180#167#177
+  +#249'xY'#7#2#242'T'#27#161'$'#183#5#210#6'L'#208#190#28'['#27#131#180#167#177
   +#252'@b'#225'Z'#132#7'7%'#210#142#208#30'k'#199#190#215'N8'#221#187#186#215
   +'k-'#31'='#22#172'Xk#cLT'#186'z''q'#150'X'#155#166'E}3'#179#214#150#215#202
   +#24'#'#1#244#175#11'PR'#21'P2'#229'5!D'#17'Bt'#241#156','#134#0'fR'#202'4'
@@ -31743,9 +31745,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#146'%'#17'R'#171#236#234#248#232'A'#9'#'#140'i'#244#177#234'd'#148'Q'#182'D'
   +#198'0'#169#209#147'}'#232'1:'#240'#'#177'E*%+'#22#155'0'#141#229#250#245#151
   +#194'k'#174#179'~'#228#208#169#153#166#240'*B'#2'['#177#228#177#133'9'#170'1'
-  +#0'3`\'#163#179#152#226#222#213#212'vW'#210'x'#234#144#246'g'#246'Q'#194#3']'
+  ,#0'3`\'#163#179#152#226#222#213#212'vW'#210'x'#234#144#246'g'#246'Q'#194#3']'
   +#128#146#2#168#4'L'#6#144#12#6')'#8#178#205#181#153'-'#1#168#154#134#27#206
-  ,#135#145'm'#1#8#19#0#8#219#0#208#195#167#242#182'O3>'#250#21#134'T'#193#136#1
+  +#135#145'm'#1#8#19#0#8#219#0#208#195#167#242#182'O3>'#250#21#134'T'#193#136#1
   +'0'#20#174#151#215#133#184#195#160'3'#133'p-'#197#226#245#12#239#189#222'C'
   +#180#236#167'S'#193#193#213'#S'#243'7a'#233#138#148'r='#236#197#29')e/'#203
   +#178'PJ'#25'J)'#227','#203#170'LH'#150'L'#168#168#249#216#2#128#182#3#148'q'
@@ -31807,9 +31809,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#133'G'#135#127'/'#2#196'='#192'Q{'#178#195'S'#187'7'#14'9AGJY'#24#236'jU'
   +#252'tJ)'#21#156's'#151#16'b'#138#13#139'c'#140'I'#11#199#132#172#168#17'Ikm'
   +#217#188'Z'#186')'#148#183#251#238#9'*'#159#12#169'M'#145'K'#170#244#20#189
-  +'_'#17#194#195#130#209#164'~#'#187#131'O'#247'cU'#217'QA'#198'&'#230'K'#166
+  ,'_'#17#194#195#130#209#164'~#'#187#131'O'#247'cU'#217'QA'#198'&'#230'K'#166
   +']'#218#9#145#199'y\l'#13'H'#159'xf4'#14#136#198#130#206#184#11#231#156#10'!'
-  ,#184#231'y'#142#239#251'^'#16#4#173' '#8#166#10' '#218#235#186#238'>!'#196
+  +#184#231'y'#142#239#251'^'#16#4#173' '#8#166#10' '#218#235#186#238'>!'#196
   +#129#231'>'#127#238#226'/'#253#250#23'N'#237#218';'#237#175#247#238#225#157
   +'{'#223'E''\'#133'1'#185'w'#157#25#5'#;'#152#23'd'#180#1#161'&O-'#20#236'h'
   +#249'v'#130'w^'#185#159'e='#241'n'#154#246'V'#227'8'#222#8#195#176#23#199'q'
@@ -31871,9 +31873,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#221#211#193'o'#255#211'''O\'#250#241'B'#251#135#127'zUp'#206']!'#132#239'y'
   +#222#138#227'8'#27'q'#28#247#146'$I'#210'4-='#206#202#194#184'VJe'#133#236'8'
   +'N'#146#164#155'e'#217#134#159#249#27#190#127'xa'#227'rrj'#229#214#205#19''''
-  +#159#206#220#185#131#1#130'&'#133#202',H'#150'w'#22'Z'#154#231#224#149#26#25
+  ,#159#206#220#185#131#1#130'&'#133#202',H'#150'w'#22'Z'#154#231#224#149#26#25
   +'X'#247#8'D'#8#31'K'#14'hd'#252#4'-Rs%K"'#0#148#214#8#227#24'a'#156#246#231
-  ,')QF'#242#20'+'#205'U'#145#0#201#217'#'#1#180'%'#208#10#16'<'#191'Mi^'#159
+  +')QF'#242#20'+'#205'U'#145#0#201#217'#'#1#180'%'#208#10#16'<'#191'Mi^'#159
   +#203#221#0#8#160#9'4'#179#160#208'0,D'#24#197'Xv'#238#131#209#252'8a'#148'B'
   +#8#1#151'7'#156'V0'#231#180'w'#207'4N'#29#154#153'm'#184#7#225#137#6#28#225
   +#162#187#145#166#189'N,{'#157'H.'#220']Y'#187#252#250#205#155'7'#223'['#186
@@ -31935,9 +31937,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#144#194#163#22#196'ZH'#157#167#253#140'!'#176'6'#193'R'#231'6Z^'#147'='#251
   +#141#153'#g'#159#153#223#253#237'o]}'#243#238#245#141'+'#142#227','#184#174
   +#187#228'y'#222'Z'#24#134#157'('#138#146'R'#244#160#148#178#170'T?'#20'y'#188
-  +#130'-'#197#133#241'g'#199#207#252'u?={'#247#242'w'#31'<9udi'#238#216#185#6
+  ,#130'-'#197#133#241'g'#199#207#252'u?={'#247#242'w'#31'<9udi'#238#216#185#6
   +'m'#206'q8'#30#201#255'vF'#161#148#26#26#9#253#241#212#128#222'?'#16'u'#194
-  ,#24'I&'#135#142#22'KH>'#231#169'o'#188'I&'#31'U'#149#154#211#128'J'#145'!'
+  +#24'I&'#135#142#22'KH>'#231#169'o'#188'I&'#31'U'#149#154#211#128'J'#145'!'
   +#250'd'#139#219#249#245#152#185'P'#4#185#220#191'H'#207#210#254'u'#158#206'%'
   +#186#16'W W;Zk'#161'A'#192'('#129')'#23'ZK`'#181#133'1'#9#226#236#22#150#186
   +#183#192#225#176'vsv'#250's'#191'zp'#250'k'#127#235#194#249#149#251#221#238
@@ -31999,9 +32001,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'r'#197#155#209#249'BD'#11'I'#235'F'#180#140'Xv1wp'#247#212#31#252#31#206#252
   +#194#27#223'_?'#246#253'?'#189#245'R'#193#150#30#184#174#187#18#134#225'F'#24
   +#134'Q'#28#199'I'#201#150#10#225#131#173#232#196#203'4^/'#203#178'^'#144#5#29
-  +'?='#184'r'#255#213#228#244#202#157'['#199#207#189#224'9'#222#12#131#235'0'
+  ,'?='#184'r'#255#213#228#244#202#157'['#199#207#189#224'9'#222#12#131#235'0'
   +#24'K`'#140#1#181#6'Fa'#184#215#227'#'#206#218')e'#208#141#18'DI'#154'/:'#148
-  ,'<'#236'1'#214#175#13#17#12#167#232#134#132#13'}QCU'#220'0'#16'<'#208#234#243
+  +'<'#236'1'#214#175#13#17#12#167#232#134#132#13'}QCU'#220'0'#16'<'#208#234#243
   +#149#11#173#252#220#129#132'|'#244'2H'#229'M'#250#12#199'5t'#150#131#24'IQ'
   +#187'd'#20'0'#10#0#24#8'c '#214'B'#171'\'#194#223#209'=l'#244'.'#131#16#11'_'
   +#248#141#3#23#15'4.|'#246#169#195#157'5'#211#187#250#214#210#210#235'?'#190
@@ -32063,9 +32065,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'?]i'#160'Z'#8#26#202#169#176#214'V'#155'fQaE'#219#3#209#166#251'}'#21'VE'
   +#170'Lma'#242'i'#193#24'C+h#pf'#177'~'#31#189'?'#255#151#215'^'#191#127#171
   +#243'n'#28#199#247#163'(Z'#234#245'z'#235#189'^'#175#27#199'q'#156#166#169
-  +#146'Rjc'#12'A1'#152#144'1'#198'+'#19'r'#167#26#141#198'L'#163#209#216#237'y'
+  ,#146'Rjc'#12'A1'#152#144'1'#198'+'#19'r'#167#26#141#198'L'#163#209#216#237'y'
   +#222'~'#127'J'#158'qw'#221'<u'#238'9'#207'i'#206's0'#151'!M5'#8#181#185#2#143
-  ,#148'3'#159#240'p9'#188'1'#17#165'):a'#132#129'%'#219#135's'#158#229'@BA@+`D'
+  +#148'3'#159#240'p9'#188'1'#17#165'):a'#132#129'%'#219#135's'#158#229'@BA@+`D'
   +'+`B+'#175'!'#131#154'"!'#149#247#208#145#219#133#155#7#201#21#138#249'{'#6
   +#175#161#229#253#226'1J*'#239'%t'#228#249#202#251#9#217'z'#224#28#217'f'#135
   +'G'#6#149'Jc5,$'#164#148#0#145#0#201'`L'#138'L'''#16#220#160#233'51?u'#28#13
@@ -32127,9 +32129,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'+_'#234#202'+'#252#189#197'?C/'#14#161'L'#209'\j=8|'#10#156'6'#193'in'#9'D'
   +#9#7#161'Ej'#164'"'#246')'#213't'#6#149#177#227#21#197#220#160'~Tyl'#200#18
   +#200#142'\c'#248'g'#163'Z'#23#161#216#156#148'#'#149#244#28#25#3'@'#21'p"d'
-  +#147#224#129#210#178#203'?'#127'='#163'y'#161#215'u\'#180#253'y'#200#144'e'
+  ,#147#224#129#210#178#203'?'#127'='#163'y'#161#215'u\'#180#253'y'#200#144'e'
   +#127#254'/o^'#186#242#230#202#165'8'#142#239'DQ'#180#20#134#225'j'#175#215
-  ,#235'FQ'#20'W'#26'jQ'#173'-'#185#174#235#6'y'#12#213#150#26'3'#233#249#169
+  +#235'FQ'#20'W'#26'jQ'#173'-'#185#174#235#6'y'#12#213#150#26'3'#233#249#169
   +#195'wO'#158'~'#214#231#222't>e5Im'#31#140#244#4#127#233#184#172#19'}'#236
   +#131'jr0G'#191#166'3.'#189'6'#146#214#171#222#31'I'#247'al'#237'is'#173'j'
   +#244#253#24'z'#140'LL'#1'b'#168'?'#138#14#11'1'#30#5#15#232#3#167#129#210#10
@@ -32191,9 +32193,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'h'#138#132'B'#254#233#152#225#138#146#197#144#194'n'#156'S'#192'('#176#17#12
   +#239#212#171'5)k'#1#169'r'#216#179#214'`=\'#131'41'#142'?1;'#251'_'#252'wO'
   +#255#226'w'#254#215#219'W^'#253#241#194#235'B'#136'f'#233#139#231'8'#142'(d'
-  +#188#217#4#182#164#202#134#218#156'-'#5'a'#16#159'Xy=\~'#230#240#197#213'='
+  ,#188#217#4#182#164#202#134#218#156'-'#5'a'#16#159'Xy=\~'#230#240#197#213'='
   +#206'lF'#156')'#11'W'#228#162#143#210#232#178#202#237'>'#25#160'Tq'#140'%#R}'
-  ,#146#143'-'#239#143#147#176#197'}b'#10#181'c'#169#140#27#8#14#242'4'#219#160
+  +#146#143'-'#239#143#147#176#197'}b'#10#181'c'#169#140#27#8#14#242'4'#219#160
   +#205#21'#'#30#16'yj'#174#242'mZ'#2'Kh'#193#150#203'!>'#166#152#227'D@'#170
   +#183'I'#193#140'H'#153#234'#}vE'#236'H?U'#21'@m~'#219#142#176#235#135'gN4O'
   +#133'S'#14'J'#4#172'Q'#224#212#129#229'>R'#149#128'X'#31#198'$'#249'F'#228
@@ -32255,9 +32257,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'x'#224#204#7'c'#28#188':'#207#168#4#129#145#154#145#29'qW'#30#29'=>'#152#252
   +':'#168#15#245#5#15#0'F'#231#149'Y'#140#142#172'6'#131'E'#170#15#9#229'9'#161
   +'7'#207'2'#232#23#180#171'['#191'j7'#191#173'('#236'F'#211't#)A2~'#175'[eS'
-  +#229#207#200'A'#192'B'#18#128'['#139#141'h'#3#169'L'#176#255#212#236#244'?'
+  ,#229#207#200'A'#192'B'#18#128'['#139#141'h'#3#169'L'#176#255#212#236#244'?'
   +#254'o'#159#250#218'w'#255#228#206#213#159'|'#247#222#171#156#243#166#16#226
-  ,#129#235#186'k'#133'D'#188#175#196'+v'#175#178#24#4#168#149'RR)'#149')'#165
+  +#129#235#186'k'#133'D'#188#175#196'+v'#175#178#24#4#168#149'RR)'#149')'#165
   +#18#173'u'#172'u'#16#153#236#194'j'#178'q'#245#226#129#11'i0w'#128'A'#139'\'
   +#150'.e.'#184'('#25#226#142'F'#186'}'#4#128'd'#135'R'#176#180#191#144#151#233
   +#175#193'wY|wE'#157#7#160#3#182'k'#7#130#131'j'#221#168'?|'#15#164#232#14#24
@@ -32319,9 +32321,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#250'cL'#253'Y'#133#217'Q'#133'%'#213#229#227#170'!c'#228#254')'#192#148#235
   +#245#165#170'LY'#176#167'}'#163#139#138#199#22#156#7#1';'#206#3#141#29#11#8
   +'+ D'#1'P'#136'0'#204'"X'#222'B'#170#134'Xh'#221#238'|'#242#255'v'#246#163
-  +#207'}'#232#232#133#207#252#250#198'g'#7#187'b'#213#243#188#203'R'#202#27#190
+  ,#207'}'#232#232#133#207#252#250#198'g'#7#187'b'#213#243#188#203'R'#202#27#190
   +#239#223')'#24#250'P'#8#177#23'[rw+'#225'=.'#160'4'#7#164#183''''#213#237#199
-  ,#142'jR]'#24#134'~'#175#215#235't'#187#221#149'R'#170#251#212'_z'#254#135'.>'
+  +#142'jR]'#24#134'~'#175#215#235't'#187#221#149'R'#170#251#212'_z'#254#135'.>'
   +'sh'#233#141';'#191#133'Ho'#195'9'#7#231#198#9#9#158#232#228#246#238'b'#166
   +#145#160'J'#141#165#177#136'4'#235'F\'#216#184's'#198'S='#135'K'#153#206'V\t'
   +#174#17#172'Z'#173#227'p=S'#149#171#245#164'jf]'#133#25#161'q'#155#9#139#29
@@ -32383,9 +32385,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#214#187'J'#147#4'O'#212#153#198#143'-j'#131#12#199#27#30#174'AnIJj'#245#181
   +#134'm|'#220#28'^'#2#153#135#210#236'W'#194#168' '#134#181#132'D'#237'B9'#128
   +'<`'#144'&H'#205#21#164#186'/'#159#249#161'#O'#159#188'p'#244#240#239#254#234
-  +#240'O'#6#187'bQJ'#217#145'R'#182'|'#223#15'|'#223#223#241'</'#246'</kHx'#174
+  ,#240'O'#6#187'bQJ'#217#145'R'#182'|'#223#15'|'#223#223#241'</'#246'</kHx'#174
   +#194#144#166#129#211'c'#5'Js@z'#251#245#163'&K'#170#185#234#132#16#178#24#184
-  ,#183#208#233't'#14#133'axbe'#173#247#244#143#255#165#231'/n'#14#191#139#157
+  +#183#208#233't'#14#133'axbe'#173#247#244#143#255#165#231'/n'#14#191#139#157
   +#228#18#180#181#208#214'B'#138'|'#129#18#16#16#5#24#145#16#141#130'?'#215'k9'
   +#19'nP7'#241'='#145#173'X'#192'K'#208#177#21'['#183#155#4#165'&;'#226'Y'#239
   +'@'#165#247'h'#226'mh2&'#140']u#+'#177#173'8'#175#170#177'4e'#29#170#162#245
@@ -32447,9 +32449,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#165#159#253'{k?'#241#153#127#229'/'#221#184'D-"'#10#137#200#151'RzD'#180'#D'
   +'^'#132#172#128#18'OaK'#143'MMi'#14'H'#247#134#29#141#244#167'0'#12#253'n'
   +#183#219'*'#140#12'G'#194'0<'#249#231#127#234#233#143'-'#31#10'['#175#222#250
-  +#10'4'#187#188#160'I'#162#176'd'#23'['#25#242#139'B'#255#180'Q'#205'\'#147
+  ,#10'4'#187#188#160'I'#162#176'd'#23'['#25#242#139'B'#255#180'Q'#205'\'#147
   +#212#154#131#247'j'#153'u'#149'!|'#168#217#193#171#153'u<'#133'q'#161'2)'#182
-  ,'|'#216'='#186'7IT'#206'~76&0*'#225#157'E'#183'='#231#255#207#25'O);'#138'z'
+  +'|'#216'='#186'7IT'#206'~76&0*'#225#157'E'#183'='#231#255#207#25'O);'#138'z'
   +#253#129#197#168'7'#133'G5$'#26#213#155#184'"'#187#140#180'~'#212#5#9#6'#Nw'
   +#145#233#164'"'#245'1'#170#238#175#201'&'#223#234'@'#195':;'#225#226'i'#176
   +#205#129'!#'#5#195#235'0.'#161#143#255#197'C'#231#158'|'#223'3k'#255#250#159
@@ -32511,9 +32513,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#248#201#159'}'#230#3#198'n'#209'n'#252#10'l'#17#215#195#0#236#136'U'#0'B'
   +#200#209'8rT'#154#232#154'3'#136#168#168#145#228' S'#212'w'#154'c&'#202#17#19
   +'M0'#162'1'#24#17#143#235#157'\K'#13'w'#21#147#218'A'#147'?+f'#158#17#206#21
-  +#245'!'#154#206#176#184#210'('#139#170'<'#215#168#25'M'#164'/'#212'F'#21'Hh'
+  ,#245'!'#154#206#176#184#210'('#139#170'<'#215#168#25'M'#164'/'#212'F'#21'Hh'
   +#147'b'#144#246's'#134'U'#25#149'@'#179'r'#240'0'#142#24#170#22#173'g'#22#215
-  ,#167'L'#169#205'-'#188#128'-'#222'z'#237#24#198#1#150'3'#152#193'M,'#180#146
+  +#167'L'#169#205'-'#188#128'-'#222'z'#237#24#198#1#150'3'#152#193'M,'#180#146
   +#224#231#255#254#161#15'~'#251#139#171#199#255#195#167'/'#151#205#180#157'"'
   +#225'a'#183'bx'#176'i'#154'f'#5'S'#170#213#149#220#165#195#153'N:'#239#215
   +#241#149#243''''#158#128'X<$'#161#217'A'#10'B'#170#28'<I0'#150#247#220'*<'
@@ -32575,9 +32577,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#236'P'#244',i'#231#156'r'#151#14'e:'#233#188#144'FW.'#28'=Ob'#241#136'D'#224
   +#3#206#22#9'i'#197#211#178#142#223#197'W'#232#12#214'4'#5#156'f'#177#166#9'b'
   +'@'#211#234#141#133#235#146'*'#245'!'#18#181#205#9'W'#247#165#213'ds'#162#218
-  +'3'#163'J'#221't'#172'%'#184'Qt'#215#8#152#132#203#255#185'G'#189#160'zH'#145
+  ,'3'#163'J'#221't'#172'%'#184'Qt'#215#8#152#132#203#255#185'G'#189#160'zH'#145
   +#167#197#27#231#144#233#12#4#224#232#185#165#229'?'#247#215#238#252#228#31
-  ,#252#171#195#134'90'#204'l'#202#22#3#165#148#141#162#136#149'R'#140#131#27#24
+  +#252#171#195#134'90'#204'l'#202#22#3#165#148#141#162#136#149'R'#140#131#27#24
   +#30#10'@'#205#1#233'`'#146#29#26#146#221#136#29#181#219'm'#191#211#233#180
   +#131' X'#242'}'#255#208#210'r'#231#244#7'?z'#252#208'n'#252'-h'#163#242#222
   +#149'J'#197#146#167']g'#163'Aby'#196#253#228#173'\e'#135'U)'#144'ri'#147'p'
@@ -32639,9 +32641,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'ma<Yv'#154'y'#161'*'#213'U'#165#187#186#217'a'#250#223#210#132'HG4'#201#138
   +'&r-'#139#157#174'e'#140#134#240#9#1#164#198#194#242'.'#140'Kq'#254#133#181
   +#181#127#240#191'^'#248's'#191#254#127#222#252#230'['#175#201#239#23#160#180
-  +#238'y'#222#142#16'"J'#211'4'#179#214#154'$'#247#134#179#181#214'9'#231#140
+  ,#238'y'#222#142#16'"J'#211'4'#179#214#154'$'#247#134#179#181#214'9'#231#140
   +'sN'#187'7'#151#180#206#194#23#146#228#242#19#167'.J'#209']%'#132'>'#141'&'
-  ,#151'Z'#203#144'B'#192'1'#191'gD'#188#131#158#133'ur'#219'L'#128#224'F'#131
+  +#151'Z'#203#144'B'#192'1'#191'gD'#188#131#158#133'ur'#219'L'#128#224'F'#131
   +'ke'#150#211'D'#178#247'^'#177#151#141#231'@E'#132'P'#225#150'-'#235'H'#190
   +'$H'#16#156'e'#236'nYl'#222#180'X'#191'fq'#243#138#198#157#235#26#195']8)'
   +#219#153' '#130#164'@'#249'A'#168#217#1#173'V/a'#164#129'1F'#20#175#192'Ah'
@@ -32703,9 +32705,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#18#168#132#16#214'Z'#171#178','#211'Zk3'#7#164#199'['#174#155#233#174#11#130
   +' '#8#195#176'#'#165'\'#146'R'#174'}'#244#7#143'_'#200#204'&'#148#221#129#229
   +'b7*'#5#172#181#7'\'#246#203'4'#1'['#217#157#237#193'd'#200'Mq'#209#141'Or'
-  +#158#144#184#248#128#151#225#189'c@'#179#142'T%'#136#178#225#158#18#215#244
+  ,#158#144#184#248#128#151#225#189'c@'#179#142'T%'#136#178#225#158#18#215#244
   +'D'#4#158#202'2'#234'v'#240'i'#146'JUb'#227#138't7'#217#151#212#148#250'&M'
-  ,#13#162#242#24#165#252#215#0#210#218#136#246#217#202#200'h'#16#135#160#202
+  +#13#162#242#24#165#252#215#0#210#218#136#246#217#202#200'h'#16#135#160#202
   +#220'*'#130'v'#14'P'#219#176#172#232#135#255#242#234#185#179'O'#156'Y'#254
   +#181#127'v'#253'KR'#202'V'#1'L'#254'`0'#232'''I'#146'j'#173'm'#25'9T'#173'+]'
   +#250#238#17#165#146#240#165','#189'u'#242#228'y'#137#214#18#193'q'#145'Um'#11
@@ -32767,9 +32769,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#162'm'#211#219'0'#141'7'#229#238'K'#134#177#26#177'Jp'#250#233'p'#241#19#127
   +'q'#251#7'>'#251#219#203#177's.'#177#214#198'%[r'#206#145'1'#6'3'#0'g?'#198
   +#196#143#10'3'#154'3'#164#187#147#236#208#0#164#174#231'y'#11#207#191#184'r'
-  +#198#186#12'I'#182#14#199'n'#148#180#188'o'#26#194#187#16#128#170'G'#156'EHu'
+  ,#198#186#12'I'#182#14#199'n'#148#180#188'o'#26#194#187#16#128#170'G'#156'EHu'
   +#242#128#158'=M'#181#135'W'#6#187'W'#22#135'qmit'#139#209'('#138#234#221'V'
-  ,#147#30#170'`'#131#137#233#4#163#169#183#236'*'#245'%'#140'G'#202#151#253''''
+  +#147#30#170'`'#131#137#233#4#163#169#183#236'*'#245'%'#140'G'#202#151#253''''
   +#19'2'#235'^2N'#241#187#226#185'8'#6#180#5#164#0'"'#165#161#204'::'#161#242
   +'~'#246#239#172'>s'#225#169#206#234'o'#252#202#205'/'#22'.<_J'#185'%'#132#24
   +'fY'#166#10#7#30#151'u%f'#182#175'~'#229#172#181#234#250#135#207#191#127#176
@@ -32831,9 +32833,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#249#5#225#192'A'#173#19'l'#169')'#225'Ug0U'#164'>'#158'dG'#205#219#140'A'#17
   +'5'#151'^>d'#177#178#139'fj'#0'&'#205'|U'#182'|E'#174#172'904'#17'X%p'#208'X'
   +'>'#225'z'#127#255#127'9'#242#3#191#250'O'#182#22'_'#253#174'('#29'x'#254'p8'
-  +#220'M'#211'4'#203#178',c'#230#237'Q'#175#210#213#158's'#246#188'aw'#233'9b'
+  ,#220'M'#211'4'#203#178',c'#230#237'Q'#175#210#213#158's'#246#188'aw'#233'9b'
   +#231#181'V'#8#130#8#158'pPf'#142'H'#239#232#28',"Bx'#202'h'#153#209'u'#199
-  ,#180#231#198#142#29#195#0#240#4#195'Z'#139'3'#239#211#189's'#175#238#190#244
+  +#180#231#198#142#29#195#0#240#4#195'Z'#139'3'#239#211#189's'#175#238#190#244
   +#198#183'{'#27#198#152#237'n'#183';H'#211'4'#214'Z'#235'$I'#204#227#250'n'
   +#205#27'c'#247#6#169#145#195#174#168'!'#5'R'#202#22#17#181#215#14#251#161'2'
   +#219#176#206'b'#218#169'D H'#18'`'#184#220#198')'#4#28'\m'#24#4#131#225#14#10
@@ -32895,9 +32897,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'R'#194'k'#198#0'Q'#131#229#160#176#134'W'#237#224#249#247#174'a'#13'Ge'#236
   +#5#213#28'x'#229'"O4'#14'2'#170#247#178#0#211#172#225#220#148#135#144#207#185
   +#22'T'#220#177'q'#216#137'7'#209#9#20'}'#234#231#23'/'#30'9q'#184#247';'#191
-  +'.'#190'\l'#182'|!'#196'v'#1'J'#9#128#205#146',}'#247#207#206'9'#163'/'#127
+  ,'.'#190'\l'#182'|!'#196'v'#1'J'#9#128#205#146',}'#247#207#206'9'#163'/'#127
   +#216#186#180#187'vB'#228#253'v`87'#30#171#193'sP:'#240'9W'#214#12'ib'#169')'
-  ,#6#156#243#222#4#134#29#3'.'#159'4'#171#172'F{!'#192#234#153#245#11#215#223
+  +#6#156#243#222#4#134#29#3'.'#159'4'#171#172'F{!'#192#234#153#245#11#215#223
   +'X>'#17#134'aYO'#26'FQ'#148'6X'#146#192'dS'#20#239'#'#229#205#1#233#1#129#209
   +'^'#14#187#186'v+'#165#144'R'#10'"'#242#136'('#232'-x>C'#195'q'#238#154#211
   +#156#155#23'@'#4'OHl'#220'T'#248#179#223#222#194'k'#223'Z'#218']'#234#157'~9'
@@ -32959,9 +32961,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#16'-u/~1'#26'&o'#14#135#195#27#195#225'p'#199'9''|'#223'o{'#158#23#156#127
   +'r'#233#208#194'b'#232#237'l'#221#130#16#2#4'[N'#19'x'#208#230#238')'#204'h'
   +#14'F{'#191'W'#213#8#161#177#132#199'S$'#188'z]'#137'F'#205#164#213'=h'#13
-  +#160'P'#29#26'Z'#157'T['#173#29'5'#216'R'#5#127#198#181#173#198#172#8#154#221
+  ,#160'P'#29#26'Z'#157'T['#173#29'5'#216'R'#5#127#198#181#173#198#172#8#154#221
   +'bgG'#243#142#0'U0'#12#5#6#169#1#24#6#207'}b'#225'Xoi'#245#135#254#237'/'#209
-  ,#151#10#166'$'#227'8'#238#23#13#180'%S'#162'W'#191'p'#134'$]'#253#8'Q'#212'['
+  +#151#10#166'$'#227'8'#238#23#13#180'%S'#162'W'#191'p'#134'$]'#253#8'Q'#212'['
   +':"'#224#203#220#224#144#153#220#154','#233#254'D'#13#149#247'i'#21#176#181
   +'n!$'#176#180'"'#209#238#10#128'r'#183'k'#217#31#165#139#17#240#206'a'#159
   +#169'S'#15#227#236#154#204#182#163#10#232#142#230'h'#237's]'#154#194#237'h'
@@ -33023,9 +33025,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#158#231#5#190#239#203' '#8'B'#223#247';'#207#189#127#245#168'u'#9#12#235'b'
   +#231'['#164'3'#220'''C'#195'^'#247'i'#173#193#238#28#140#238')['#218#27#148
   +'x'#4'J'#245'+'#190'n'#130#168'M'#22#173'&'#24'U$;bQ1Mpe'#158#210#164#157'|l'
-  +#134#216#199#129'W'#252#222#21#247#234#138#147#210#22'l)'#240'-'#6'v'#7#157
+  ,#134#216#199#129'W'#252#222#21#247#234#138#147#210#22'l)'#240'-'#6'v'#7#157
   +#192#201#191#248'7'#151#158'^^['#234#252#217'g'#232#27#133#3'oK)'#149#164'i:'
-  ,'D'#30#21'I'#223#251#236'9'#241#204#15#190#245'!B'#218'j'#175#8'@'#228'`t/U'
+  +'D'#30#21'I'#223#251#236'9'#241#204#15#190#245'!B'#218'j'#175#8'@'#228'`t/U'
   +#187#178#246'S'#218#188#173'3'#208'f'#11#214')'#156'z'#159'Z'#249#171''''#143
   +#181#127#239#211#233#141#254#22#27#231'\J'#188'8'#244#220#226#230#206#165'd'
   +#233'O'#223#186#182#182'vzw'#241#137#23#2#156'8'#231'#'#12'$H8('#237'Fi'#218
@@ -33087,9 +33089,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'V'#2'y'#238#157#231'y'#190#231'y'#129#148#178'{'#226'L'#167';Lo!3'#185#179
   +'N'#27#134#171#230#138#189#237#143'}'#255'?r'#156'3'#163#247#198#8#137#199
   +#133'-5'#134#145#211'xb'#232#248'o'#168'R'#7#162#218'`?'#212#154'f'#199#174
-  +';'#170'4'#185'N'#252'M'#227#254'j'#140#141#166'?'#253'f'#228#175#181#249'ea'
+  ,';'#170'4'#185'N'#252'M'#227#254'j'#140#141#166'?'#253'f'#228#175#181#249'ea'
   +#25'P'#198'!'#147#25#180#222#192'j'#215#132'?'#251#247#23'>'#248#219#191#178
-  ,#208'z'#243#21#241'*'#17#173'+'#165#134'J'#169#132#136#214'7nt'#164#248#242
+  +#208'z'#243#21#241'*'#17#173'+'#165#134'J'#169#132#136#214'7nt'#164#248#242
   +'y_~'#226#173#167':'#171#142#188'n'#222'8'#171#221#184#247#233'^-'#236'9P'#20
   +'w'#230#128#12#14#153'N'#161#237#13#180#131'X'#254#192#207#174#156'[\'#235
   +#181#190#240'{'#248#30'3'#219','#203'v'#181#214#137#214'z'#168#148#26#180#212
@@ -33151,9 +33153,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#178#139#127#229#191#233'|'#228'?'#254'3|m'#208#167#155'Y'#150#13#140'1q'#154
   +#166#155'o}'#253#208#183'e`>'#224'y'#219#203#237'UB'#224#17#140's#7'#250#189
   +#148#192#170#198#9#199#185'%'#154#153#145'i'#141#221'x'#11#189'6'#7'?'#254'_'
-  +'.'#190#240''''#255#186#19#190#249#189'|'#10''''#128#205','#203#226'8'#142'w'
+  ,'.'#190#240''''#255#186#19#190#249#189'|'#10''''#128#205','#203#226'8'#142'w'
   +#11'PJ'#140#233'$Yrq'#215#196'w^L'#6'w'#14#29'='#239#193'_ '#136'@'#194'9'#7
-  ,#231#0#237#30#29'k'#184'6'#12'v@'#171#227'!h'#199#29#18#232'I)'#219'R'#202'P'
+  +#231#0#237#30#29'k'#184'6'#12'v@'#171#227'!h'#199#29#18#232'I)'#219'R'#202'P'
   +'J)'#133#16#162#144#244'i'#134'|7'#159#24#251#16#129'iV'#31#210'L'#201#174#2
   +'L#P'#242'<'#143#164#148#190#16'"'#240'}'#175#179#180#234#135#215'w6'#242';'
   +#19#0#219#131#236'?'#223#222#145'd)'#226','#157#175#249#143#201'i7'#11#148'F'
@@ -33215,9 +33217,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#217#152#31#15#255'T'#228#178#167#168#18#130'Z'#203#18#159'R'#235#225#230'xt'
   +#174'aWI`'#138#219'T'#29'x'#149'{'#169#140#173'(9X'#245#177'fAS3'#159'5'#159
   +#215#146#255#157'6'#197'eb'#5#152#13#180#217#193'R'#151#253#31#249#155#157
-  +#167#254#236'WC'#255#250#27't'#217#24#19'[k'#227#205#171#225'e'#217':'#25'x/'
+  ,#167#254#236'WC'#255#250#27't'#217#24#19'[k'#227#205#171#225'e'#217':'#25'x/'
   +#220'8'#214'['#21#240'd^'#139#177#150'A'#200#147'!r'#198'D3'#30#191#242#236
-  ,#246#28#223'^'#191#180'G'#128'A'#128#177#249#184#245']'#29#131#25'X8'#197'K?'
+  +#246#28#223'^'#191#180'G'#128'A'#128#177#249#184#245']'#29#131#25'X8'#197'K?'
   +#252'7z'#31#251#147#127#217#173#245'$&I'#146#196'q'#28#21'LI[k'#149's'#189
   +#204#170'g'#6'6}'#243#133'cO'#169#246#194#17#1#231#229#170#136'1'#200#131'Z'
   +#31#224'8Zk'#243'`'#216#160'#`'#156#0#249'qH'#2'm"*'#25#146#135#189#155'b'#31
@@ -33279,9 +33281,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +')f'#135#234't#'#140#162'|'#166#213#149#198'XV'#171'+'#1#181#233#178'UU'#139
   +'jF'#129#201#220';'#198#221#185#198#24#185#243'K"'#151#176#141#1'<'#15#216#29
   +#238#130#187#14'O'#253'P'#247#168#244#219#226#229'?'#149#183#157's*'#27#4#241
-  +#198#183'O'#222':'#244#254#171'''I'#228#139'k'#158#174'M'#227#231'8"mc '#162
+  ,#198#183'O'#222':'#244#254#171'''I'#228#139'k'#158#174'M'#227#231'8"mc '#162
   +#202#240#195#234#243#159#181#214'VGu'#140#222#17'f'#144#204#235#191'l'#1'M'
-  ,#128#11'S'#244'#`'#237'I'#28'z'#223#167#240#241#239#252'^'#207#0'0'#5'3'#178
+  +#128#11'S'#244'#`'#237'I'#28'z'#223#167#240#241#239#252'^'#207#0'0'#5'3'#178
   +'Q'#20'%'#198#24#21'E'#145'+@'#169#248#234#26'g'#159#212#14#175'='#11'r^k!'
   +#127'^R'#230#181#170#145#251#246'>L'#143'V'#138#209'nI'#200#144#225'('#243
   +#137#200'#"'#159#136'<!'#196#180#230#216#131#2#211#28#144#30#216#149'?;'#193
@@ -33343,9 +33345,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#195'D'#170'%'#219#128#231'S'#158#236'B'#185'm['#136#252#255'o'#255#160#220
   +'i'#23'XHI`r%;j2'#164'Y'#172'h'#14'H'#143#227'Q'#212#144'\i'#1#205#18'kz'#194
   +#131'c'#7'c'#1#182'n'#4'F<c'#159#187';'#140'a'#236#220#196'0?'#222'>('#141'V'
-  +#145#153'f'#135#250'\'#165#241#156#164'zki-'#207#142#154'3'#152#234#214#234
+  ,#145#153'f'#135#250'\'#165#241#156#164'zki-'#207#142#154'3'#152#234#214#234
   +#186'q'#162#178#150#17#223#221#211'w'#185#251#206'0'#23'2'#30#144#164')'#4#1
-  ,'Kgz'#139#207#252#5#198'+'#191#223#187#181#243#250#161#173'`)m'#1#131'^w'#153
+  +'Kgz'#139#207#252#5#198'+'#191#223#187#181#243#250#161#173'`)m'#1#131'^w'#153
   +'`'#138#133#219#26#158'|'#30#213'Q'#240#212'`t5cH'#19''''#199#145'B`'#170']'
   +#187#142#1#182#148#143#152'0'#14#169#211#249's<'#230'/'#156#249#129#219#31
   +#127#235'O'#143#164#197'0?U'#212#148#172'R'#202#150'F'#135'B'#194'+'#142#5
@@ -33407,9 +33409,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'ac'#140#193'x'#166#26#141#166'N_['#240'E'#231'l'#151'O_>'#213'^'#16#240#3
   +#130'1'#128'3|W6p'#163#25'a7'#159#189'd'#173'ppB'#149#9#229#238'Qr3'#204#1
   +#233#29'Iu'#213#127's!'#217'q'#217'{'#224#156#203#172#181#201'p'#203#165'a'
-  +#171#237'g'#217#16#236#17#156#202#175'{'#165#205#220#196'0?'#30#25'P'#2'&'
+  ,#171#237'g'#217#16#236#17#156#202#175'{'#165#205#220#196'0?'#30#25'P'#2'&'
   +#227#134#170'ks]'#194'+S'#16#26'l'#169#198#156#168#216#161#143'u'#174#250#224
-  ,#191#183'1-'#149#203#232'-'#134#244#9'V3b'#23#131'Z'#140#213#11'X'#177#138
+  +#191#183'1-'#149#203#232'-'#134#244#9'V3b'#23#131'Z'#140#213#11'X'#177#138
   +#172'~'#235#252#157#224#252#235#199't'#198#240#242'n'#155#145#2'1'#226'g#'
   +#137#177'23'#170#154#241#199#211'.'#248#146#241#241#8#132#199'`T'#128'U'#1'J'
   +#185';'#145'!'#24#136#163#8#189'nW,'#191#248#230#11#217#206#179#235#214'v'
@@ -33471,9 +33473,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'|'#245#250'W'#199#246#219'y'#223#211#252#216'K'#190#163#250'^'#172#246']'#21
   +'x'#26#3#239#170#18#30'P'#214#150'J'#182#132#198#24#241#201'Ax|'#215'C'#153
   +#27'?'#17#12'.,'#209'D'#14'B'#24#202'L'#226#145#240#192#164'r%'#205#29#236
-  +#254#246'cG'#245':'#210'~'#207'4'#143#12#211')'#195#217#4#189#165#14#181#159
+  ,#254#246'cG'#245':'#210'~'#207'4'#143#12#211')'#195#217#4#189#165#14#181#159
   +#186#244#180#222'z'#254#170#214#237']'#165#212'P)'#149#152#162'g'#164'`-d'
-  ,#140'a"'#162'8'#142'#'#207#243#164#148#210#151'R'#182#228'+'#199#190#178#180
+  +#140'a"'#162'8'#142'#'#207#243#164#148#210#151'R'#182#228'+'#199#190#178#180
   +'0'#252'a#'#250'='#225#17'`'#184'6'#199#170'|'#141#132#188#134'T'#134#193#170
   +#204#193#227'0r'#204#163'$rS'#134'k'#222#237#27'>'#7#164'G'#138')'#205#218'E'
   +'0'#0#20#146']f'#140'I'#172#181#131#254'-'#183#213'['#235#172#18#237#192'j7j'
@@ -33535,9 +33537,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#30'5'#225#181#242#250'r2dxh'''#204#156#22'`d'#141'1'#22#211#13#13's'#201#238
   +#157'1'#164'{'#223'[3'#197#250'='#173'''iV'#156#16#23'S!U'#150'e'#177#214'z'
   +#160'S'#183#145#220#238#244#153'i'#185#220#193#28#164#142'Tu'#224'r'#229#242
-  +#150#1#224#135#2'i'#223#225#210#215#20#214#194#167#174#177#145'o'#165'i'#186
+  ,#150#1#224#135#2'i'#223#225#210#215#20#214#194#167#174#177#145'o'#165'i'#186
   +#197#204#220'j'#181#188#133#195'A'#203#176#6';'#7'g+'#236#136#31#129#179'n~'
-  ,#188#139'X'#211#24#131'F'#240#195'\'#203#132#155#16#250#10#160#168#245'&5'
+  +#188#139'X'#211#24#131'F'#240#195'\'#203#132#155#16#250#10#160#168#245'&5'
   +#193#233'@'#210#197#12'0z'#4#129#168'v]'#219'|#'#29#15'3'#244#22#218'p'#135
   +'/]'#240'7>'#240'J'#171#213#218#232't:;I'#146#196'Y'#150#233'r'#4'u'#249#150
   +'Xk'#141#214#154#147'$'#137#162'('#242#131' h'#7'A'#176#16#191'|'#230';'#157
@@ -33599,9 +33601,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#244'p'#238#190#191']'#179#234'H{'#1#147'+v1#'#251#183'R'#170#175#181#222#236
   +#191#222'{'#181#243#209#238#209#237'hH\'#25'/^'#151'3('#159#243#2'@'#248#4#25
   +#2#27#175'['#172#127#159#237#249#181#247'}''M'#178'+Q'#20#221#138#162'h;'#142
-  +#227'H)'#149#181'Z'#173#128#136#156#16#2'DD'#194#131'0N'#195#233#146#17#241
+  ,#227'H)'#149#181'Z'#173#128#136#156#16#2'DD'#194#131'0N'#195#233#146#17#241
   +#212'z'#213'#'#243'9'#218#162#241'W'#22';'#199'bM*'#135#145#205#221#24#239#13
-  ,'I'#175#148#243#168#28#244'S'#1'&'#222#11#211#128#199#162'vT{'#234'v'#12'L'
+  +'I'#175#148#243#168#28#244'S'#1'&'#222#11#211#128#199#162'vT{'#234'v'#12'L'
   +#194'1<'#25#194'-l/'#137'P'#159#10#178#224'z'#171#213'Z'#15#195#176#239'y^:'
   +#197'q'#135#130'%q'#146#31#187#237'v{#'#8#130#155#217'['#199'_'#245#159#219
   +#249'`>'#250#194'!@k'#211'9'#23#21#14';U'#200'u'#14#251#180#175'<'#12#182#244
@@ -33663,9 +33665,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#240#24'l'#30#145'u'#188#152#177'\'#238'8'#133#196'h'#151#185'}'#217#224#248
   +#226#197'u"'#193'~Kx'#214#26'(cr'#185'f'#238#180#155#31#15#227'\'#173#224#18
   +#21#18#187#240#8'[o'#25#236#190#225#169'V'#208#214#225#153'Aw'#241#184#132
-  +#223#202'Y'#188#179'yC'#187'SE'#171'/'#237'!xU.J['#12#215#211#198'@tu`'#163
+  ,#223#202'Y'#188#179'yC'#187'SE'#171'/'#237'!xU.J['#12#215#211#198'@tu`'#163
   +#225'i/'#245#222'(BT}'#207#243'Hk=m'#157#129's'#174'l'#148#141#164#148#150
-  ,#153'3'#251#250#210'o'#5'k'#217#15#166'w'#210'M'#165'T'#156'eY'#170#148#170
+  +#153'3'#251#250#210'o'#5'k'#217#15#166'w'#210'M'#165'T'#156'eY'#170#148#170
   +#246' '#185#3#128#210#3'='#222#29#12#233#193#172#180'w+'#219'Q'#133'%Y'#231
   +#156'PJei'#154'Fi'#154'n'#134'ax'#219#191#185#244#173#214#137#197's'#137#25
   +#180'I'#230'q'#31'`'#194#173'ok'#232';'#157#248#220#209#139'_'#136#227#228'r'
@@ -33727,9 +33729,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'R}'#0#240'<'#175'C'#30#200'9'#155'7'#31'f'#227#133'a^;'#154#31#15'J'#182#3
   +#23#160'D9'#131#217#189'b'#177#214#190#176'a'#180#189#157#166#233'V'#146'$'
   +#187'E'#27#134#2#192'Y'#150#197'Y'#150'Ei'#154#246';'#157#206'v'#150'e'#27
-  +#173'V'#235'v''<|})8~dw'#253#246#211#235'7'#175#30#15#143#232#160'wL@'#134'"'
+  ,#173'V'#235'v''<|})8~dw'#253#246#211#235'7'#175#30#15#143#232#160'wL@'#134'"'
   +#31'A'#3'@'#8#30'5'#139#176'e'#176#20#240'Z'#140#132'w'#151':'#226'TGJ'#25
-  ,#250#190#239#21#13#178'n'#138#18#179'_z'#247'~'#217'u'#179'$'#186#185#169#225
+  +#250#190#239#21#13#178'n'#138#18#179'_z'#247'~'#217'u'#179'$'#186#185#169#225
   +#174#128#130#248'a'#228#217#209#30'l'#137#167#0'S'#237'('#134'k'#161#232#23
   +'0J'#169#216'O'#253'm'#0'dL'#191#172'3eI'#146#168','#203'L'#145'a5'#141#25'q'
   +#133'!'#153'"'#167'*s'#206#169't'#215#245#23#3#31#236#242'nwk'#30#228'>'#167
@@ -33791,9 +33793,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'*'#209'Z+"B'#177#251#180'Fs'#6#206#163#133'H'#230#207'}'#142'A'#247#249'#'
   +#171'T='#153#1#155'2X'#10'&'#159#169'4'#197#188#151'6'#3#196#0'y'#4#231#242
   +'L:CY'#232#209'"'#9'!'#168'hP'#181'3'#0#169'Y'#219#25#173#23#206'9.@'#9#198
-  +#152'L)'#149'*'#165'b'#173#245#160#152'Y'#212'o'#217#214#198#17#239#233#203
+  ,#152'L)'#149'*'#165'b'#173#245#160#152'Y'#212'o'#217#214#198#17#239#233#203
   +';'#183':'#239#223#242'/'#253'y/K'#172'e'#187#227'rP'#178#211'FP'#220#5'C:('
-  ,#16'='#148#138#237#187#162#15#137#232'A?'#230'D'#148#208'Aw'#25'n'#15'p'#194
+  +#16'='#148#138#237#187#162#15#137#232'A?'#230'D'#148#208'Aw'#25'n'#15'p'#194
   +#1'Ai'#214'm'#201'Z'#235't~'#164#214#218'H'#199#188#141'$H'#217#162#5#140'e'
   +#175#7#185#219'%'#202#23'2'#17#228#23#181#138#24'z'#200'Xj'#31#190#154'Ez'
   +#183'p+'#165'Zk'#229#251#190'('#178#248#140'I\F2'#159#11#197'jl^'#225'9C'#186
@@ -33855,9 +33857,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#233#254'Kw'#179#128#133'g'#128#215#129#21'JLO'#21#175#130#18'[k]'#150'e*'
   +#203#178#161'1f'#215'dn='#136#150'w'#129'[+@.{'#221#247#186'[Y?'#2' '#2#130
   +#234'3'#132#9'uK'#244'n'#237#154#221'aQ?R'#214#218'2'#11#12#0'P'#212#191'2cL'
-  +#164'n'#183'n'#180#206#183#159'd'#7#226#170#237#251'a|'#222#21#251'H5'#167
+  ,#164'n'#183'n'#180#206#183#159'd'#7#226#170#237#251'a|'#222#21#251'H5'#167
   +#131'gq'#225#199#134#6#148'M'#159#249#143#178'm'#135#149#246#225']'#165#212
-  ,'V'#154#166'[q'#28'o'#23#185'li'#15'=w'#164#247#188#185#153#190#252#140'\rR'
+  +'V'#154#166'[q'#28'o'#23#185'li'#15'=w'#164#247#188#185#153#190#252#140'\rR'
   +#250#185'{'#178'\'#176'k@'#247'.'#1'&'#226'<G'#145#192#16#1#144'q'#212#22'B'
   +#180#254#255#236'}Ys'#28'Wv'#230#185#247'f'#222#204#172#5'+AR'#20#23'I'#148
   +'DmM'#201#221'j'#185'{lG'#199#216'1'#17#243'0'#15#19#253'013?'#208'o'#246'_'
@@ -33919,9 +33921,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#173#222#251#141#138#1'!'#172#159#234#239'ynb'#163#232#225#16#0'<'#214#176
   +#238'-GJ'#169'c'#225#186'R'#254'H'#151#175#139#16'"K'#211'41U'#130#7#238#214
   +#232#238#210#141#213#203'{'#209'~'#254#179'K'#253'/'#207'5B'#131#142'T'#29'2'
-  +#147#201#193'A'#128#8#130#232''''#9#201#15'X}x'#245#147#7'K'#131#149'M!'#4#26
+  ,#147#201#193'A'#128#8#130#232''''#9#201#15'X}x'#245#147#7'K'#131#149'M!'#4#26
   +#162'U'#200#208'.W'#26#185#128#242#221'MgE%a'#12#243'y'#241'Z!'#200#14#20','
-  ,#187#27'S!'#196#196#144'Q1'#200's'#30'V5'#227#157#184'RJH)3!Db'#202#247'C'
+  +#187#27'S!'#196#196#144'Q1'#200's'#30'V5'#227#157#184'RJH)3!Db'#202#247'C'
   +#206#249#196#247#253#253#183'G'#183#127#154#201#131'['#15#238'~'#255#166'^N='
   +'w5/'#151#6#179'`'#177#152#12#161#133#185#230#184'4E'#252#180'F'#238#204#244
   +'sP'#0#136'"'#136#248'l'#128#157#188#176#193'q'#28#215'u]'#140'1F&'#143#212
@@ -33983,9 +33985,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#142#227#212'$'#175'E'#154#166#148'1'#182#231'O'#150#239#14#135#171'o'#30#136
   +#189'A'#17#246';'#149#171'2'#244#209#159#174#138'jB'#137'@$'#0#203'kk'#143'e'
   +'*gf'#2'{'#202'9'#207#224#248'J'#133'6'#175#30#153#30'2d*'#242#178','#151'Kq'
-  +#146'$'#161#239#251'S'#223#247#15#12'1'#173'PJ7'#175#141'o'#222#185'Nn^'#222
+  ,#146'$'#161#239#251'S'#223#247#15#12'1'#173'PJ7'#175#141'o'#222#185'Nn^'#222
   +#142#158#188#189#181#253'pC'#12'S'#143'n`pF'#8#0'+@'#170#212#150'P'#204#203
-  ,'k'#200'3'#233#159#225#206'CE'#158#149#231'E'#26'39'#25#18'J'#134#24#227#160
+  +'k'#200'3'#233#159#225#206'CE'#158#149#231'E'#26'39'#25#18'J'#134#24#227#160
   +'h'#144'%'#132#160'\'#248#247'&'#144'g'#173#134#235#156#220'm'#9#233'%'#16#18
   +'z5W'#17#180#149#151'>5'#240#177#200'%%I2'#243'}'#127#143'R'#186'yq'#242#214
   +#23#251'K'#219#191#227#9''''#197'w'#232#19#18#210'1'#185'fH'#2';y8'#134#18
@@ -34047,9 +34049,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#200#254#145#146'RR'#0#1#25'N'#153'f'#243#252'Qi2'#178'n'#8#5#205#9'I)U'#144
   +'R'#156'$'#201#196#247#253#29#154#208#31#215#135'W'#246#30#147#251#27'Z'#235
   +#249'z'#136'c}P'#133#17'&'#133'AA'#128#220#188'!'#19'9'#0#226#0' '#189#167'`'
-  +#156#172'O'#223#191#245#225#31'%'#151'wg'#179#217#195'('#138#182'g'#179#217
+  ,#156#172'O'#223#191#245#225#31'%'#151'wg'#179#217#195'('#138#182'g'#179#217
   +'~'#20'Ea'#154#166#229'0'#221'S'#127#166#16'B1'#198' I'#18#236'y'#158'G)'#29
-  ,#174'GW'#254'8'#25#237#173#30'f{cL+=5'#167'A)'#25'c'#135#8#128#140#21'P'#240
+  +#174'GW'#254'8'#25#237#173#30'f{cL+=5'#167'A)'#25'c'#135#8#128#140#21'P'#240
   +'3'#138#188'}&g'#145#148'21'#228'['#14#211'5'#169'$'#128#167''''#217'7'#17
   +#146'*'#19#147#202'!'#205'dw'#199'8'#28#177#235#186#161#9''''#15'<'#207#27'x'
   +#158'7'#164#148'.'#185#174#187'4'#160#163#7#239#172#191#191#2#24#214#246#227
@@ -34111,9 +34113,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'B'#9'&nXD'#176'T^'#146'?r'#198';i'#150'&RJf'#166'3T'#195#169'U'#165#164'{'
   +#132#237'0<]pS&#R'#163#158'P'#141'j'#146'RJ\'#10#233'eI'#146#16#199'qB'#215
   +'u'#169'9'#7#158'!&'#159'R'#26#24'r'#26'8'#142'3'#28':'#227#239#151#150'V'#6
-  +'d'#149#12#8'!'#195#132#199#23'f'#233't-<'#156'-'#207#158'L'#131#136#207'|'
+  ,'d'#149#12#8'!'#195#132#199#23'f'#233't-<'#156'-'#207#158'L'#131#136#207'|'
   +#137'%'#193'A^q'#137#252#163'*L'#236#27#162#210#8#144#206'sQ2'#204#231#217
-  ,#169#4'@'#179#188#229'@'#5#135'+'#151'7D('#165'd'#166#162#240'D'#163#129'T'
+  +#169#4'@'#179#188#229'@'#5#135'+'#151'7D('#165'd'#166#162#240'D'#163#129'T'
   +#229#228#151#27#130#161#252'y'#233#14'?'#143'v'#239'|'#172#159'xE'#170#236'z'
   +#170#164'r'#21'T5'#140'r,|'''#165#20'&t7#'#132#236#26'#?x'#135'|'#244#229#159
   +#228#231#159'j'#200#203#151#231#135#31#245'0'#164'&'#220#129'e~sc'#140#143
@@ -34175,9 +34177,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#173'*%'#213#135'x'#22#249#188#152'D.'#165'D'#0#128#24'csO'#161'  '#140'12!`'
   +'M'#8'A'#198'y'#154#159#7#132#144'2'#213#151'RJ'#201#181#214#194#172#221'(Fa'
   +#201#6''''#166#215#170#9']T'#242'UOz'#169#228#188'|'#133#245'9'#157#216'p>rH'
-  +#175#238#146'>h #'#128#167#231' '#151#169'[VsJ'#166#138'-3'#156'1'#197#24';'
+  ,#175#238#146'>h #'#128#167#231' '#151#169'[VsJ'#166#138'-3'#156'1'#197#24';'
   +#24'c'#138'1v>'#8'>'#241#190#200'>'#255'k'#6#9'EN~j'#180','#153#17'x'#154#6
-  ,'5'#2#192#20'@(I'#0#128#20'\'#132'1'#134#5#8'IW'#12#216'1'#26#204'E'#142#146
+  +'5'#2#192#20'@(I'#0#128#20'\'#132'1'#134#5#8'IW'#12#216'1'#26#204'E'#142#146
   +#156's'#145'$'#9's'#28'''B'#8#17'cl'#144#201#235'HC\'#170'aBD'#151':j'#10'#'
   +#162#26#133'4'#255#219#164#148#192#24#131'2'#25#153'~,y5x'#131#15#244#240#211
   +#239#166'_'#191#165'}'#141#129#154#235'I*.'#131'~'#1#164'T'#132#238#4#128#239
@@ -34239,9 +34241,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#182'5'#7'u!'#26#212#18#4#233#242#242'U'#139#17#170#243#246#251#132'~'#154
   +#149#189#148#153')'#5'W'#133'R'#202#178#140'q'#206#147','#203#162' '#8'&'#239
   +','#221#218'~]_}'#251#206#254'w'#183'f'#222'd'#8#203#249#0'P'#205'K'#239' '
-  +#129#167'+'#29';'#238#7'L'#16'H$1'#228'm8'#168#232#187#169#201#237'A'#135'Q'
+  ,#129#167'+'#29';'#238#7'L'#16'H$1'#228'm8'#168#232#187#169#201#237'A'#135'Q'
   +#213#213'sX"'#184#174#224'b'#151'j'#130#14#245#212'7'#236#7#29#14#11#234#160
-  ,#135#174#243#217'7'#212'Y'#171'&'#203#215#172#151#147']'#254'7'#219#135't'#10
+  +#135#174#243#217'7'#212'Y'#171'&'#203#215#172#151#147']'#254'7'#219#135't'#10
   +#141#241'+'#178'Iq'#1'R'#170'['#220'W'#167#144'0'#180'O'#199'*'#239'#'#210'B'
   +#8#157'$'#137'2'#197'b'#197'n'#163'l'#4#163#236#131#193'G'#169#159#4#127's?'
   +#188#247':'#12'5Bf'#234'v'#161#144'b'#17'{'#213'%f'#208']'#208#208#149'0'#175
@@ -34303,9 +34305,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'!di'#202#166#175#237#135#251'W'#14'7'#15#151''''#201'd'#200'0s'#179#1#7#228
   +#3#186'G'#239#221#184#142#175#255's'#225'$'#180'4-'#255#236'w'#218#9#200#169
   +#141#160#218#156#139'g'#177'8]'#14'M'''#25#181#158'f'#212'#va'#9#233'4'#25'^'
-  +'KH=I'#9#160#189'S'#165'<^H'#182#24#209#186'm'#159'H'#8'!'#195'0'#20'f%8c'
+  ,'KH=I'#9#160#189'S'#165'<^H'#182#24#209#186'm'#159'H'#8'!'#195'0'#20'f%8c'
   +#140'%A'#16'P'#215'u'#29'B'#8','#171#229#31#163','#138#25'ci'#154#166#172#180
-  ,#147#8#160#223#152#149#182'QB'#207#203#141#209#11'|/j'#185#158'u'#131'@'#155
+  +#147#8#160#223#152#149#182'QB'#207#203#141#209#11'|/j'#185#158'u'#131'@'#155
   +'L'#10#174'!'#166'b'#199'R'#153#156#176'!&,'#165#196'RJ'#158'e'#25'K'#146'$'
   +#166#148#186#148'R'#207#128'RJ'#7#158#231#249#174#235#14'\'#215#29'P'#135#222
   +#185#186'|upc'#237#198#0'c'#236'F,'#10#246'g'#251#131#195#228#208'O'#210#132
@@ -34367,9 +34369,9 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'daaaaa'#9#201#194#194#194#194#194#194#18#146#133#133#133#133#133'%$'#11#11
   +#11#11#11#11'KH'#22#22#22#22#22#150#144',,,,,,,!YXXXXXB'#178#176#176#176#176
   +#176#176#132'daaaaa'#9#201#194#194#194#194#194#194#18#146#133#133#133#133#133
-  +'%$'#11#11#11#11#11#11'KH'#22#22#22#22#22#150#144',,,,,,,!YXXXXXB'#178#176
+  ,'%$'#11#11#11#11#11#11'KH'#22#22#22#22#22#150#144',,,,,,,!YXXXXXB'#178#176
   +#176#176#176#176#176#132'daaaaa'#9#201#194#194#194#194#194#194#18#146#133#133
-  ,#133#133#133'%$'#11#11#11#11#11#11'KH'#22#22#22#22#22#150#144',,,,,,,!YXXXXX'
+  +#133#133#133'%$'#11#11#11#11#11#11'KH'#22#22#22#22#22#150#144',,,,,,,!YXXXXX'
   +'XB'#178#176#176#176#176#176#132'daaaaaa'#9#201#194#194#194#194#194#18#146
   +#133#133#133#133#133#133'%$'#11#11#11#11#11'KH'#22#22#22#22#22#22#150#144',,'
   +',,,,!YXXXXX'#244#192#255#31#0#202#233#16#175'V'#139#4'8'#0#0#0#0'IEND'#174
@@ -34389,8 +34391,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#0#0#0#0#0#0#6'TLabel'#12'LabelVersion'#4'Left'#3#152#1#6'Height'#2#15#3'Top'
   +#3#128#1#5'Width'#2#15#7'Caption'#6#3'1.5'#7'Visible'#8#0#0#11'TSaveDialog'
   +#11'SaveDialog1'#10'DefaultExt'#6#4'.csv'#6'Filter'#6#5'*.csv'#4'Left'#3#152
-  +#2#3'Top'#4#216#255#0#0#0#0#10'TPopupMenu'#10'PopupMenu1'#4'Left'#2#24#3'Top'
-  +#2'p'#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#4'Copy'#7'OnClick'#7#14'MenuI'
+  +#2#3'Top'#4#216#255#0#0#0#0#10'TPopupMenu'#10'PopupMenu1'#4'Left'#2'8'#3'Top'
+  +#2'('#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#4'Copy'#7'OnClick'#7#14'MenuI'
   +'tem2Click'#0#0#0#22'TSelectDirectoryDialog'#22'SelectDirectoryDialog1'#4'Le'
-  +'ft'#2#24#3'Top'#2'8'#0#0#0
+  +'ft'#2#16#3'Top'#2'('#0#0#0
 ]);
