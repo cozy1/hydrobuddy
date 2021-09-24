@@ -174,6 +174,7 @@
 
 
 function GetFileVersionPartial (ndx: integer): string;
+// returns leftmost part of Major, Minor, Revision, Build version info
   var
     i: integer;
     partial: string = '';
@@ -196,6 +197,7 @@ function GetFileVersionPartial (ndx: integer): string;
   end;
 
 function GetFileVersion (ndx: Integer): String;
+// returns a single part of the Major, Minor, Revision, or Build of version info
   begin
     CreateInfo;
 
@@ -206,6 +208,7 @@ function GetFileVersion (ndx: Integer): String;
   end;
 
     Function GetProductVersion: String;
+    // returns complete four part Major, Minor, Revision, or Build version info
     Begin
       CreateInfo;
      

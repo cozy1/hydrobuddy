@@ -1,21 +1,29 @@
-unit HB_Main;
+unit hb_main;
 
 {$mode objfpc}{$H+}
 
 interface
 
 uses
+  {$IFDEF CUSTOM}
+   versionsupport, globalvariables,
+  {$ENDIF}
+
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
   ComCtrls, StdCtrls, Menus, ExtCtrls, Buttons, Grids, TAGraph, TASeries,
-  hb_load_salts, Dbf, DB, Math, hb_commercialnutrient, hb_comparison,
+  hb_load_salts, Dbf, DB, Math, densesolver, hb_commercialnutrient, hb_comparison,
   hb_waterquality, hb_addweight, hb_insprecision, hb_stockanalysis,
   hb_persubstance, hb_datasetname, hb_analysis,
-  hb_freedom, dbf_fields, hb_ratios, LCLIntf, Types,IniFiles,
-  densesolver, versionsupport, globalvariables;
+  hb_freedom, dbf_fields, hb_ratios,LCLIntf, Types,IniFiles;
 
-// define hydrobuddy global constants
 const
   IniFile = 'settings.ini';
+
+  {$IFDEF CUSTOM}
+var
+   versInfo:  string;
+   buildMode: string;
+  {$ENDIF}
 
 type
 
@@ -417,6 +425,9 @@ end;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
+  {$IFDEF CUSTOM}
+     Form2.ShowOnTop; // opens the form in case it was minimized
+  {$ENDIF}
 
   UpdateList;
 
@@ -1269,12 +1280,23 @@ begin
       Add(Label20.Caption);
 
       Add(' , , , , ');
-      Add('Name, Formula, Amount, Units, Cost');
+      // TODO: compare this code against parent repo
+      Add('Name, Formula, Amount, Units, Amount, Units, Cost');
 
       for i := 0 to StringGrid2.RowCount - 1 do
 
       begin
 
+      if StringGrid2.Cells[UNIT_IDX,i] = 'oz' then
+      begin
+        Add(StringGrid2.Cells[NAME_IDX,i]    + ',' +
+            StringGrid2.Cells[FORMULA_IDX,i] + ',' +
+            StringGrid2.Cells[AMOUNT_IDX,i]  + ',' +
+            StringGrid2.Cells[UNIT_IDX,i]    + ',' +
+            FloatToStr(StrToFloat(StringGrid2.Cells[AMOUNT_IDX,i])/16)  + ',' +
+            'lb'    + ',' +
+            StringGrid2.Cells[COST_IDX,i]);
+      end;
 
       if StringGrid2.Cells[UNIT_IDX,i] = 'g' then
       begin
@@ -1298,6 +1320,9 @@ begin
             StringGrid2.Cells[COST_IDX,i]);
       end;
 
+
+      end;
+
       Add(' , , , , ');
       Add('Element, Results(ppm), GE, IE, Water (ppm)');
 
@@ -1314,7 +1339,7 @@ begin
       end;
 
       Add(' , , , ,');
-      Add(Panel6.Caption);
+      Add(Panel6.Caption + ' +/- 10%');
 
       if SaveDialog1.Execute then
         SaveToFile(SaveDialog1.filename);
@@ -1648,8 +1673,8 @@ var
   all_solids: boolean;
   mixContribution: array[0..15] of double;
   totalWeight: double;
-begin
 
+begin
   //deal with null
   replaceNullWithZeroes();
 
@@ -2697,7 +2722,7 @@ if RadioButton13.Checked then
     if  RadioButton6.Checked then
 
     begin
-
+// TODO: compare this code against parent repo
         if (StrtoFloat(hb_stockanalysis.Form8.StringGrid1.Cells[1, 6]) > 0) and
            (StrtoFloat(hb_stockanalysis.Form8.StringGrid1.Cells[1, 7]) > 0)  then
            ShowMessage('Your stock solutions have not been properly designed. Currently there is calcium and sulfate within the same solution (a big problem). Please do NOT carry out this preparation');
@@ -2987,90 +3012,93 @@ if RadioButton13.Checked then
 
   end;
 
-  // total cost and mix calculation
-  test := 0;
+    // total cost and mix calculation
 
-  //for j := 1 to 16 do
-  //begin
-  //    hb_analysis.Form11.StringGrid1.Cells[1, j] :=
-  //        FloatToStr (round2 (100 * mixContribution [j - 1] / totalWeight, 3));
-  //    if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'K2O' then
-  //        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
-  //            FloatToStr (round2 (1.2047 * 100 * mixContribution [j - 1] /
-  //            totalWeight, 3));
-  //    if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'P2O5' then
-  //        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
-  //            FloatToStr (round2 (2.290 * 100 * mixContribution [j - 1] /
-  //            totalWeight, 3));
-  //end;
+    test := 0;
 
-  // DONE: HANDLE DIVISION BY ZERO ERROR - MODIFIED CODE
-  for j := 1 to 16 do
-  begin
-    if (totalWeight > 0) then // catch div by zero (all targets are zero)
-    begin
-      hb_analysis.Form11.StringGrid1.Cells[1, j] :=
-        FloatToStr (round2 (100 * mixContribution [j - 1] /
-        totalWeight, 3));
-      if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'K2O' then
-        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
-          FloatToStr (round2 (1.2047 * 100 *
-          mixContribution [j - 1] / totalWeight, 3));
-      if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'P2O5' then
-        hb_analysis.Form11.StringGrid1.Cells[1, j] :=
-          FloatToStr (round2 (2.290 * 100 *
-          mixContribution [j - 1] / totalWeight, 3));
-    end
-    else
-    begin
-      MessageDlg ('Division by zero error (totalWeight) ...' +
-        gblCRLF + 'Enter desired target concentration (ppm) values.'
-        , mtError, [mbOK], 0);
-      break;
-    end;
-  end;
+  {$IFDEF CUSTOM}
 
-  if all_solids then Button19.Enabled := True;
+     for i := 1 to StringGrid2.RowCount - 1 do begin
+       test := StrtoFloat (StringGrid2.Cells [COST_IDX, i]) + test;
+       totalWeight := totalWeight + StrtoFloat (StringGrid2.Cells [AMOUNT_IDX, i]);
 
-  Label18.Caption := ('Total Cost is ' + FloattoStr (round2 (test, 1)));
+       // DONE: CATCH FOR 'ACCESS VIOLATION' NULLS ERROR
+       for j := 0 to 15 do begin
+         if (all_element_contributions <> nil) and (all_element_contributions [j] [i - 1] > 0) then begin
+           mixContribution[j] := mixContribution [j] + StrtoFloat (StringGrid2.Cells [AMOUNT_IDX, i]) *
+             all_element_contributions [j] [i - 1] * Volume;
+           end;
+         end;
+       end;
 
-  // post ratios based on results posted on listboxes above
-  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
-    ('N: P: K');
-  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
-    (getratio ('N', 'P', 'K', 3));
-  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
-    ('N: P2O5: K2O');
-  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
-    (getratio ('N', 'P2O5', 'K2O', 3));
-  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
-    ('N: K');
-  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
-    (getratio ('N', 'K', 'K', 2));
-  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
-    ('N (NO3-): N (NH4+)');
-  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
-    (getratio ('N (NO3-)', 'N (NH4+)', 'K', 2));
-  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
-    ('Ca: Mg');
-  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
-    (getratio ('Ca', 'Mg', 'K', 2));
-  hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=
-    ('K: Ca');
-  hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=
-    (getratio ('K', 'Ca', 'Ca', 2));
+     // DONE: CATCH FOR DIVISION BY ZERO ERROR
+     for j := 1 to 16 do begin
+       if (totalWeight > 0) then // (when all targets are zero)
+         begin
+         hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+           FloatToStr (round2 (100 * mixContribution [j - 1] / totalWeight, 3));
+         if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'K2O' then
+           hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+             FloatToStr (round2 (1.2047 * 100 * mixContribution [j - 1] / totalWeight, 3));
+         if hb_analysis.Form11.StringGrid1.Cells [0, j] = 'P2O5' then
+           hb_analysis.Form11.StringGrid1.Cells[1, j] :=
+             FloatToStr (round2 (2.290 * 100 * mixContribution [j - 1] / totalWeight, 3));
+         end
+       else
+         begin
+         MessageDlg ('Division by zero error (totalWeight) ...' + gblCRLF +
+           'Enter some desired target concentration values.'
+           , mtError, [mbOK], 0);
+         break;
+         end;
+       end;
 
-  // enable or disable stock solution analysis button
-  if RadioButton6.Checked then Button12.Enabled := True
-  else
-    Button12.Enabled := False;
+  {$ELSE}
+
+   for i := 1 to StringGrid2.RowCount - 1 do
+   begin
+      test := StrtoFloat(StringGrid2.Cells[COST_IDX,i]) + test;
+      totalWeight := totalWeight + StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i]);
+      for j:= 0 to 15 do mixContribution[j] := mixContribution[j] + StrtoFloat(StringGrid2.Cells[AMOUNT_IDX,i])*all_element_contributions[j][i-1]*Volume;
+   end;
+
+   for j := 1 to 16 do
+   begin
+        hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(100*mixContribution[j-1]/totalWeight,3));
+        if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'K2O' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(1.2047*100*mixContribution[j-1]/totalWeight,3));
+        if hb_analysis.Form11.StringGrid1.Cells[0,j] = 'P2O5' then hb_analysis.Form11.StringGrid1.Cells[1,j] := FloatToStr(round2(2.290*100*mixContribution[j-1]/totalWeight,3));
+   end;
+
+   {$ENDIF}
+
+   if all_solids then Button19.Enabled := True;
+
+  Label18.Caption := ('Total Cost is ' + FloattoStr(round2(test, 1)));
+
+
+   // post ratios based on results posted on listboxes above
+
+    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: P: K') ;
+    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N', 'P', 'K', 3)) ;
+    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: P2O5: K2O') ;
+    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N', 'P2O5', 'K2O', 3)) ;
+    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N: K') ;
+    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N', 'K', 'K', 2) ) ;
+    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('N (NO3-): N (NH4+)') ;
+    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('N (NO3-)', 'N (NH4+)', 'K', 2) ) ;
+    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('Ca: Mg') ;
+    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('Ca', 'Mg', 'K', 2) ) ;
+    hb_ratios.Form14.StringGrid1.Cells[0, hb_ratios.Form14.StringGrid1.RowCount - 1] :=('K: Ca') ;
+    hb_ratios.Form14.StringGrid1.Cells[1, hb_ratios.Form14.StringGrid1.RowCount - 2] :=(getratio('K', 'Ca', 'Ca', 2) ) ;
+
+   // enable or disable stock solution analysis button
+  if RadioButton6.Checked then Button12.Enabled := True else  Button12.Enabled := False;
 
   // set water quality values
-  for j := 1 to 16 do StringGrid1.Cells[4, j] := FloatToStr (waterquality [j - 1]);
+  for j := 1 to 16 do StringGrid1.Cells[4,j] := FloatToStr(waterquality[j-1]);
 
-  if CheckBox3.Checked = False then
-    ShowMessage ('Calculation carried out successfully :o)');
-
+  if CheckBox3.Checked = false then
+  ShowMessage('Calculation carried out successfully :o)');
 end;
 
 procedure TForm1.Button3Click(Sender: TObject);
@@ -3604,10 +3632,22 @@ begin
 end;
 
 procedure TForm1.FormClose(Sender: TObject; var CloseAction: TCloseAction);
-var
-    Sett : TIniFile;
-    j: integer;
-begin
+   var
+     Sett: TIniFile;
+     j:    integer;
+   begin
+    {$IFDEF CUSTOM}
+     Sett := TIniFile.Create (IniFile);
+     // DONE: Added version number to 'settings.ini' file
+     // Loading the incorrect version of 'settings.ini' may corrupt the GUI
+     // Read the INI file inside a try/finally block to prevent memory leaks
+       try
+       Sett.WriteString ('Version', 'Number', versionSupport.GetFileVersionPartial (2));
+       finally // After the INI file is used it must be freed to prevent memory leaks
+       Sett.Free;
+       end;
+    {$ENDIF}
+
     //save program variable states on exit
     Sett := TIniFile.Create(IniFile);
     for j := 1 to 19 do Sett.WriteString('Main', 'Form1.Edit' + IntToStr(j), (FindComponent('Edit' + IntToStr(j)) as TEdit).Text);
@@ -3634,21 +3674,63 @@ begin
 
     if hb_comparison.Form15.StringGrid1.ColCount = 1 then  DeleteFile('hb_comparison.csv');
     Sett.Free;
-  end;
+end;
 
 procedure TForm1.LoadValues;
-  var
-    Sett: TIniFile;
-    j:    integer;
-    versInfo: string;
-    buildMode: string;
+var
+    Sett : TIniFile;
+    j: integer;
 
-  begin
-    //load program variables
-    Sett := TIniFile.Create(IniFile);
+   begin
+  {$IFDEF CUSTOM}
+     // ShowMessage('CUSTOM is Defined');
+     // DONE: Add LoadValues custom code here
+     // Set Form1 Caption with version information
+     versInfo := versionSupport.GetFileVersion;
+     if versionSupport.IsReleaseMode then
+       buildMode := ''
+     else
+       buildMode := ' (DEBUG)';
 
+     Form1.Caption := 'HydroBuddy v' + versInfo + buildMode + ' - Custom Build by ' + gblDev;
+     // Set active tab to Main
+     Form1.PageControl1.ActivePageIndex := 1;
+     // Set form visibility
+     Form1.Show;
+
+     // set hb_load_salts Form2 boarder style so it can be kept open and minimized
+     hb_load_salts.Form2.BorderStyle := bsSingle;
+     hb_load_salts.Form2.BorderIcons := [biSystemMenu, biMinimize];
+
+     // Load the ini file ...
+     Sett := TIniFile.Create (IniFile);
+     // Read the INI file inside a try/finally block to prevent memory leaks
+       try
+       // DONE: check settings.ini version info
+       versInfo := Sett.ReadString ('Version', 'Number', '-1');
+       finally
+       // After the INI file is used it must be freed to prevent memory leaks
+       Sett.Free;
+       end;
+
+     if (versInfo <> versionSupport.GetFileVersionPartial (2)) then begin
+       if fileExists (IniFile) then begin
+         ShowMessage ('Houston we have a problem ...' + gblCRLF +
+           'The "settings.ini" file version is incorrect.  ' +
+           'The incompatable file will be deleted and resaved upon app closing.');
+         DeleteFile (IniFile);
+         end;
+
+       exit;
+       end;
+  {$ENDIF}
+
+	  //load program variables
+	  Sett := TIniFile.Create(IniFile);
     // if the setting files are from an old version ignore them and stop loading
+    {$IFNDEF CUSTOM}
     if Sett.ReadString('Main', 'version', '-1') <> VERSION then exit;
+    {$ENDIF}
 
     for j := 1 to 19 do (FindComponent('Edit' + IntToStr(j)) as TEdit).Text := Sett.ReadString('Main', 'Form1.Edit' + IntToStr(j), (FindComponent('Edit' + IntToStr(j)) as TEdit).Text);
     for j := 1 to 16 do (FindComponent('RLabel' + IntToStr(j)) as TLabel).Caption := Sett.ReadString('Main', 'Form1.RLabel' + IntToStr(j), '0');
@@ -3672,11 +3754,30 @@ procedure TForm1.LoadValues;
     if FileExists('hb_ppm_results.csv') then StringGrid1.LoadFromCSVFile('hb_ppm_results.csv');
     if FileExists('hb_results.csv') then StringGrid2.LoadFromCSVFile('hb_results.csv');
     Sett.Free;
-
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
+  {$IFDEF CUSTOM}
+     // DONE: add custom FormCreate code here
+     // Set form buffering to reduce screen flicker
+     Form1.DoubleBuffered := True;
+     Form1.Hide;
+
+     // Set Form1 Location to Top, Center of Screen
+     Self.Position := poDefaultSizeOnly;
+     // this is key to changing form location
+     Self.Top      := 15; // (Screen.WorkAreaHeight - Self.Height) div 2;
+     Self.Left     := (Screen.WorkAreaWidth - Self.Width) div 2; // center
+
+     //MessageDlg(
+     //'Screen.Width = ' + IntToStr(Screen.Width) +
+     //' Screen.Height = ' + IntToStr(Screen.Height) +
+     //' Self.Left = ' + IntToStr(Self.Left)  +
+     //' Self.Top = ' + IntToStr(Self.Top)
+     //, mtInformation,[mbOK],0);
+  {$ENDIF}
+
   StringGrid1.ShowHint:=True;
   StringGrid1.OnShowHint:=@GridShowHint;
 end;

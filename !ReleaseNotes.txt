@@ -1,5 +1,10 @@
 HydroBuddy
 
+v1.9.7.1
+- updated error handling
+- use conditional compiler variables to generate custom version of application
+- incorporate latest parent repo commits
+
 v1.9.6.1
 - handle potential Access violaton (null) and division by zero errors
 - added version check to 'settings.ini'

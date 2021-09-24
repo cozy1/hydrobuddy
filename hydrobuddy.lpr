@@ -8,7 +8,7 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs,
-  ComCtrls, StdCtrls, Menus, ExtCtrls, tachartlazaruspkg, HB_Main,
+  ComCtrls, StdCtrls, Menus, ExtCtrls, tachartlazaruspkg, hb_main,
   hb_load_salts, hb_newcustomsalt, densesolver, hb_addweight,
   hb_commercialnutrient, hb_waterquality, hb_insprecision, hb_stockanalysis,
   Dbf, db, hb_persubstance, hb_datasetname, hb_analysis,
@@ -120,7 +120,7 @@ end;
 {$R *.res}
 
 begin
-  Application.Title:='HydroBuddy - an Open source nutrient calculator';
+    Application.Title:='HydroBuddy - an Open source nutrient calculator';
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
 

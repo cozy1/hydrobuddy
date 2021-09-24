@@ -14,6 +14,7 @@ object Form2: TForm2
   FormStyle = fsStayOnTop
   OnCreate = FormCreate
   Position = poMainFormCenter
+  LCLVersion = '2.0.13.0'
   object Label1: TLabel
     Left = 66
     Height = 21
@@ -21,6 +22,7 @@ object Form2: TForm2
     Width = 139
     Caption = 'Substance Database'
     Font.Height = -16
+    ParentColor = False
     ParentFont = False
   end
   object Label2: TLabel
@@ -30,6 +32,7 @@ object Form2: TForm2
     Width = 229
     Caption = 'Substances Used for Calculations'
     Font.Height = -16
+    ParentColor = False
     ParentFont = False
   end
   object ListBox1: TListBox
@@ -990,7 +993,6 @@ object Form2: TForm2
     }
     Text = 'Text'
     Title = 'Caption'
-    TitleFont.Style = [fsBold]
     Visible = False
     Left = 392
     Top = 8

@@ -1,5 +1,5 @@
 @echo off
-REM Loads unit test database files to the "bin" directory.
+REM Loads unit test database files to the "bin" directory before the build.
 
 REM Delete old files from the "bin" directory.
 cd .\bin
@@ -7,6 +7,8 @@ del *.dbf
 del *.csv
 del *.ini
 del *.hbl
+del *.exe
+del *.dbg
 
 REM pause
 cd ..\
